@@ -27,22 +27,22 @@ getwd()
 ```{r reading_databases, include=FALSE, echo=TRUE}
 
 # reading databases
-BASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE1_Essay_II.rds")) %>%
+BASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE1_EssayI.rds.rds")) %>%
   filter(year >= 2019)
 
-BASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE2_Essay_II.rds")) %>% 
+BASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE2_EssayI.rds.rds")) %>% 
   filter(year >= 2019)
 
-LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_Essay_II.rds")) %>% 
+LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_EssayI.rds.rds")) %>% 
   filter(year >= 2019)
 
-LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_Essay_II.rds")) %>% 
+LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_EssayI.rds.rds")) %>% 
   filter(year >= 2019)
 
-BASE = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE_Essay_II.rds")) %>% 
+BASE = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE_EssayI.rds")) %>% 
   filter(year >= 2019)
 
-FINAL = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/FINAL_Essay_II.rds")) %>% 
+FINAL = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/FINAL_EssayI.rds")) %>% 
   filter(year >= 2019)
 
 HAUSMAN = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/HAUSMAN_instrument.rds"))
@@ -125,6 +125,24 @@ LBASE1a = LBASE1 %>%
 
 ```
 
+```{r equation_new, warning=FALSE, message=FALSE, error=FALSE, include=TRUE, echo = FALSE}
 
+# organizing database
+dLBASE1 = LBASE1a %>% 
+  arrange(year, month, air_dep, air_arr, airline) %>%
+  group_by(year, month) %>% 
+  mutate(id = sequence(n()),
+         time = paste0(year,"/", month)) 
+
+# creating group indices' variable
+dLBASE1$group = dLBASE1 %>% group_indices(time)
+
+# transforming to panel data
+dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) 
+
+### equations
+eq = price ~ 
+
+```
 
 
