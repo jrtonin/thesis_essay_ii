@@ -27,14 +27,27 @@ getwd()
 ```{r reading_databases, include=FALSE, echo=TRUE}
 
 # reading databases
-BASE1 = readRDS("C:/TESE/RESULT/BASE1_EssayI.rds") %>% filter(year >= 2019)
-BASE2 = readRDS("C:/TESE/RESULT/BASE2_EssayI.rds") %>% filter(year >= 2019)
-LBASE1 = readRDS("C:/TESE/RESULT/LBASE1_EssayI.rds") %>% filter(year >= 2019)
-LBASE2 = readRDS("C:/TESE/RESULT/LBASE2_EssayI.rds") %>% filter(year >= 2019)
-BASE = readRDS("C:/TESE/RESULT/BASE_EssayI.rds") %>% filter(year >= 2019)
-FINAL = readRDS("C:/TESE/RESULT/FINAL_EssayI.rds") %>% filter(year >= 2019)
-HAUSMAN = readRDS("C:/TESE/RESULT/HAUSMAN_instrument.rds")
-ESTBAN = readRDS("C:/TESE/RESULT/ESTBAN_instrument.rds")
+BASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE1_Essay_II.rds")) %>%
+  filter(year >= 2019)
+
+BASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE2_Essay_II.rds")) %>% 
+  filter(year >= 2019)
+
+LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_Essay_II.rds")) %>% 
+  filter(year >= 2019)
+
+LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_Essay_II.rds")) %>% 
+  filter(year >= 2019)
+
+BASE = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE_Essay_II.rds")) %>% 
+  filter(year >= 2019)
+
+FINAL = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/FINAL_Essay_II.rds")) %>% 
+  filter(year >= 2019)
+
+HAUSMAN = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/HAUSMAN_instrument.rds"))
+
+ESTBAN = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/ESTBAN_instrument.rds"))
                                                                 
 ```
 
