@@ -1,0 +1,40 @@
+---
+title: "Essay II"
+author: "João Ricardo Tonin"
+date: "03/03/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "")
+getwd()
+
+{ 
+  # Check if the packages that we need are installed
+  want = c("tidyverse", "plm", "texreg", "lmtest")
+  have = want %in% rownames(installed.packages())
+  # Install the packages that we miss
+  if ( any(!have) ) { install.packages( want[!have] ) }
+  # Load the packages
+  junk <- lapply(want, library, character.only = T)
+  # Remove the objects we created
+  rm(have, want, junk)
+} # Import packages
+
+```
+
+```{r reading_databases, include=FALSE, echo=TRUE}
+
+# reading databases
+BASE1 = readRDS("C:/TESE/RESULT/BASE1_EssayI.rds") %>% filter(year >= 2019)
+BASE2 = readRDS("C:/TESE/RESULT/BASE2_EssayI.rds") %>% filter(year >= 2019)
+LBASE1 = readRDS("C:/TESE/RESULT/LBASE1_EssayI.rds") %>% filter(year >= 2019)
+LBASE2 = readRDS("C:/TESE/RESULT/LBASE2_EssayI.rds") %>% filter(year >= 2019)
+BASE = readRDS("C:/TESE/RESULT/BASE_EssayI.rds") %>% filter(year >= 2019)
+FINAL = readRDS("C:/TESE/RESULT/FINAL_EssayI.rds") %>% filter(year >= 2019)
+HAUSMAN = readRDS("C:/TESE/RESULT/HAUSMAN_instrument.rds")
+ESTBAN = readRDS("C:/TESE/RESULT/ESTBAN_instrument.rds")
+                                                                
+```
+
