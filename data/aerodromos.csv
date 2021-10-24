@@ -1,0 +1,2823 @@
+code;name;city;state;type;uf_code
+SBRB;Plácido de Castro;Rio Branco;Acre;Público;12
+SNGA;Guarapari;Guarapari;Espírito Santo;Público;32
+SBIZ;Prefeito Renato Moreira;Imperatriz;Maranhão;Público;21
+SBPC;Embaixador Walther Moreira Salles;Poços de Caldas;Minas Gerais;Público;31
+SSCD;Chapadão do Sul;Chapadão do Sul;Mato Grosso do Sul;Público;50
+SBBE;Aeroporto Internacional de Bélem;Belém;Pará;Público;15
+SBJP;Internacional Presidente Castro Pinto;João Pessoa;Paraíba;Público;25
+SBKG;Presidente João Suassuna;Campina Grande;Paraíba;Público;25
+SBMG;Silvio Name Júnior;Maringá;Paraná;Público;41
+SBCA;Coronel Adalberto Mendes da Silva;Cascavel;Paraná;Público;41
+SSNG;Montenegro;Montenegro;Rio Grande do Sul;Público;43
+SBAE;Aeroporto Estadual de Bauru-Arealva;Bauru;São Paulo;Público;35
+SBJI;Ji-Paraná;Ji-Paraná;Rondônia;Público;11
+SIMK;Tenente Lund Pressoto;Franca;São Paulo;Público;35
+SBML;Frank Miloye Milenkovich;Marília;São Paulo;Público;35
+SNWC;Camocim;Camocim;Ceará;Público;23
+SSKM;Campo Mourão;Campo Mourão;Paraná;Público;41
+SWNS;Anápolis;Anápolis;Goiás;Público;52
+SNGX;Guaxupé;Guaxupé;Minas Gerais;Público;31
+SBGL;Galeão - Antônio Carlos Jobim;Rio de Janeiro;Rio de Janeiro;Público;33
+SBCF;Tancredo Neves;Belo Horizonte;Minas Gerais;Público;31
+SNIC;Irecê;Irecê;Bahia;Público;29
+SNKI;Aeródromo de Cachoeiro do Itapemirim;Cachoeiro de Itapemirim;Espírito Santo;Público;32
+SBDB;Aeródromo Público de Bonito;Bonito;Mato Grosso do Sul;Público;50
+SBPP;Ponta Porã - Internacional;Ponta Porã;Mato Grosso do Sul;Público;50
+SNTS;Patos;Patos;Paraíba;Público;25
+SBCX;Hugo Cantergiani;Caxias do Sul;Rio Grande do Sul;Público;43
+SBBG;Comandante Gustavo Kraemer;Bagé;Rio Grande do Sul;Público;43
+SSCN;Canela;Canela;Rio Grande do Sul;Público;43
+SSIM;Forquilhinha-Criciúma;Forquilhinha;Santa Catarina;Público;42
+SDDN;Paulino Ribeiro de Andrade;Andradina;São Paulo;Público;35
+SDPW;Pedro Morganti;Piracicaba;São Paulo;Público;35
+SSKU;Lauro Antônio da Costa;Curitibanos;Santa Catarina;Público;42
+SSAP;Capitão João Busse;Apucarana;Paraná;Público;41
+SBPA;Salgado Filho;Porto Alegre;Rio Grande do Sul;Público;43
+SBNM;Santo Ângelo;Santo Ângelo;Rio Grande do Sul;Público;43
+SNAL;Arapiraca;Arapiraca;Alagoas;Público;27
+SWPZ;Ouriçanga de Abreu;Posse;Goiás;Público;52
+SBSV;Deputado Luis Eduardo Magalhães-Intl;Salvador;Bahia;Público;29
+SBJH;São Paulo Catarina Aeroporto Executivo;São Roque;São Paulo;Público;35
+SBSO;Regional de Sorriso Adolino Bedin;Sorriso;Mato Grosso;Público;51
+SBGR;Guarulhos - Governador André Franco Montoro;Guarulhos;São Paulo;Público;35
+SNBR;Barreiras;Barreiras;Bahia;Público;29
+SNTF;Teixeira de Freitas;Teixeira de Freitas;Bahia;Público;29
+SBAC;Aeroporto Regional de Acarati;Aracati;Ceará;Público;23
+SBVT;Eurico de Aguiar Salles;Vitória;Espírito Santo;Público;32
+SBSL;Marechal Cunha Machado Internacional;São Luís;Maranhão;Público;21
+SBZM;Presidente Itamar Franco;Goianá;Minas Gerais;Público;31
+SBAT;Aeroporto Piloto Osvaldo Marques Dias;Alta Floresta;Mato Grosso;Público;51
+SBTD;Luiz Dalcanale Filho;Toledo;Paraná;Público;41
+SWPM;Pimenta Bueno;Pimenta Bueno;Rondônia;Público;11
+SNAX;Marcelo Pires Halzhausen;Assis;São Paulo;Público;35
+SBBU;Bauru;Bauru;São Paulo;Público;35
+SDDR;Dracena;Dracena;São Paulo;Público;35
+SBJD;Comandante Rolim Adolfo Amaro;Jundiaí;São Paulo;Público;35
+SNFU;Frutal;Frutal;Minas Gerais;Público;31
+SBCZ;Cruzeiro do Sul / Cruzeiro do Sul - Internacional;Cruzeiro do Sul;Acre;Público;12
+SBFI;Cataratas;Foz do Iguaçu;Paraná;Público;41
+SBTF;Tefé;Tefé;Amazonas;Público;13
+SWPI;Parintins;Parintins;Amazonas;Público;13
+SBJU;Orlando Bezerra Menezes;Juazeiro do Norte;Ceará;Público;23
+SBMK;Aeródromo Público Mário Ribeiro;Montes Claros;Minas Gerais;Público;31
+SBAX;Romeu Zema;Araxá;Minas Gerais;Público;31
+SNOS;José Figueiredo;Passos;Minas Gerais;Público;31
+SBCG;Campo Grande Internacional;Campo Grande;Mato Grosso do Sul;Público;50
+SBRD;Rondonópolis;Rondonópolis;Mato Grosso;Público;51
+SNHS;Santa Magalhães;Serra Talhada;Pernambuco;Público;26
+SNGN;Garanhuns;Garanhuns;Pernambuco;Público;26
+SNAE;Arcoverde;Arcoverde;Pernambuco;Público;26
+SBME;Macaé;Macaé;Rio de Janeiro;Público;33
+SDPN;Aeroporto Estadual Dr. Ramalho Franco;Penápolis;São Paulo;Público;35
+SDJV;Municipal de São João da Boa Vista;São João da Boa Vista;São Paulo;Público;35
+SDNO;Nelson Garófalo;São Manuel;São Paulo;Público;35
+SWLC;General Leite de Castro;Rio Verde;Goiás;Público;52
+SBKP;Viracopos;Campinas;São Paulo;Público;35
+SJRG;Regional de Rio Grande;Rio Grande;Rio Grande do Sul;Público;43
+SNXB;Caxambu;Caxambu;Minas Gerais;Público;31
+SBFL;Hercílio Luz;Florianópolis;Santa Catarina;Público;42
+SBPG;Comandante Antônio Amilton Beraldo;Ponta Grossa;Paraná;Público;41
+SBUF;Paulo Afonso;Paulo Afonso;Bahia;Público;29
+SDIY;João Durval Carneiro;Feira de Santana;Bahia;Público;29
+SNMX;Aeródromo Público de São Mateus;São Mateus;Espírito Santo;Público;32
+SNCX;Colatina;Colatina;Espírito Santo;Público;32
+SBBW;Barra do Garças;Barra do Garças;Mato Grosso;Público;51
+SBSG;Aeroporto Internacional do Rio Grande do Norte - Governador Aluizio Alves;Natal;Rio Grande do Norte;Público;24
+SBNF;Navegantes / Ministro Victor Konder - Internacional;Navegantes;Santa Catarina;Público;42
+SBJV;Lauro Carneiro de Loyola;Joinville;Santa Catarina;Público;42
+SBSP;Congonhas;São Paulo;São Paulo;Público;35
+SBMT;Campo de Marte;São Paulo;São Paulo;Público;35
+SBAQ;Bartolomeu de Gusmão;Araraquara;São Paulo;Público;35
+SWXQ;Lins;Lins;São Paulo;Público;35
+SWGN;Araguaína;Araguaína;Tocantins;Público;17
+SNUN;Unaí;Unaí;Minas Gerais;Público;31
+SNCP;Aeroporto Regional do Planalto Serrano;Lages;Santa Catarina;Público;42
+SSOE;Hélio Wasum;São Miguel do Oeste;Santa Catarina;Público;42
+SBPL;Senador Nilo Coelho;Petrolina;Pernambuco;Público;26
+SDZG;Pedro Teixeira Castelo Regional Tauá;Tauá;Ceará;Público;23
+SDIM;Dr. Antonio Ribeiro Nogueira Júnior;Itanhaém;São Paulo;Público;35
+SBJE;Comandante Ariston Pessoa;Cruz;Ceará;Público;23
+SBBH;Pampulha - Carlos Drummond de Andrade;Belo Horizonte;Minas Gerais;Público;31
+SNDV;Brigadeiro Antônio Cabral;Divinópolis;Minas Gerais;Público;31
+SBVG;Major Brigadeiro Trompowsky;Varginha;Minas Gerais;Público;31
+SBGV;Coronel Altino Machado;Governador Valadares;Minas Gerais;Público;31
+SBCY;Marechal Rondon;Cuiabá;Mato Grosso;Público;51
+SBSI;Presidente João Batista Figueiredo;Sinop;Mato Grosso;Público;51
+SBMA;João Corrêa da Rocha;Marabá;Pará;Público;15
+SBLO;Governador José Richa;Londrina;Paraná;Público;41
+SSFB;Paulo Abdala;Francisco Beltrão;Paraná;Público;41
+SBRJ;Santos Dumont;Rio de Janeiro;Rio de Janeiro;Público;33
+SBCB;Cabo Frio;Cabo Frio;Rio de Janeiro;Público;33
+SBJA;Regional Sul;Jaguaruna;Santa Catarina;Público;42
+SBSR;Professor Eriberto Manoel Reino;São José do Rio Preto;São Paulo;Público;35
+SNKR;Corrente;Corrente;Piauí;Público;22
+SWME;Mineiros;Mineiros;Goiás;Público;52
+SBSJ;Professor Urbano Erenesto Stumpf;São José dos Campos;São Paulo;Público;35
+SDOU;Jornalista Benedito Pimentel;Ourinhos;São Paulo;Público;35
+SBBP;Estadual Arthur Siqueira;Bragança Paulista;São Paulo;Público;35
+SDAI;Americana;Americana;São Paulo;Público;35
+SDPE;Porto Nacional;Porto Nacional;Tocantins;Público;17
+SNPY;São Sebastião do Paraíso;São Sebastião do Paraíso;Minas Gerais;Público;31
+SNOB;Aeródromo Público de Sobral;Sobral;Ceará;Público;23
+SSZR;Luis Alberto Lehr;Santa Rosa;Rio Grande do Sul;Público;43
+SBJF;Francisco de Assis;Juiz de Fora;Minas Gerais;Público;31
+SNVB;Valença;Valença;Bahia;Público;29
+SNPD;Patos de Minas;Patos de Minas;Minas Gerais;Público;31
+SSOL;Lavras;Lavras;Minas Gerais;Público;31
+SBDO;Dourados;Dourados;Mato Grosso do Sul;Público;50
+SBCJ;Carajás;Parauapebas;Pará;Público;15
+SJZA;Pedro Vieira Moreira;Cajazeiras;Paraíba;Público;25
+SSGG;Aeroporto Regional de Guarapuava - Tancredo Thomás de Faria;Guarapuava;Paraná;Público;41
+SBPO;Aeroporto Juvenal Loureiro Cardoso;Pato Branco;Paraná;Público;41
+SSOG;Arapongas;Arapongas;Paraná;Público;41
+SBJR;Jacarepaguá - Roberto Marinho;Rio de Janeiro;Rio de Janeiro;Público;33
+SBCP;Bartolomeu Lisandro;Campos dos Goytacazes;Rio de Janeiro;Público;33
+SBPK;João Simões Lopes Neto;Pelotas;Rio Grande do Sul;Público;43
+SSCK;Olavo Cecco Rigon;Concórdia;Santa Catarina;Público;42
+SDLP;Municipal José Boso;Lençóis Paulista;São Paulo;Público;35
+SBGM;Guajará-Mirim;Guajará-Mirim;Rondônia;Público;11
+SWWA;Porangatu;Porangatu;Goiás;Público;52
+SWKT;Catalão;Catalão;Goiás;Público;52
+SDRK;Rio Claro;Rio Claro;São Paulo;Público;35
+SBIH;Itaituba;Itaituba;Pará;Público;15
+SBEG;Eduardo Gomes;Manaus;Amazonas;Público;13
+SBCT;Aeroporto Internacional Afonso Pena;Curitiba;Paraná;Público;41
+SBIL;Bahia - Jorge Amado;Ilhéus;Bahia;Público;29
+SBMQ;Alberto Alcolumbre Internacional;Macapá;Amapá;Público;16
+SBVC;Glauber de Andrade Rocha;Vitória da Conquista;Bahia;Público;29
+SBLE;Horácio de Matos;Lençóis;Bahia;Público;29
+SNGI;Aeródromo de Guanambi;Guanambi;Bahia;Público;29
+SBFZ;Pinto Martins;Fortaleza;Ceará;Público;23
+SNLN;Municipal de Linhares;Linhares;Espírito Santo;Público;32
+SNMH;Pirenópolis;Pirenópolis;Goiás;Público;52
+SNYU;Aeródromo de Iturama;Iturama;Minas Gerais;Público;31
+SNDT;Juscelino Kubitscheck;Diamantina;Minas Gerais;Público;31
+SBHT;Altamira;Altamira;Pará;Público;15
+SBFN;Fernando de Noronha;Fernando de Noronha;Pernambuco;Público;26
+SBTE;Aeroporto de Teresina / Senador Petrônio Portella;Teresina;Piauí;Público;22
+SSUM;Orlando de Carvalho;Umuarama;Paraná;Público;41
+SSTE;Torres;Torres;Rio Grande do Sul;Público;43
+SBLJ;Lages;Lages;Santa Catarina;Público;42
+SDSC;Mário Pereira Lopes;São Carlos;São Paulo;Público;35
+SBGO;Santa Genoveva;Goiânia;Goiás;Público;52
+SSKW;Cacoal;Cacoal;Rondônia;Público;11
+SBMI;Maricá;Maricá;Rio de Janeiro;Público;33
+SBUL;Ten. Cel. Aviador César Bombonato;Uberlândia;Minas Gerais;Público;31
+SBTG;Três Lagoas;Três Lagoas;Mato Grosso do Sul;Público;50
+SSKG;Estância Santa Maria;Campo Grande;Mato Grosso do Sul;Público;50
+SWJW;Jataí;Jataí;Goiás;Público;52
+SNOU;Novo Aeródromo de Feijó;Feijó;Acre;Público;12
+SBGW;Guaratinguetá;Guaratinguetá;São Paulo;Público;35
+SSCI;Coxim;Coxim;Mato Grosso do Sul;Público;50
+SWXM;Regional Orlando Villas Boas;Matupá;Mato Grosso;Público;51
+SSMJ;Maracaju;Maracaju;Mato Grosso do Sul;Público;50
+SSIQ;Itaqui;Itaqui;Rio Grande do Sul;Público;43
+SWBG;André Antônio Maggi;Pontes e Lacerda;Mato Grosso;Público;51
+SWKO;Coari;Coari;Amazonas;Público;13
+SBPB;Aeroporto Internacional de Parnaíba / Prefeito Doutor João Silva Filho;Parnaíba;Piauí;Público;22
+SNGD;Guadalupe;Guadalupe;Piauí;Público;22
+SNNU;Nanuque;Nanuque;Minas Gerais;Público;31
+SNJK;Jequié;Jequié;Bahia;Público;29
+SNZW;Ituberá;Ituberá;Bahia;Público;29
+SIBU;Catolé do Rocha;Catolé do Rocha;Paraíba;Público;25
+SDTF;Tatuí;Tatuí;São Paulo;Público;35
+SSCP;Francisco Lacerda Júnior;Cornélio Procópio;Paraná;Público;41
+SNLT;Paulistana;Paulistana;Piauí;Público;22
+SSXX;Municipal João Winckler;Xanxerê;Santa Catarina;Público;42
+SSAE;Arroio Grande;Arroio Grande;Rio Grande do Sul;Público;43
+SJOG;Ariquemes;Ariquemes;Rondônia;Público;11
+SSGA;Garibaldi;Garibaldi;Rio Grande do Sul;Público;43
+SNNE;Sebastião Carlos Leite;São João Nepomuceno;Minas Gerais;Público;31
+SNYE;Pinheiro;Pinheiro;Maranhão;Público;21
+SNCT;Caratinga;Ubaporanga;Minas Gerais;Público;31
+SNLO;São Lourenço;São Lourenço;Minas Gerais;Público;31
+SBPF;Lauro Kurtz;Passo Fundo;Rio Grande do Sul;Público;43
+SSSB;São Borja;São Borja;Rio Grande do Sul;Público;43
+SDFX;Casa Nova;Casa Nova;Bahia;Público;29
+SSRU;São Lourenço do Sul;São Lourenço do Sul;Rio Grande do Sul;Público;43
+SWOB;Fonte Boa;Fonte Boa;Amazonas;Público;13
+SSEP;São Sepé;São Sepé;Rio Grande do Sul;Público;43
+SSIJ;Ijuí;Ijuí;Rio Grande do Sul;Público;43
+SNIB;Itaberaba;Itaberaba;Bahia;Público;29
+SBCR;Corumbá Internacional;Corumbá;Mato Grosso do Sul;Público;50
+SBSN;Maestro Wilson Fonseca;Santarém;Pará;Público;15
+SSVI;Ângelo Ponzoni;Videira;Santa Catarina;Público;42
+SNMK;Mocambinho;Jaíba;Minas Gerais;Público;31
+SNTQ;Buritirama;Buritirama;Bahia;Público;29
+SWCA;Carauari;Carauari;Amazonas;Público;13
+SDIG;Ibitinga;Ibitinga;São Paulo;Público;35
+SNIT;Ibotirama;Ibotirama;Bahia;Público;29
+SWKC;Cáceres;Cáceres;Mato Grosso;Público;51
+SNRX;Riachão;Riachão;Maranhão;Público;21
+SWDM;Diamantino;Diamantino;Mato Grosso;Público;51
+SNOE;Oeiras;Oeiras;Piauí;Público;22
+SSPI;Edu Chaves;Paranavaí;Paraná;Público;41
+SSLO;Attillio Accorsi;Loanda;Paraná;Público;41
+SNWS;Crateús;Crateús;Ceará;Público;23
+SSRF;Castro Alves;Castro Alves;Bahia;Público;29
+SBIC;Itacoatiara;Itacoatiara;Amazonas;Público;13
+SWFR;Formosa;Formosa;Goiás;Público;52
+SDJO;São Joaquim da Barra;São Joaquim da Barra;São Paulo;Público;35
+SNOX;Oriximiná;Oriximiná;Pará;Público;15
+SNSS;Salinas;Salinas;Minas Gerais;Público;31
+SDNH;Novo Horizonte;Novo Horizonte;São Paulo;Público;35
+SSTB;Três Barras;Três Barras;Santa Catarina;Público;42
+SSLN;Helmuth Baungartem;Lontras;Santa Catarina;Público;42
+SNSE;Sento Sé;Sento Sé;Bahia;Público;29
+SNJR;Prefeito Octávio de Almeida Neves;São João del Rei;Minas Gerais;Público;31
+SNMJ;Maracás;Maracás;Bahia;Público;29
+SDCA;Capão Bonito;Capão Bonito;São Paulo;Público;35
+SBBR;Presidente Juscelino Kubitschek;Brasília;Distrito Federal;Público;53
+SWTS;Tangará da Serra;Tangará da Serra;Mato Grosso;Público;51
+SBPJ;Palmas / Brigadeiro Lysias Rodrigues;Palmas;Tocantins;Público;17
+SWYN;Apuí;Apuí;Amazonas;Público;13
+SNSG;Salgueiro;Salgueiro;Pernambuco;Público;26
+SSGY;Guaíra;Guaíra;Paraná;Público;41
+SNVS;Breves;Breves;Pará;Público;15
+SSSC;Santa Cruz do Sul;Santa Cruz do Sul;Rio Grande do Sul;Público;43
+SWRO;Aeroclube de Rondônia;Porto Velho;Rondônia;Público;11
+SNPC;Picos;Picos;Piauí;Público;22
+SBDN;Presidente Prudente;Presidente Prudente;São Paulo;Público;35
+SBTK;Tarauacá;Tarauacá;Acre;Público;12
+SBCD;Carlos Alberto da Costa Neves;Caçador;Santa Catarina;Público;42
+SNBI;Bacabal;Bacabal;Maranhão;Público;21
+SSPM;Porto Murtinho;Porto Murtinho;Mato Grosso do Sul;Público;50
+SWPR;Pires do Rio;Pires do Rio;Goiás;Público;52
+SBPR;Carlos Prates;Belo Horizonte;Minas Gerais;Público;31
+SDKF;Juazeiro;Curaçá;Bahia;Público;29
+SNQV;Curvelo;Curvelo;Minas Gerais;Público;31
+SDMH;Mirassol;Mirassol;São Paulo;Público;35
+SBAU;Estadual Dario Guarita;Araçatuba;São Paulo;Público;35
+SDPV;Presidente Venceslau;Presidente Venceslau;São Paulo;Público;35
+SNPJ;Patrocínio;Patrocínio;Minas Gerais;Público;31
+SBIP;Usiminas;Santana do Paraíso;Minas Gerais;Público;31
+SSNH;Novo Hamburgo;Novo Hamburgo;Rio Grande do Sul;Público;43
+SJVO;Aragarças;Aragarças;Goiás;Público;52
+SSBV;Bela Vista;Bela Vista;Mato Grosso do Sul;Público;50
+SJBY;João Silva;Santa Inês;Maranhão;Público;21
+SSSD;Soledade;Soledade;Rio Grande do Sul;Público;43
+SDTK;Parati;Paraty;Rio de Janeiro;Público;33
+SBRF;Guararapes - Gilberto Freyre Internacional;Recife;Pernambuco;Público;26
+SDRS;Resende;Resende;Rio de Janeiro;Público;33
+SWEI;Eirunepé;Eirunepé;Amazonas;Público;13
+SSQP;Monte Santo;Monte Santo;Bahia;Público;29
+SNKD;Conceição do Mato Dentro;Conceição do Mato Dentro;Minas Gerais;Público;31
+SSLG;São Luiz Gonzaga;São Luiz Gonzaga;Rio Grande do Sul;Público;43
+SWHP;Olhos D'Água;Água Boa;Mato Grosso;Público;51
+SWDN;Dianópolis;Dianópolis;Tocantins;Público;17
+SNJB;Jacobina;Jacobina;Bahia;Público;29
+SSCL;Cassilândia;Cassilândia;Mato Grosso do Sul;Público;50
+SNTO;Juscelino Kubitscheck;Teófilo Otoni;Minas Gerais;Público;31
+SDBK;Tancredo de Almeida Neves;Botucatu;São Paulo;Público;35
+SWVC;Vila Rica;Vila Rica;Mato Grosso;Público;51
+SIBW;Conceição;Conceição;Paraíba;Público;25
+SWMW;Maués;Maués;Amazonas;Público;13
+SDVG;Domingos Pignatari;Votuporanga;São Paulo;Público;35
+SIZX;Juara Sul;Juara;Mato Grosso;Público;51
+SJXI;Santa Rita do Sapucaí;Santa Rita do Sapucaí;Minas Gerais;Público;31
+SNPU;Paraguaçu;Paraguaçu;Minas Gerais;Público;31
+SSAB;Moisés Lupion;Ibaiti;Paraná;Público;41
+SDVE;Vera Cruz;Vera Cruz;São Paulo;Público;35
+SNRZ;Oliveira;Oliveira;Minas Gerais;Público;31
+SDKJ;Formosa do Rio Preto;Formosa do Rio Preto;Bahia;Público;29
+SSKZ;Carazinho;Carazinho;Rio Grande do Sul;Público;43
+SDTI;Tupi Paulista;Tupi Paulista;São Paulo;Público;35
+SSFL;João Pereira dos Santos Filho;Fronteiras;Piauí;Público;22
+SBLP;Bom Jesus da Lapa;Bom Jesus da Lapa;Bahia;Público;29
+SNST;Souto Soares;Souto Soares;Bahia;Público;29
+SNGB;Gilbués;Gilbués;Piauí;Público;22
+SNJP;João Pinheiro;João Pinheiro;Minas Gerais;Público;31
+SSPS;Dimorvan Carraro;Palmas;Paraná;Público;41
+SDBA;Batatais;Batatais;São Paulo;Público;35
+SNTR;Piritiba;Piritiba;Bahia;Público;29
+SSOI;Pederneiras;Pederneiras;São Paulo;Público;35
+SNAG;Araguari;Araguari;Minas Gerais;Público;31
+SNBC;Barra do Corda;Barra do Corda;Maranhão;Público;21
+SBPV;Governador Jorge Teixeira de Oliveira;Porto Velho;Rondônia;Público;11
+SSCR;Ruben Berta;Marechal Cândido Rondon;Paraná;Público;41
+SDPY;Pirassununga;Pirassununga;São Paulo;Público;35
+SDJC;Jaboticabal;Jaboticabal;São Paulo;Público;35
+SDUN;Itaperuna;Itaperuna;Rio de Janeiro;Público;33
+SNQU;Mucugê;Mucugê;Bahia;Público;29
+SDFD;Coronel Aviador Carlos Orleans Guimarães;Fernandópolis;São Paulo;Público;35
+SNUB;Ubá;Ubá;Minas Gerais;Público;31
+SDNM;Brigadeiro Eduardo Gomes;Nova Mutum;Mato Grosso;Público;51
+SSMT;Mostardas;Mostardas;Rio Grande do Sul;Público;43
+SNYB;Tito Teixeira;Ituiutaba;Minas Gerais;Público;31
+SBTU;Tucuruí;Tucuruí;Pará;Público;15
+SBUR;Mario de Almeida Franco;Uberaba;Minas Gerais;Público;31
+SNFE;Comandante Paschoal Patrocínio Filho;Alfenas;Minas Gerais;Público;31
+SSUV;José Cleto;União da Vitória;Paraná;Público;41
+SDGC;Garça;Garça;São Paulo;Público;35
+SWTP;Santa Izabel do Rio Negro;Santa Isabel do Rio Negro;Amazonas;Público;13
+SDAA;Araras;Araras;São Paulo;Público;35
+SNQX;Quixadá;Quixadá;Ceará;Público;23
+SDUQ;Paraguaçu Paulista;Paraguaçu Paulista;São Paulo;Público;35
+SDRR;Avaré-Arandu;Avaré;São Paulo;Público;35
+SSBL;Blumenau;Blumenau;Santa Catarina;Público;42
+SBCN;Nelson Rodrigues Guimarães;Caldas Novas;Goiás;Público;52
+SNBS;Balsas;Balsas;Maranhão;Público;21
+SWNK;Novo Campo;Boca do Acre;Amazonas;Público;13
+SSSZ;Sertanópolis;Sertanópolis;Paraná;Público;41
+SSAN;João Galdino;;;Público;
+SBTT;Tabatinga;Tabatinga;Amazonas;Público;13
+SNUH;Piumhi;Piumhi;Minas Gerais;Público;31
+SWHT;Francisco Correa da Cruz;Humaitá;Amazonas;Público;13
+SWBE;Walfrido Samito de Almeida;São Benedito;Ceará;Público;23
+SWII;Ipiranga;Santo Antônio do Içá;Amazonas;Público;13
+SSNQ;Nioaque;Nioaque;Mato Grosso do Sul;Público;50
+SBJC;Belém / Brigadeiro Protásio de Oliveira;Belém;Pará;Público;15
+SNBA;Chafei Amsei;Barretos;São Paulo;Público;35
+SNIE;Caetité;Caetité;Bahia;Público;29
+SDAD;Everaldo Moraes Barreto;Adamantina;São Paulo;Público;35
+SNEB;Nagib Demachki;Paragominas;Pará;Público;15
+SDBY;Bariri;Bariri;São Paulo;Público;35
+SNRU;Caruaru;Caruaru;Pernambuco;Público;26
+SBPS;Porto Seguro;Porto Seguro;Bahia;Público;29
+SNBG;Baixo Guandu - Aimorés;Baixo Guandu;Espírito Santo;Público;32
+SBBI;Bacacheri;Curitiba;Paraná;Público;41
+SSGB;Municipal de Guaratuba;Guaratuba;Paraná;Público;41
+SWCZ;Ceres;Ceres;Goiás;Público;52
+SSRG;Aeroporto Estadual de Registro;Registro;São Paulo;Público;35
+SBUA;São Gabriel da Cachoeira;São Gabriel da Cachoeira;Amazonas;Público;13
+SSPG;Santos Dumont;Paranaguá;Paraná;Público;41
+SNCZ;Ponte Nova;Ponte Nova;Minas Gerais;Público;31
+SNAS;Três Marias;Três Marias;Minas Gerais;Público;31
+SWXV;Xavantina;Nova Xavantina;Mato Grosso;Público;51
+SBOI;Oiapoque;Oiapoque;Amapá;Público;16
+SNVI;Mello Viana;Três Corações;Minas Gerais;Público;31
+SSMR;Manoel Ribas;Manoel Ribas;Paraná;Público;41
+SNBX;Barra;Barra;Bahia;Público;29
+SNCA;Campo Belo;Campo Belo;Minas Gerais;Público;31
+SSKK;Capão da Canoa;Capão da Canoa;Rio Grande do Sul;Público;43
+SSQC;Aguinaldo Pereira Lima;Siqueira Campos;Paraná;Público;41
+SWFX;São Félix do Araguaia;São Félix do Araguaia;Mato Grosso;Público;51
+SDKK;Mococa;Mococa;São Paulo;Público;35
+SNPX;Pirapora;Pirapora;Minas Gerais;Público;31
+SWPK;Poconé;Poconé;Mato Grosso;Público;51
+SDCG;Senadora Eunice Michiles;São Paulo de Olivença;Amazonas;Público;13
+SNZR;Pedro Rabelo de Souza;Paracatu;Minas Gerais;Público;31
+SDET;Tietê;Tietê;São Paulo;Público;35
+SNBM;Cristiano Ferreira Varella;Muriaé;Minas Gerais;Público;31
+SSCT;Engenheiro Gastão de Mesquita Filho;Cianorte;Paraná;Público;41
+SNEE;Vacaria Novo;Vacaria;Rio Grande do Sul;Público;43
+SNQD;Sousa;Sousa;Paraíba;Público;25
+SSST;Santiago;Santiago;Rio Grande do Sul;Público;43
+SSKS;Brigadeiro Nero Moura;Cachoeira do Sul;Rio Grande do Sul;Público;43
+SSEZ;Espumoso;Espumoso;Rio Grande do Sul;Público;43
+SBUG;Rubem Berta;Uruguaiana;Rio Grande do Sul;Público;43
+SDBB;Bebedouro;Bebedouro;São Paulo;Público;35
+SWTY;Taguatinga;Taguatinga;Tocantins;Público;17
+SWUD;Deputado Oswaldo Tolentino;Cláudio;Minas Gerais;Público;31
+SDCO;Sorocaba;Sorocaba;São Paulo;Público;35
+SWUA;São Miguel do Araguaia;São Miguel do Araguaia;Goiás;Público;52
+SSRZ;Dário Brasil Capoano de Oliveira;Rosário do Sul;Rio Grande do Sul;Público;43
+SJTS;Terra Santa;Terra Santa;Pará;Público;15
+SSHZ;Walter Bündchen;Horizontina;Rio Grande do Sul;Público;43
+SDMO;Monte Alto;Monte Alto;São Paulo;Público;35
+SIBZ;Itaporanga;Itaporanga;Paraíba;Público;25
+SWBC;Barcelos;Barcelos;Amazonas;Público;13
+SBVH;Vilhena;Vilhena;Rondônia;Público;11
+SNIG;Iguatu;Iguatu;Ceará;Público;23
+SWWU;Uruaçu;Uruaçu;Goiás;Público;52
+SWEK;Canarana;Canarana;Mato Grosso;Público;51
+SNBZ;Paramirim;Paramirim;Bahia;Público;29
+SILC;Aeroporto Municipal Bom Futuro;Lucas do Rio Verde;Mato Grosso;Público;51
+SSSS;São Francisco do Sul;São Francisco do Sul;Santa Catarina;Público;42
+SNTM;Turmalina;Turmalina;Minas Gerais;Público;31
+SWJN;Juína;Juína;Mato Grosso;Público;51
+SSIE;Teruel Ipanema Estância;Campo Grande;Mato Grosso do Sul;Público;50
+SSGW;Manoel Ribas;Goioerê;Paraná;Público;41
+SNKN;Currais Novos;Currais Novos;Rio Grande do Norte;Público;24
+SIBY;Lourival Nunes de Farias;Monteiro;Paraíba;Público;25
+SSXD;Tobias Bacci;Sarandi;Rio Grande do Sul;Público;43
+SNRD;Prado;Prado;Bahia;Público;29
+SWUZ;Brigadeiro Araripe Macedo;Luziânia;Goiás;Público;52
+SSPN;Paranaíba;Paranaíba;Mato Grosso do Sul;Público;50
+SNYA;Aeródromo Público de Almeirim;Almeirim;Pará;Público;15
+SNJO;Aeroclube de João Pessoa;João Pessoa;Paraíba;Público;25
+SJGU;Araguatins;Araguatins;Tocantins;Público;17
+SNAP;Janaúba;Janaúba;Minas Gerais;Público;31
+SNSW;Soure;Soure;Pará;Público;15
+SBTB;Trombetas;Oriximiná;Pará;Público;15
+SSOS;Osório;Osório;Rio Grande do Sul;Público;43
+SSCV;Caravelas;Caravelas;Bahia;Público;29
+SSAK;Carlos Ruhl;Cruz Alta;Rio Grande do Sul;Público;43
+SJQN;Quirinópolis;Quirinópolis;Goiás;Público;52
+SWPY;Primavera do Leste;Primavera do Leste;Mato Grosso;Público;51
+SNIO;Cipó;Cipó;Bahia;Público;29
+SNFX;São Félix do Xingu;São Félix do Xingu;Pará;Público;15
+SBMY;Manicoré;Manicoré;Amazonas;Público;13
+SSWS;Caçapava do Sul;Caçapava do Sul;Rio Grande do Sul;Público;43
+SSBN;Belém Novo;Porto Alegre;Rio Grande do Sul;Público;43
+SNJQ;Jequitinhonha;Jequitinhonha;Minas Gerais;Público;31
+SBCI;Brigadeiro Lysias Augusto Rodrigues;Carolina;Maranhão;Público;21
+SWLB;Lábrea;Lábrea;Amazonas;Público;13
+SNDC;Redenção;Redenção;Pará;Público;15
+SBAA;Conceição do Araguaia;Conceição do Araguaia;Pará;Público;15
+SNPA;Pará de Minas;Pará de Minas;Minas Gerais;Público;31
+SBAR;Santa Maria;Aracaju;Sergipe;Público;28
+SSAQ;Aeroclube de Passo Fundo;Passo Fundo;Rio Grande do Sul;Público;43
+SWFN;Flores;Manaus;Amazonas;Público;13
+SNMN;Minas Novas;Minas Novas;Minas Gerais;Público;31
+SSJA;Santa Terezinha;Joaçaba;Santa Catarina;Público;42
+SWCB;Campos Belos;Campos Belos;Goiás;Público;52
+SWNH;Aruanã;Aruanã;Goiás;Público;52
+SNMZ;Porto de Moz;Porto de Moz;Pará;Público;15
+SNOF;Ouro Fino;Ouro Fino;Minas Gerais;Público;31
+SDXJ;Costa Rica;Costa Rica;Mato Grosso do Sul;Público;50
+SNCS;Campos Sales;Campos Sales;Ceará;Público;23
+SNED;Sócrates Rezende;Canavieiras;Bahia;Público;29
+SNXQ;Xique-Xique;Xique-Xique;Bahia;Público;29
+SWCQ;Costa Marques;Costa Marques;Rondônia;Público;11
+SSPL;Palmeira das Missões;Palmeira das Missões;Rio Grande do Sul;Público;43
+SNOC;Morro do Chapéu;Morro do Chapéu;Bahia;Público;29
+SDUB;Estadual Gastão Madeira;Ubatuba;São Paulo;Público;35
+SWNQ;Niquelândia;Niquelândia;Goiás;Público;52
+SDIV;Ituverava;Ituverava;São Paulo;Público;35
+SNAR;Cirilo Queiróz;Almenara;Minas Gerais;Público;31
+SBMD;Monte Dourado;Almeirim;Pará;Público;15
+SNRP;Rio Paranaíba;Rio Paranaíba;Minas Gerais;Público;31
+SDLY;Armando Natali;Matão;São Paulo;Público;35
+SNIP;Itapetinga;Itapetinga;Bahia;Público;29
+SSQT;Major Neodo S. Pereira;Castro;Paraná;Público;41
+SSSG;São Gabriel;São Gabriel;Rio Grande do Sul;Público;43
+SNQG;Cangapara;Floriano;Piauí;Público;22
+SSPT;Brasílio Marques;Palotina;Paraná;Público;41
+SNJM;Elias Breder;Manhuaçu;Minas Gerais;Público;31
+SNZA;Pouso Alegre;Pouso Alegre;Minas Gerais;Público;31
+SSIR;Ibirubá;Ibirubá;Rio Grande do Sul;Público;43
+SNTI;Óbidos;Óbidos;Pará;Público;15
+SNLI;Doutor José Mourão;Abaeté;Minas Gerais;Público;31
+SNVD;Santa Maria da Vitória;Santa Maria da Vitória;Bahia;Público;29
+SSLT;Gaudêncio Machado Ramos;Alegrete;Rio Grande do Sul;Público;43
+SNVC;Viçosa;Viçosa;Minas Gerais;Público;31
+SSRE;Realeza;Realeza;Paraná;Público;41
+SDLL;Yolanda Penteado;Leme;São Paulo;Público;35
+SNMR;Maraú;Maraú;Bahia;Público;29
+SJAU;Araguacema;Araguacema;Tocantins;Público;17
+SDOV;Mozarlândia;Mozarlândia;Goiás;Público;52
+SNAB;Araripina;Araripina;Pernambuco;Público;26
+SNFO;Formiga;Formiga;Minas Gerais;Público;31
+SWKQ;Serra da Capivara/São Raimundo Nonato;São Raimundo Nonato;Piauí;Público;22
+SBMS;Aeroporto Dix-Sept Rosado;Mossoró;Rio Grande do Norte;Público;24
+SBRP;Leite Lopes;Ribeirão Preto;São Paulo;Público;35
+SNUI;Araçuaí;Araçuaí;Minas Gerais;Público;31
+SDXF;Alto Paraíso de Goiás;Alto Paraíso de Goiás;Goiás;Público;52
+SDLC;Lucélia;Lucélia;São Paulo;Público;35
+SSER;Erechim;Erechim;Rio Grande do Sul;Público;43
+SSJI;Jardim;Jardim;Mato Grosso do Sul;Público;50
+SWIQ;Minaçu;Minaçu;Goiás;Público;52
+SNGG;Bom Jesus do Gurguéia;Bom Jesus;Piauí;Público;22
+SWTO;Paraíso do Tocantins;Paraíso do Tocantins;Tocantins;Público;17
+SSEE;Regional do Vale do Taquari;Estrela;Rio Grande do Sul;Público;43
+SNSM;Salinópolis;Salinópolis;Pará;Público;15
+SSRS;Barreirinhas;Barreirinhas;Maranhão;Público;21
+SSJK;Júlio de Castilhos;Júlio de Castilhos;Rio Grande do Sul;Público;43
+SICB;Pedro Simões Pimenta;Cuité;Paraíba;Público;25
+SNRM;Remanso;Remanso;Bahia;Público;29
+SDMJ;Mogi Mirim;Mogi Mirim;São Paulo;Público;35
+SNKF;Das Bandeirinhas;Conselheiro Lafaiete;Minas Gerais;Público;31
+SNUC;Açu;Açu;Rio Grande do Norte;Público;24
+SNSI;Santa Maria do Suaçuí;Santa Maria do Suaçuí;Minas Gerais;Público;31
+SDPD;Pindamonhangaba;Pindamonhangaba;São Paulo;Público;35
+SDEP;Geraldo Moacir Bordon;Presidente Epitácio;São Paulo;Público;35
+SDTP;José Vicente Faria Lima;Tupã;São Paulo;Público;35
+SBEK;Jacareacanga;Jacareacanga;Pará;Público;15
+SSVL;Telêmaco Borba;Telêmaco Borba;Paraná;Público;41
+SSVN;Veranópolis;Veranópolis;Rio Grande do Sul;Público;43
+SSNB;Ariosto da Riva;Naviraí;Mato Grosso do Sul;Público;50
+SNPQ;Pesqueira;Pesqueira;Pernambuco;Público;26
+SBTC;Hotel Transamérica;;;Público;
+SBNV;Aeródromo Nacional de Aviação;Goiânia;Goiás;Público;52
+SDTB;Atibaia;Atibaia;São Paulo;Público;35
+SBSM;Santa Maria;Santa Maria;Rio Grande do Sul;Público;43
+SDAE;São Pedro;São Pedro;São Paulo;Público;35
+SSNP;Nova Prata;Nova Prata;Rio Grande do Sul;Público;43
+SWPG;Porto dos Gaúchos;Porto dos Gaúchos;Mato Grosso;Público;51
+SNIU;Ipiaú;Ipiaú;Bahia;Público;29
+SBCH;Serafin Enoss Bertaso;Chapecó;Santa Catarina;Público;42
+SDAG;Angra Dos Reis;Angra dos Reis;Rio de Janeiro;Público;33
+SWBR;Borba;Borba;Amazonas;Público;13
+SBMO;Zumbi dos Palmares;Maceió;Alagoas;Público;27
+SNMA;Monte Alegre;Monte Alegre;Pará;Público;15
+SNKK;Caicó;Caicó;Rio Grande do Norte;Público;24
+SWZX;Selma Nunes;Macaúbas;Bahia;Privado;29
+SDXM;Monte Cristo;Monte Belo;Minas Gerais;Privado;31
+SSLB;Fazenda São Paulino;Corumbá;Mato Grosso do Sul;Privado;50
+SNAO;Trimonte;Casimiro de Abreu;Rio de Janeiro;Privado;33
+SDZI;Fazenda Trijunção;Jaborandi;Bahia;Privado;29
+SIAI;Fazenda Esteirinha;Goioerê;Paraná;Privado;41
+SJFF;Frigo Estrela;Estrela d'Oeste;São Paulo;Privado;35
+SIEL;Eletro Cesar Primavera;Pimenta Bueno;Rondônia;Privado;11
+SWLV;Santo Antônio do Leverger;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SIPE;Itapessoca;Goiana;Pernambuco;Privado;26
+SBQK;Fazenda Mundial;São Félix do Xingu;Pará;Privado;15
+SBOR;Fazenda AgroTamareira;Mundo Novo;Goiás;Privado;52
+SSVC;Fazenda Vazante;Aquidauana;Mato Grosso do Sul;Privado;50
+SDCD;Catanduva;Catanduva;São Paulo;Privado;35
+SNBW;Fazenda Santa Luzia;Sapezal;Mato Grosso;Privado;51
+SWJR;Fazenda Santa Rita;Aquidauana;Mato Grosso do Sul;Privado;50
+SNLL;Condomínio Liberty;Goianápolis;Goiás;Privado;52
+SIDW;Fazenda Cortezia;Lucas do Rio Verde;Mato Grosso;Privado;51
+SBOD;Fazenda Santa Cruz;Araguaína;Tocantins;Privado;17
+SNDR;Domingos Rego;Timon;Maranhão;Privado;21
+SNSK;Central Ferraz;Herculândia;São Paulo;Privado;35
+SBQJ;Osvaldo de Carvalho;Ibaiti;Paraná;Privado;41
+SJVL;Vale Europeu;Guaramirim;Santa Catarina;Privado;42
+SDXD;Fazenda Guará;Jaborandi;Bahia;Privado;29
+SDBN;Associação Recreativa Fazenda Bonanza;Salto de Pirapora;São Paulo;Privado;35
+SIRJ;Caima;Itaituba;Pará;Privado;15
+SJDB;Fazenda Santa Elisa;Britânia;Goiás;Privado;52
+SJZG;Fazenda São Geraldo;Caseara;Tocantins;Privado;17
+SBGP;EMBRAER - Unidade Gavião Peixoto;Gavião Peixoto;São Paulo;Privado;35
+SWNZ;Fazenda Jamaica;Serra Nova Dourada;Mato Grosso;Privado;51
+SIVG;Clube Aerodesportivo Selva;Sinop;Mato Grosso;Privado;51
+SSIO;Fazenda Conquista;Santa Carmem;Mato Grosso;Privado;51
+SWHM;Lobo Agropecuária;Alcinópolis;Mato Grosso do Sul;Privado;50
+SDLI;Fazenda Dois Irmãos;Campo Novo do Parecis;Mato Grosso;Privado;51
+SNLV;Maria Magalhães;Porto União;Santa Catarina;Privado;42
+SJDS;Dias Branco;Eusébio;Ceará;Privado;23
+SITR;Fazenda Tamboril;Bom Jesus de Goiás;Goiás;Privado;52
+SJXO;Grupo DH;Jaborandi;Bahia;Privado;29
+SNLQ;Fazenda Conforto;Nova Crixás;Goiás;Privado;52
+SSGR;Regional de Santa Helena de Goiás - Paulo Lopes;Santa Helena de Goiás;Goiás;Privado;52
+SJLV;Morro;Uiramutã;Roraima;Privado;14
+SIJW;Fazenda Retimar;Iguatemi;Mato Grosso do Sul;Privado;50
+SNDQ;Fazenda Soya;São Desidério;Bahia;Privado;29
+SSRL;Fazenda Rancho Alegre;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SIAQ;Bom Futuro;Cuiabá;Mato Grosso;Privado;51
+SSLJ;Fazenda São Luís;Pimenteiras do Oeste;Rondônia;Privado;11
+SJVI;Fazenda Carmen;Corumbá;Mato Grosso do Sul;Privado;50
+SINK;Fazenda Negrinha;Parapuã;São Paulo;Privado;35
+SWLA;Fazenda Amália;Juína;Mato Grosso;Privado;51
+SJKA;Aerocampo;Campo Novo do Parecis;Mato Grosso;Privado;51
+SJYW;Fazenda Santa Terezinha;Santa Terezinha;Mato Grosso;Privado;51
+SJWI;Fazenda Flor;Campo Grande;Mato Grosso do Sul;Privado;50
+SWCI;Agropecuária Rio da Prata;Posse;Goiás;Privado;52
+SWRI;Fazenda Roncador I;Querência;Mato Grosso;Privado;51
+SDQA;Fazenda Aldebaran;Angélica;Mato Grosso do Sul;Privado;50
+SWKH;Pista Aldeia Rio Vermelho (Krénhêdjã);Ourilândia do Norte;Pará;Privado;15
+SDTW;Fazenda Miragem;Sapezal;Mato Grosso;Privado;51
+SWON;Clube de Aviação Céu Azul;Araquari;Santa Catarina;Privado;42
+SIVJ;Cirrus Sociedade Aerodesportiva;Jaboticatubas;Minas Gerais;Privado;31
+SILT;Fazenda Três Irmãos;Santa Fé do Sul;São Paulo;Privado;35
+SJZZ;AGROPECUÁRIA ZÉ REIS;Palmeirópolis;Tocantins;Privado;17
+SJEW;Usina Santa Helena;Nova Andradina;Mato Grosso do Sul;Privado;50
+SNPS;Fazenda Seriema;Nova Andradina;Mato Grosso do Sul;Privado;50
+SNOH;Fazenda Tundavala;Barra do Garças;Mato Grosso;Privado;51
+SDVX;Fazenda Santa Amália;Alta Floresta;Mato Grosso;Privado;51
+SSJB;Fazenda Vaca Branca;Naviraí;Mato Grosso do Sul;Privado;50
+SSCX;Fazenda Coxilha;Coxilha;Rio Grande do Sul;Privado;43
+SNOZ;Coronel Alexandre Raposo;Paço do Lumiar;Maranhão;Privado;21
+SWGT;Fazenda Nova;Jandaia;Goiás;Privado;52
+SSQD;Fazenda Panamby;Querência;Mato Grosso;Privado;51
+SWFJ;Fazenda Estrela;Antônio João;Mato Grosso do Sul;Privado;50
+SSHU;Fazenda Centenário;Aquidauana;Mato Grosso do Sul;Privado;50
+SBQM;FAZENDA SÃO MIGUEL;Jateí;Mato Grosso do Sul;Privado;50
+SWLS;Fazenda São Luís;Palotina;Paraná;Privado;41
+SDEJ;Fazenda Guará do Pinhal;Itapetininga;São Paulo;Privado;35
+SJYR;Cajú;Uiramutã;Roraima;Privado;14
+SSQR;Fazenda Primavera;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SJGB;Fazenda São Gabriel;Curvelo;Minas Gerais;Privado;31
+SSTL;Fazenda São Sebastião;São Desidério;Bahia;Privado;29
+SWRC;Fazenda Sevilha;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SSTM;Fazenda Santo Antônio;Manicoré;Amazonas;Privado;13
+SSFG;Fazenda Guanabara;Corumbá;Mato Grosso do Sul;Privado;50
+SJYC;Fazenda Yvy-Pita;Juti;Mato Grosso do Sul;Privado;50
+SIDN;Fazenda Figueiral;Corumbá;Mato Grosso do Sul;Privado;50
+SJFX;Fazenda Cypi;Corumbá;Mato Grosso do Sul;Privado;50
+SNFH;Usina César Filho;Chupinguaia;Rondônia;Privado;11
+SDKQ;Fazenda São João;Guaraci;São Paulo;Privado;35
+SWVW;Furnaspark Resort;Formiga;Minas Gerais;Privado;31
+SDBD;Fazenda Sodema;Vera;Mato Grosso;Privado;51
+SNOV;Povoado de Camaçari;Coruripe;Alagoas;Privado;27
+SWXK;Fazenda Santa Thereza;Aparecida do Rio Doce;Goiás;Privado;52
+SNOA;Fazenda Irajá;Balsas;Maranhão;Privado;21
+SDRF;Fazenda Recanto Feliz;Rio Claro;Rio de Janeiro;Privado;33
+SIGE;Alberi Juliani;Lagoa da Confusão;Tocantins;Privado;17
+SNLG;Serra do Cipó;Jaboticatubas;Minas Gerais;Privado;31
+SJBB;Fazenda Bacaba;Caseara;Tocantins;Privado;17
+SWNO;São Miguel do Tapuio;São Miguel do Tapuio;Piauí;Privado;22
+SSEW;Sítio Limoeiro;Pardinho;São Paulo;Privado;35
+SDPH;Fazenda Piratininga;São Miguel do Araguaia;Goiás;Privado;52
+SNQP;Fazenda São Francisco;Magda;São Paulo;Privado;35
+SDST;Fazenda Santa Therezinha da Barra;Descalvado;São Paulo;Privado;35
+SIUF;Fazenda São Francisco;Peixoto de Azevedo;Mato Grosso;Privado;51
+SSVB;Fazenda Ventura IV;São Desidério;Bahia;Privado;29
+SWBQ;Geraldo Alvino Covre;Pinheiros;Espírito Santo;Privado;32
+SDQU;Fazenda Colorado;Bom Jesus;Piauí;Privado;22
+SIYW;Fazenda Estrela;Lábrea;Amazonas;Privado;13
+SISY;Piraquara;Piraquara;Paraná;Privado;41
+SSWT;Fazenda Vaticano;Nioaque;Mato Grosso do Sul;Privado;50
+SSTQ;Silvestre;Pedra Branca do Amapari;Amapá;Privado;16
+SD66;Cravari;Brasnorte;Mato Grosso;Privado;51
+SDID;Aeroata;Araçatuba;São Paulo;Privado;35
+SSFU;Antonio Furlaneto;Dom Eliseu;Pará;Privado;15
+SJKU;Cumaipá;Uiramutã;Roraima;Privado;14
+SSOP;Pista Porquinho;Itaituba;Pará;Privado;15
+SSMC;Fazenda São Miguel da Catequese;Nova Andradina;Mato Grosso do Sul;Privado;50
+SIAZ;Fazenda Água Azul;Campo Verde;Mato Grosso;Privado;51
+SIWQ;Fazenda Mateira;Santa Rita do Pardo;Mato Grosso do Sul;Privado;50
+SSMO;Fazenda Luma;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SIUO;Fazenda Santa Adélia;São José do Xingu;Mato Grosso;Privado;51
+SJHS;Fazenda São Vicente;Uberlândia;Minas Gerais;Privado;31
+SWZM;Fazenda América ;Tabaporã;Mato Grosso;Privado;51
+SSTR;Usina CEM;Morrinhos;Goiás;Privado;52
+SITT;Independência;Itaituba;Pará;Privado;15
+SJAW;Fazenda Citrícola;Gavião Peixoto;São Paulo;Privado;35
+SJMH;Palimiú;Alto Alegre;Roraima;Privado;14
+SDBV;Balneário São Januário;Ilha Comprida;São Paulo;Privado;35
+SJKB;Fazenda Adelaide;Brasnorte;Mato Grosso;Privado;51
+SWCR;Fazenda Canaã;Formosa do Rio Preto;Bahia;Privado;29
+SNGV;Fazenda Tanguru;Querência;Mato Grosso;Privado;51
+SIHX;Fazenda Pau D'Alho;Nova Bandeirantes;Mato Grosso;Privado;51
+SSLM;Estância Acrobata;Leopoldo de Bulhões;Goiás;Privado;52
+SSAG;Fazenda  Lobo;Água Clara;Mato Grosso do Sul;Privado;50
+SJOM;Fazenda São Jerônimo;Alto Garças;Mato Grosso;Privado;51
+SJDW;Fazenda Carandá;Caracol;Mato Grosso do Sul;Privado;50
+SIZP;Gaúcha do Norte;Gaúcha do Norte;Mato Grosso;Privado;51
+SIOJ;Fazenda Porto Velho;Carmo do Cajuru;Minas Gerais;Privado;31
+SJAI;Fazenda Davilândia;Montividiu do Norte;Goiás;Privado;52
+SDJZ;Fazenda São José;São Gabriel;Rio Grande do Sul;Privado;43
+SSPV;Fazenda Vera;Alcinópolis;Mato Grosso do Sul;Privado;50
+SDWG;Fazenda Santa Maria;São Desidério;Bahia;Privado;29
+SIML;Fazenda Siriema;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SIVP;Bela Manhã;Nova Crixás;Goiás;Privado;52
+SWVO;Fazenda Goaçu;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SNXR;Fazenda Conforto;Itaituba;Pará;Privado;15
+SWIZ;Fazenda 7 Reis;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SIUZ;Pista Bom Jesus;Itaituba;Pará;Privado;15
+SDWL;Três Marias;Itupeva;São Paulo;Privado;35
+SJGC;Fazenda Busato I;São Desidério;Bahia;Privado;29
+SSHB;Boris;Luís Eduardo Magalhães;Bahia;Privado;29
+SDTV;Fazenda São Miguel ;São Desidério;Bahia;Privado;29
+SJKM;Canawapai;;;Privado;
+SJKS;Catrimani I;Mucajaí;Roraima;Privado;14
+SJZD;Fazenda Bandeiras;Corumbá;Mato Grosso do Sul;Privado;50
+SIKP;Fazenda Santa Tereza;Corumbá;Mato Grosso do Sul;Privado;50
+SWYQ;Fazenda Brusque;São Félix do Xingu;Pará;Privado;15
+SIJN;Pouso na Serra;Bom Retiro;Santa Catarina;Privado;42
+SIXU;Fazenda Bahia;Pedra Preta;Mato Grosso;Privado;51
+SSZM;MIGUEL RODRIGUES DE BARROS;Edéia;Goiás;Privado;52
+SWAG;Agrícola Rio Galhão;Mateiros;Tocantins;Privado;17
+SSJU;Fazenda São Caetano;Primavera do Leste;Mato Grosso;Privado;51
+SINI;Fazenda Bela Vista do Caronal;Corumbá;Mato Grosso do Sul;Privado;50
+SIMX;Fazenda Jangada;Jangada;Mato Grosso;Privado;51
+SSGN;Fazenda Guaíba;Iguatemi;Mato Grosso do Sul;Privado;50
+SWZP;Fazenda Vale Rico;São José do Povo;Mato Grosso;Privado;51
+SJND;Darinha;Cascavel;Ceará;Privado;23
+SNDH;ABA;Barreiras;Bahia;Privado;29
+SSHT;Ingazeira;Alta Floresta;Mato Grosso;Privado;51
+SDVY;Vitalli;Avanhandava;São Paulo;Privado;35
+SDVP;São Luiz Cotingo;Uiramutã;Roraima;Privado;14
+SIWH;Francisco Lázaro da Silveira;Coromandel;Minas Gerais;Privado;31
+SNEW;Fazenda Congonhas;Carneirinho;Minas Gerais;Privado;31
+SJBZ;Fazenda Três Barras;Itarumã;Goiás;Privado;52
+SSOT;Fazenda Saco da Tapera;São Romão;Minas Gerais;Privado;31
+SSRJ;Fazenda Jacuí;Eldorado do Sul;Rio Grande do Sul;Privado;43
+SNDU;Ponta do Sol;Capitólio;Minas Gerais;Privado;31
+SNUT;Utinga;Utinga;Bahia;Privado;29
+SJPC;Fazenda Paredão;Comodoro;Mato Grosso;Privado;51
+SDEV;Fazenda Ventania;Campos de Júlio;Mato Grosso;Privado;51
+SWGS;Fazenda Rancho Branco;Nova Maringá;Mato Grosso;Privado;51
+SJQS;Fazenda Santa Tereza;União do Sul;Mato Grosso;Privado;51
+SNKT;Fazenda Viçosa;Naviraí;Mato Grosso do Sul;Privado;50
+SNUM;Fazenda Córrego Fundo;Água Boa;Mato Grosso;Privado;51
+SBOH;Fazenda São Sebastião;Tesouro;Mato Grosso;Privado;51
+SNZS;Fazenda Vô Zeca;Santa Terezinha;Mato Grosso;Privado;51
+SWAI;Fazenda Santa Luzia;Icaraíma;Paraná;Privado;41
+SSCM;Fazenda Caçadinha;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SNHG;Fazenda Varjadão;Sandolândia;Tocantins;Privado;17
+SWAA;Fazenda Ykaraí;Nova Crixás;Goiás;Privado;52
+SDMD;Fazenda Santa Izabel;Coxim;Mato Grosso do Sul;Privado;50
+SJFY;Fazenda Flamingo;Campo Novo do Parecis;Mato Grosso;Privado;51
+SSDL;Fazenda Ribeirão;Ribeiro Gonçalves;Piauí;Privado;22
+SWMU;Fazenda Três Muchachas;Bandeirantes;Mato Grosso do Sul;Privado;50
+SSWI;Fazenda Vovô Ernesto  ;Nova Mutum;Mato Grosso;Privado;51
+SNYV;Fazenda Sococo;Moju;Pará;Privado;15
+SNSR;Fazenda Santos Reis;Guarda-Mor;Minas Gerais;Privado;31
+SJLH;Jacamim;Bonfim;Roraima;Privado;14
+SWTN;Fazenda Arapucel;Araputanga;Mato Grosso;Privado;51
+SIYM;Fazenda Montesion;Toledo;Paraná;Privado;41
+SJSC;Fazenda San Cyro;Sertão;Rio Grande do Sul;Privado;43
+SIZD;DZ47;Tijucas;Santa Catarina;Privado;42
+SIUM;Fazenda Planeste;Balsas;Maranhão;Privado;21
+SSYF;Fazenda do Café;Monte Alegre de Minas;Minas Gerais;Privado;31
+SIEA;Fazenda Ibiporã;Guararapes;São Paulo;Privado;35
+SIBA;Fazenda Arco Íris;Alto Garças;Mato Grosso;Privado;51
+SDNE;Fazenda São Joaquim;Marabá Paulista;São Paulo;Privado;35
+SWAU;Fazenda Nossa Senhora Aparecida;Pirajuba;Minas Gerais;Privado;31
+SSOO;Fazenda Pontal da Cachoeira;Camapuã;Mato Grosso do Sul;Privado;50
+SNPV;Solidão;Mostardas;Rio Grande do Sul;Privado;43
+SINV;Fazenda Nova Baús;Mineiros;Goiás;Privado;52
+SJPT;Quatro Ventos;Uberlândia;Minas Gerais;Privado;31
+SILQ; Aeroleve Aeródromo Privado;Cascavel;Paraná;Privado;41
+SDQM;Fazenda Santo Antônio;Barreiras;Bahia;Privado;29
+SNZK;Fazenda Canadá;Itacarambi;Minas Gerais;Privado;31
+SJSV;Fazenda Guiné;São Roque de Minas;Minas Gerais;Privado;31
+SIPW;Nossa Senhora de Fátima;Teresina;Piauí;Privado;22
+SSLD;Fazenda Lourdes;Corumbá;Mato Grosso do Sul;Privado;50
+SWFV;Terramare;Guapé;Minas Gerais;Privado;31
+SDGP;Fazenda Gaivota;Paranatinga;Mato Grosso;Privado;51
+SDRW;Fazenda Reserva;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIJZ;Fazenda Vera Paz;Itaituba;Pará;Privado;15
+SJUU;Fazenda Paraná;Nova Roma;Goiás;Privado;52
+SSXZ;Fazenda Santa Terezinha;Nova Roma;Goiás;Privado;52
+SBOQ;Fazenda Irmãs Prata;Chapadão do Céu;Goiás;Privado;52
+SSXG;Fazenda Guanabara;Paranapoema;Paraná;Privado;41
+SSAF;Aeroclube de Foz do Iguaçu;Santa Terezinha de Itaipu;Paraná;Privado;41
+SDGJ;Fazenda São José;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SNLA;Fazenda Lagoa das Antas;Canaã dos Carajás;Pará;Privado;15
+SJMU;Sauparú;Uiramutã;Roraima;Privado;14
+SDFU;Fazenda Ponte Funda;Presidente Epitácio;São Paulo;Privado;35
+SSBQ;Fazenda Brusque;Santa Cruz do Xingu;Mato Grosso;Privado;51
+SNCK;Porto Cajueiro;Januária;Minas Gerais;Privado;31
+SDRX;Fazenda do Cedro;Chapada;Rio Grande do Sul;Privado;43
+SJGT;Fazenda Três Pontes;Três Lagoas;Mato Grosso do Sul;Privado;50
+SIAN;Clube CÉU;Rio de Janeiro;Rio de Janeiro;Privado;33
+SWQK;Pista Aldeia Kubenkrankenh;Ourilândia do Norte;Pará;Privado;15
+SDWR;Fazenda Rio Preto;São Félix do Araguaia;Mato Grosso;Privado;51
+SDIN;Fazenda Piúna;Anaurilândia;Mato Grosso do Sul;Privado;50
+SWLP;Fazenda Rosa Paralelo 10;Rondolândia;Mato Grosso;Privado;51
+SNKJ;Fazenda Rio Dourado;Cumaru do Norte;Pará;Privado;15
+SWMG;Margom;Água Fria de Goiás;Goiás;Privado;52
+SIVY;Fazenda Vale do Boi II;São Félix do Araguaia;Mato Grosso;Privado;51
+SNZU;Fazenda Nova Conceição;Tomé-Açu;Pará;Privado;15
+SNXH;Itapicuru;Codó;Maranhão;Privado;21
+SSWQ;Fazenda Guanandi;Corumbá;Mato Grosso do Sul;Privado;50
+SJPK;Fazenda Campo das Princesas;Timon;Maranhão;Privado;21
+SDPC;Atena;Rancharia;São Paulo;Privado;35
+SWDD;Fazenda Colibri;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SSWH;Dr. Emílio Fehr (ex-Fazenda Agropecuária Rossignolo);São Carlos;São Paulo;Privado;35
+SISS;Vô Amantino;Cláudia;Mato Grosso;Privado;51
+SNML;Manduca Leão;Rio Largo;Alagoas;Privado;27
+SDGY;Fazenda Anhangaí;Araçatuba;São Paulo;Privado;35
+SITF;Fazenda Tereré;Antônio João;Mato Grosso do Sul;Privado;50
+SNKV;Fazenda Campo Verde;Cutias;Amapá;Privado;16
+SSXW;Fazenda São Paulo;Ivinhema;Mato Grosso do Sul;Privado;50
+SJNC;Uraricoera;Alto Alegre;Roraima;Privado;14
+SSAU;Centeno;Tapes;Rio Grande do Sul;Privado;43
+SIMJ;Capinópolis - Aviação Agrícola Buttarello LTDA;Capinópolis;Minas Gerais;Privado;31
+SDMK;Fazenda Tropical;Brasilândia;Mato Grosso do Sul;Privado;50
+SNYF;Fazenda Fortaleza;Brasilândia;Mato Grosso do Sul;Privado;50
+SNDS;Fazenda São Martinho;Ilha Solteira;São Paulo;Privado;35
+SNDG;Aldeia;Borba;Amazonas;Privado;13
+SIZI;Fazenda Agrícola Godoy;Catalão;Goiás;Privado;52
+SJMJ;Pedra Branca;Uiramutã;Roraima;Privado;14
+SDRP;Onkiola;Amajari;Roraima;Privado;14
+SJNW;Fazenda Nhandu;Novo Mundo;Mato Grosso;Privado;51
+SSXR;Fazenda Nobel Pará;Santana do Araguaia;Pará;Privado;15
+SWGU;Fazenda São Gabriel;Brasnorte;Mato Grosso;Privado;51
+SNHD;Fazenda Floresta do Lobo;Uberlândia;Minas Gerais;Privado;31
+SNNY;Fazenda Tapyratynga;Pimenteiras do Oeste;Rondônia;Privado;11
+SIAX;Fazenda HJ;Unaí;Minas Gerais;Privado;31
+SJOD;Jordão;Jordão;Acre;Privado;12
+SDGM;Fazenda Mucambo;Baldim;Minas Gerais;Privado;31
+SNIN;Nova Era;Pantano Grande;Rio Grande do Sul;Privado;43
+SWEW;Fazenda Felicidade;Porto Esperidião;Mato Grosso;Privado;51
+SDYT;Tucuxim;Amajari;Roraima;Privado;14
+SNKZ;Fazenda São Marcos;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SDTZ;Fazenda Fortaleza;Santa Filomena;Piauí;Privado;22
+SSGJ;Fazenda Poleiro Grande;Corumbá;Mato Grosso do Sul;Privado;50
+SNIF;Clube de Voo Floresta;Visconde do Rio Branco;Minas Gerais;Privado;31
+SJNL;Fazenda Reata;Campo Novo do Parecis;Mato Grosso;Privado;51
+SIXZ;COLNIZA;Colniza;Mato Grosso;Privado;51
+SBOS;Fazenda Santo Augusto;Brasnorte;Mato Grosso;Privado;51
+SSZW;Usina Coruripe - Filial Limeira do Oeste;Limeira do Oeste;Minas Gerais;Privado;31
+SWZC;Fazenda Corixo;Porto Esperidião;Mato Grosso;Privado;51
+SNTB;SANTA COLOMBA AGROPECUÁRIA;Cocos;Bahia;Privado;29
+SDSJ;Executivo;Cascavel;Paraná;Privado;41
+SJIL;Brigadeiro Fábio Pereira da Silveira;Tupaciguara;Minas Gerais;Privado;31
+SWSZ;Fazenda Santa Luzia;Nova Bandeirantes;Mato Grosso;Privado;51
+SSPW;Fazenda São Paulo;Costa Rica;Mato Grosso do Sul;Privado;50
+SSNE;Santa Maria;Barão de Melgaço;Mato Grosso;Privado;51
+SJZW;Fazenda Regina;Itatinga;São Paulo;Privado;35
+SIZA;Fazenda Serra Azul;Planalto da Serra;Mato Grosso;Privado;51
+SSOX;Fazenda Olho D'Água;Pedro Gomes;Mato Grosso do Sul;Privado;50
+SBQS;Santa Rosa;Campo Verde;Mato Grosso;Privado;51
+SIXD;Fazenda da Paz;Sant'Ana do Livramento;Rio Grande do Sul;Privado;43
+SDWU;Fazenda Anahí;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SSXS;Sidel;Araci;Bahia;Privado;29
+SIJA;Maca Aero;Tailândia;Pará;Privado;15
+SSVS;Fazenda Sucuri;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SNMU;Mucuri;Mucuri;Bahia;Privado;29
+SWZS;Fazenda Nova Larga;Cáceres;Mato Grosso;Privado;51
+SSDP;Fazenda Fortaleza do Guaporé;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SSYD;Nova Ponte;Nova Ponte;Minas Gerais;Privado;31
+SJDN;Fazenda Campo Alegre;Aquidauana;Mato Grosso do Sul;Privado;50
+SJCY;Estância Santa Genoveva;Cuiabá;Mato Grosso;Privado;51
+SWAD;Fazenda Santa Adelaide;Bom Jesus de Goiás;Goiás;Privado;52
+SING;Fazenda São João;Nova Granada;São Paulo;Privado;35
+SIBN;Savana;Jaru;Rondônia;Privado;11
+SSGZ;Fazenda Santa Helena do Pindó;Naviraí;Mato Grosso do Sul;Privado;50
+SSKT;Aeroclube de Santa Catarina;São José;Santa Catarina;Privado;42
+SSJY;Fazenda São João;Corumbá;Mato Grosso do Sul;Privado;50
+SJFQ;Fazenda Quatrirmãs;Botucatu;São Paulo;Privado;35
+SWMQ;Fazenda Muiraquitã;Aripuanã;Mato Grosso;Privado;51
+SJEC;Mirim Aviação Agrícola;Pelotas;Rio Grande do Sul;Privado;43
+SJEX;Fazenda Vitória;São Desidério;Bahia;Privado;29
+SDMF;Fazenda Damaro;Miranda;Mato Grosso do Sul;Privado;50
+SJTN;Fazenda Triunfo;Candeias do Jamari;Rondônia;Privado;11
+SDRD;Fazenda Andorinha;Estrela do Norte;Goiás;Privado;52
+SNRO;Fazenda Liberdade;Querência;Mato Grosso;Privado;51
+SWBB;Castelli Fazenda Sobradinho;Correntina;Bahia;Privado;29
+SSVU;Fazenda Serra do Cabral;Francisco Dumont;Minas Gerais;Privado;31
+SNET;Fazenda Estrela;Sidrolândia;Mato Grosso do Sul;Privado;50
+SIOB;Fazenda Guanabara;Andradina;São Paulo;Privado;35
+SNYK;Isaias Luiz Pereira;Nova Ubiratã;Mato Grosso;Privado;51
+SJCJ;Fazenda Carajás;Sapezal;Mato Grosso;Privado;51
+SSJV;Fazenda Piratininga;Corumbá;Mato Grosso do Sul;Privado;50
+SWLN;Fazenda Laranjeiras;Currais;Piauí;Privado;22
+SJTC;Fazenda Itaguassu;Antônio João;Mato Grosso do Sul;Privado;50
+SJOY;Jorge Luiz Stocco;Palmeira;Paraná;Privado;41
+SWJO;Fazenda São José;Poxoréu;Mato Grosso;Privado;51
+SWYO;Usina Branco Peres;Adamantina;São Paulo;Privado;35
+SDER;Fazenda Entre Rios;Sud Mennucci;São Paulo;Privado;35
+SJHZ;Arara Azul;Barão de Melgaço;Mato Grosso;Privado;51
+SNFP;Fazenda Pirapó;Sorriso;Mato Grosso;Privado;51
+SWUQ;Surucucu;Alto Alegre;Roraima;Privado;14
+SIGG;FSA;Nova Maringá;Mato Grosso;Privado;51
+SNPF;Fazenda Retiro da Matão;Porangatu;Goiás;Privado;52
+SNFA;Fazenda Santo Antônio;Unaí;Minas Gerais;Privado;31
+SJFW;Fazenda São Francisco;São Francisco de Goiás;Goiás;Privado;52
+SSOQ;Fazenda Barranco Alto;Aquidauana;Mato Grosso do Sul;Privado;50
+SWGW;Fazenda Santa Rita do Araguaia;Jussara;Goiás;Privado;52
+SSZP;Fazenda Santa Adriana;Jateí;Mato Grosso do Sul;Privado;50
+SNCF;Fazenda Colonial ;Verdelândia;Minas Gerais;Privado;31
+SIYO;Fazenda Goiás Barreiro;Montividiu;Goiás;Privado;52
+SIID;Fazenda Dona Chica;Osório;Rio Grande do Sul;Privado;43
+SSBF;Fazenda JL;Aparecida do Taboado;Mato Grosso do Sul;Privado;50
+SJLF;Homoxi;Iracema;Roraima;Privado;14
+SJUA;Fazenda ABC;Buritis;Minas Gerais;Privado;31
+SIMB;Manuel Urbano;Manoel Urbano;Acre;Privado;12
+SWQP;Rio Vermelho Açúcar e Álcool;Junqueirópolis;São Paulo;Privado;35
+SWOO;Fazenda San Diego;Campo Verde;Mato Grosso;Privado;51
+SSFM;Fazenda Montani;Baixa Grande do Ribeiro;Piauí;Privado;22
+SILJ;Do Gaúcho;Laranjal do Jari;Amapá;Privado;16
+SJBR;Fazenda Santa Rita;Figueirópolis;Tocantins;Privado;17
+SWWT;Sílvio Gonçalves de Mello;Morada Nova de Minas;Minas Gerais;Privado;31
+SNFB;Fazenda Cachoeira do Bambuzal;Itaguari;Goiás;Privado;52
+SIOS;Fazenda Santa Josefa;Jateí;Mato Grosso do Sul;Privado;50
+SWDU;Destilaria Tabu;Caaporã;Paraíba;Privado;25
+SNJC;Cialne Umirim;Umirim;Ceará;Privado;23
+SNYX;Fazenda Fenix;Carangola;Minas Gerais;Privado;31
+SIVV;Fazenda Borereo;Barão de Melgaço;Mato Grosso;Privado;51
+SWVY;Fazenda Floresta Negra;Sete Quedas;Mato Grosso do Sul;Privado;50
+SDDX;Fazenda Paiquerê;Populina;São Paulo;Privado;35
+SNWE;Clube Estância Ouro Verde ;Santa Rita;Paraíba;Privado;25
+SWGC;Agricenter;Ponta Porã;Mato Grosso do Sul;Privado;50
+SNLY;Lagoa da Prata;Lagoa da Prata;Minas Gerais;Privado;31
+SSWE;Fazenda Fortaleza;Boa Vista do Incra;Rio Grande do Sul;Privado;43
+SDNC;Fazenda Barra do Cupim;Dom Aquino;Mato Grosso;Privado;51
+SJSX;Fazenda Montana;Matrinchã;Goiás;Privado;52
+SIMZ;Fazenda Primeiro de Maio;Sonora;Mato Grosso do Sul;Privado;50
+SJMD;Paapiú Novo;Iracema;Roraima;Privado;14
+SDQG;Fazenda Nova Floresta;Caiabu;São Paulo;Privado;35
+SNME;Costa dos Coqueiros;Mata de São João;Bahia;Privado;29
+SIJS;Fazenda Tonga;Paragominas;Pará;Privado;15
+SDKP;Fazenda Pirangi;Nova Andradina;Mato Grosso do Sul;Privado;50
+SIHI;Fazenda Itaipavas;Piçarra;Pará;Privado;15
+SJHU;Fazenda Brasilândia do Guaporé;Comodoro;Mato Grosso;Privado;51
+SNZG;Fazenda São Benedito;Capão Bonito;São Paulo;Privado;35
+SWZE;Fazenda Tamboril;Pontes e Lacerda;Mato Grosso;Privado;51
+SNHR;Aero Roça;Luziânia;Goiás;Privado;52
+SWVX;Fazenda Guariba;Aripuanã;Mato Grosso;Privado;51
+SIQI;Aerolis;Mostardas;Rio Grande do Sul;Privado;43
+SDEN;COSTA ESMERALDA;Porto Belo;Santa Catarina;Privado;42
+SJOO;Dr. João Osmar de Oliveira;Nova Lacerda;Mato Grosso;Privado;51
+SJVS;Fazenda Boa Vista;Santa Fé;Paraná;Privado;41
+SWUV;Fazenda Progresso;Sebastião Leal;Piauí;Privado;22
+SJJK;Fazenda Taquaral;Alta Floresta;Mato Grosso;Privado;51
+SNDD;Condomínio Aeronáutico Santos Dumont;Elias Fausto;São Paulo;Privado;35
+SIYR;Fazenda Rosa de Maio ;Itaituba;Pará;Privado;15
+SWWX;Posto de Proteção Ambiental São Joaquim;Barão de Melgaço;Mato Grosso;Privado;51
+SWIL;Fazenda Tarumã;Pedra Preta;Mato Grosso;Privado;51
+SSHX;Fazenda Jatobá;Paranhos;Mato Grosso do Sul;Privado;50
+SSAC;Fazenda Nova Jerusalém;Sorriso;Mato Grosso;Privado;51
+SDRM;Olomai;Amajari;Roraima;Privado;14
+SSLK;Fazenda Três Lagoas;Itapecerica;Minas Gerais;Privado;31
+SSWU;SEMENTES UMBU;São Luiz Gonzaga;Rio Grande do Sul;Privado;43
+SDIX;MGX Florestal;Ninheira;Minas Gerais;Privado;31
+SJNM;Fazenda Santa Luzia;Nova Mutum;Mato Grosso;Privado;51
+SIJR;Ely Rego;Balsa Nova;Paraná;Privado;41
+SIQV;Fazenda Matão;Sapezal;Mato Grosso;Privado;51
+SWLH;Fazenda Nova Holanda;Balsas;Maranhão;Privado;21
+SJTW;Arenhart Aviação Agrícola;Uruguaiana;Rio Grande do Sul;Privado;43
+SWXU;E-AR;Brasília;Distrito Federal;Privado;53
+SWXF;Fazenda Triflora;São Desidério;Bahia;Privado;29
+SIEN;Fazenda Santa Eulina;Corumbá;Mato Grosso do Sul;Privado;50
+SWKB;Fazenda Baía do Lara;Corumbá;Mato Grosso do Sul;Privado;50
+SWFW;Fazenda Terra Way - VII;Tabaporã;Mato Grosso;Privado;51
+SJKJ;Fazenda Siriema;Campos de Júlio;Mato Grosso;Privado;51
+SSWA;Fazenda Alvorada I;São José do Xingu;Mato Grosso;Privado;51
+SNUE;Aero Sepé Aviação Agrícola;São Sepé;Rio Grande do Sul;Privado;43
+SNWQ;Fazenda Santa Cecília;Jari;Rio Grande do Sul;Privado;43
+SDQN;FAZENDA PALMARES 2;Barreiras;Bahia;Privado;29
+SJLX;Mutum;;;Privado;
+SJIU;Fazenda Caregi;Ipiranga do Norte;Mato Grosso;Privado;51
+SWPS;Fazenda Das Perobas;Prudente de Morais;Minas Gerais;Privado;31
+SSLP;Fazenda Lucero Porã;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWHS;Fazenda São João;Maurilândia;Goiás;Privado;52
+SISV;Fazenda Promissão;Diamantino;Mato Grosso;Privado;51
+SDSV;Santa Cândida;Guariba;São Paulo;Privado;35
+SIMG;Fazenda Seis Palmas;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWMY;Clube de Voo Mãe Irene;Altamira;Pará;Privado;15
+SDQL;Fazenda Cerro Azul;Nioaque;Mato Grosso do Sul;Privado;50
+SWVJ;Fazenda São Judas Tadeu;Comodoro;Mato Grosso;Privado;51
+SWIW;Fazenda Pirapitinga;Cocalzinho de Goiás;Goiás;Privado;52
+SJFA;Franor;São Desidério;Bahia;Privado;29
+SSTF;Fazenda Santa Fé;Santana do Araguaia;Pará;Privado;15
+SJTJ;Fazenda Jatobá;Diamantino;Mato Grosso;Privado;51
+SDMM;Lago Verde;Pacaraima;Roraima;Privado;14
+SDXW;Fazenda Sombra da Serra;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SIOA;Fazenda Primavera;Canavieiras;Bahia;Privado;29
+SBQE;Fazenda Tradição;Ribeiro Gonçalves;Piauí;Privado;22
+SNZZ;Muzzi;Coruripe;Alagoas;Privado;27
+SWIS;Caiapó;Caseara;Tocantins;Privado;17
+SNAV;Agrovale;Juazeiro;Bahia;Privado;29
+SDKE;Valença do Piauí;Valença do Piauí;Piauí;Privado;22
+SJZQ;Fazenda Bom Retiro;Itaqui;Rio Grande do Sul;Privado;43
+SSNT;Fazenda Jacarezinho Nova Terra;Cotegipe;Bahia;Privado;29
+SSBZ;Umberto Modiano;Armação dos Búzios;Rio de Janeiro;Privado;33
+SWPP;Fazenda Pica-Pau;Mozarlândia;Goiás;Privado;52
+SWHY;Fazenda Irerê;Maracaju;Mato Grosso do Sul;Privado;50
+SSZA;Fazenda Angra dos Reis;Boa Vista;Roraima;Privado;14
+SSBB;Fazenda Balada;João Pinheiro;Minas Gerais;Privado;31
+SDSL;Fazenda Bang Bang;São José do Xingu;Mato Grosso;Privado;51
+SIFV;Primo Bitti;Aracruz;Espírito Santo;Privado;32
+SWQU;Fazenda Guaporé;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SSIY;Fazenda Três Irmãos;Novo Progresso;Pará;Privado;15
+SIUL;KL Aviação Agrícola;Camaquã;Rio Grande do Sul;Privado;43
+SJJC;Fazenda Cachoeira;Ponta Porã;Mato Grosso do Sul;Privado;50
+SIPP;Fazenda Musa do Norte;Francisco Sá;Minas Gerais;Privado;31
+SSWO;Fazenda Santa Paula;Comodoro;Mato Grosso;Privado;51
+SNPL;Fazenda Pacuruxu;Santa Mercedes;São Paulo;Privado;35
+SWZR;Fazenda Ponto de Apoio;Água Clara;Mato Grosso do Sul;Privado;50
+SDED;Scoda Aeronáutica;Ipeúna;São Paulo;Privado;35
+SNYZ;Fazenda Rio 18;Cumaru do Norte;Pará;Privado;15
+SNJA;Capivari;Capivari do Sul;Rio Grande do Sul;Privado;43
+SSQZ;Mimoso do Oeste;Luís Eduardo Magalhães;Bahia;Privado;29
+SSXN;Aéreo Amazônia;Altamira;Pará;Privado;15
+SWYL;Fazenda Carrapato;Itapipoca;Ceará;Privado;23
+SWSX;Xinguara;Xinguara;Pará;Privado;15
+SNWG;Fazenda Iporã;Itaquiraí;Mato Grosso do Sul;Privado;50
+SINC;Campo Nuic;Bom Jardim da Serra;Santa Catarina;Privado;42
+SNWO;Fazenda Vera Cruz;Amambai;Mato Grosso do Sul;Privado;50
+SSIA;Fazenda Ipê;Baixa Grande do Ribeiro;Piauí;Privado;22
+SSHD;Chico Ledur;Alegrete;Rio Grande do Sul;Privado;43
+SWLQ;Fazenda Mata Velha;Manicoré;Amazonas;Privado;13
+SSVO;Usina de Monções;Monções;São Paulo;Privado;35
+SNMS;Acácio Favacho;Pracuúba;Amapá;Privado;16
+SJFB;Fazenda Bacuri;Riachão;Maranhão;Privado;21
+SJLZ;Coperjava;Formoso do Araguaia;Tocantins;Privado;17
+SSTD;Stracci;São Desidério;Bahia;Privado;29
+SWAM;Fazenda Agropecuária Gomes;Taquarituba;São Paulo;Privado;35
+SDJQ;Fazenda São Joaquim O.B.;Pereira Barreto;São Paulo;Privado;35
+SBOX;FAZENDA BAIA MORENA;Corumbá;Mato Grosso do Sul;Privado;50
+SIKS;Fazenda Vale do Juruena;Nova Bandeirantes;Mato Grosso;Privado;51
+SSZH;Fazenda Corrientes;Tacuru;Mato Grosso do Sul;Privado;50
+SWOM;Fazenda Marialva;Naviraí;Mato Grosso do Sul;Privado;50
+SJQL;Águas Claras Aviação Agrícola ;Santa Juliana;Minas Gerais;Privado;31
+SNHU;Fazenda Bola Sete ;Itinga do Maranhão;Maranhão;Privado;21
+SDQH;Fazenda Santa Clara;Castanheira;Mato Grosso;Privado;51
+SIZU;Agrochapada;Paranatinga;Mato Grosso;Privado;51
+SIJM;Fazenda Tupancy;Sapezal;Mato Grosso;Privado;51
+SBQN;Fazenda Nossa Senhora Aparecida II;Porto Estrela;Mato Grosso;Privado;51
+SNMF;Agropastoril Monte Alegre;Monte Belo;Minas Gerais;Privado;31
+SSHP;Fazenda Paiol do Piquiri;Goioxim;Paraná;Privado;41
+SWBW;Fazenda Água Nascente;Sonora;Mato Grosso do Sul;Privado;50
+SDOR;Fazenda Mosquito;Orlândia;São Paulo;Privado;35
+SSKC;Fazenda Cristiani;Barra do Bugres;Mato Grosso;Privado;51
+SNWU;Fazenda Ponte Quihá;Aral Moreira;Mato Grosso do Sul;Privado;50
+SJUO;Fazenda Juscelândia;Jussara;Goiás;Privado;52
+SNPI;De Piatã;Piatã;Bahia;Privado;29
+SIPB;CAVU - Clube de Aviação Desportiva;Raposa;Maranhão;Privado;21
+SJTT;GRUPO ROTTA;Sapezal;Mato Grosso;Privado;51
+SJWW;Fazenda Cachoeira Preta;Água Clara;Mato Grosso do Sul;Privado;50
+SWMN;Santa Mônica;Natividade;Tocantins;Privado;17
+SWZV;Fazenda Rodoserv III;Bela Vista;Mato Grosso do Sul;Privado;50
+SWQG;Fazenda Sossego;Maracaju;Mato Grosso do Sul;Privado;50
+SIVD;Agropecuária Santa Rita;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SNCB;Castanhal;Prainha;Pará;Privado;15
+SICQ;Fazenda Luar;Cuiabá;Mato Grosso;Privado;51
+SDCE;Fazenda Boa Sorte;Aliança do Tocantins;Tocantins;Privado;17
+SJKK;Sérgio Bonifácio;Ivaiporã;Paraná;Privado;41
+SSLA;Fazenda Alves;Sorriso;Mato Grosso;Privado;51
+SSYY;Fazenda Fundãozinho;Costa Rica;Mato Grosso do Sul;Privado;50
+SNNL;Fazenda Locks;Nova Maringá;Mato Grosso;Privado;51
+SJOH;Destilaria Veredas;João Pinheiro;Minas Gerais;Privado;31
+SSWK;Fazenda Cuelhambi;Angélica;Mato Grosso do Sul;Privado;50
+SDUE;Fazenda Thália;Balsa Nova;Paraná;Privado;41
+SJDG;Jorge de Barros Carvalho;Salto Grande;São Paulo;Privado;35
+SNSA;Hilário Grandi;Unaí;Minas Gerais;Privado;31
+SSYV;Fazenda Indaiá;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SWVN;Clube de Voo Fazenda Novo Horizonte;Itu;São Paulo;Privado;35
+SSYZ;Fazenda Cedro;Aral Moreira;Mato Grosso do Sul;Privado;50
+SIOC;Santo Expedito;Nova Independência;São Paulo;Privado;35
+SNGS;Aeroclube de Alagoas;Maceió;Alagoas;Privado;27
+SDRL;Fazenda Retiro Velho;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SIPJ;Aero Parque Tupã;Tupanciretã;Rio Grande do Sul;Privado;43
+SWNW;Roso;Aceguá;Rio Grande do Sul;Privado;43
+SJER;Fazenda Canadá;Acreúna;Goiás;Privado;52
+SDQK;Fazenda Taboca;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SDYB;Fazenda São José do Bom Retiro;Itapetininga;São Paulo;Privado;35
+SBQH;CMTE Juliano Rambo;Confresa;Mato Grosso;Privado;51
+SJTU;Fazenda Tucano;Campo Novo do Parecis;Mato Grosso;Privado;51
+SWAK;Assunção do Içana;São Gabriel da Cachoeira;Amazonas;Privado;13
+SISJ;Fazenda São José do Piquiri;Corumbá;Mato Grosso do Sul;Privado;50
+SJUL;Fazenda Rio Pardo;Iaras;São Paulo;Privado;35
+SSIF;Fazenda Baunilha;Itaquiraí;Mato Grosso do Sul;Privado;50
+SBQR;Fazenda Arena de Aço;Buritizeiro;Minas Gerais;Privado;31
+SSTS;Soteco;Cáceres;Mato Grosso;Privado;51
+SWUN;Fazenda União;Inocência;Mato Grosso do Sul;Privado;50
+SIPN;Fazenda Progresso;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SIAR;Fazenda Arancuã;Miranda;Mato Grosso do Sul;Privado;50
+SNTG;Gercino Coelho;Formosa do Rio Preto;Bahia;Privado;29
+SSBC;Fazenda Barra do Tietê;Castilho;São Paulo;Privado;35
+SWQO;Fazenda Renascença;Frutal;Minas Gerais;Privado;31
+SJSU;Fazenda São Marcus;Alto Paraíso;Paraná;Privado;41
+SDSH;Fazenda Shalon (antigo Serafino Ferruzzi);Alta Floresta;Mato Grosso;Privado;51
+SWMJ;Fazenda Mano Julio;Ipiranga do Norte;Mato Grosso;Privado;51
+SIMU;Fazenda Mutum;Anaurilândia;Mato Grosso do Sul;Privado;50
+SDNB;Brasnorte;Brasnorte;Mato Grosso;Privado;51
+SWRZ;Fazenda Arrossensal;Nortelândia;Mato Grosso;Privado;51
+SSEQ;Renascer;Arame;Maranhão;Privado;21
+SNYS;WD Agroindustrial;João Pinheiro;Minas Gerais;Privado;31
+SIHW;Agrishow;Ribeirão Preto;São Paulo;Privado;35
+SNLC;Fazenda Panambi;Buritis;Minas Gerais;Privado;31
+SDVT;Fazenda Campo Verde;Taquarussu;Mato Grosso do Sul;Privado;50
+SDLG;Fazenda Planalto;Costa Rica;Mato Grosso do Sul;Privado;50
+SJQK;Barra do Vento;Boa Vista;Roraima;Privado;14
+SSGC;Fazenda Chapadão;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SJFO;Fazenda Sorriso;Mossâmedes;Goiás;Privado;52
+SWRF;Francisco Ramalho;Pedreiras;Maranhão;Privado;21
+SJNU;Fazenda Campo Alto;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SWOT;Fazenda Planorte;Sapezal;Mato Grosso;Privado;51
+SIRC;Rancho Sinuelo;Caracol;Mato Grosso do Sul;Privado;50
+SICR;Fazenda Coração do Brasil;Pontes e Lacerda;Mato Grosso;Privado;51
+SIZG;Fazenda Santo André II;Nova Maringá;Mato Grosso;Privado;51
+SSGQ;Fazenda Capivari;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SNLZ;Fazenda Boca da Mata;Divinópolis do Tocantins;Tocantins;Privado;17
+SIBX;Rosana Camargo;Buritama;São Paulo;Privado;35
+SJUQ;Fazenda São Clemente;São José dos Campos;São Paulo;Privado;35
+SWIN;Fazenda Itamarati Norte;Campo Novo do Parecis;Mato Grosso;Privado;51
+SJFP;Fazenda Pensamento;Corumbá;Mato Grosso do Sul;Privado;50
+SNZF;AFG II;Tangará da Serra;Mato Grosso;Privado;51
+SWEA;Fazenda Santiago de Compostela ;Comodoro;Mato Grosso;Privado;51
+SNLB;Fazenda Magdalena;Lábrea;Amazonas;Privado;13
+SDIP;Fazenda Centro de Vôo a Vela Ipuã;Caçapava;São Paulo;Privado;35
+SJYE;Água Fria;Uiramutã;Roraima;Privado;14
+SIOK;Fazenda Cachoeirinha;Perdizes;Minas Gerais;Privado;31
+SIBO;Simão Sarkis Simão;Três Marias;Minas Gerais;Privado;31
+SNUK;Centúria Montana;Formosa do Rio Preto;Bahia;Privado;29
+SSYL;Fazenda Patrol;Parnarama;Maranhão;Privado;21
+SIZM;MOCELIN II;Dois Vizinhos;Paraná;Privado;41
+SSDN;Fazenda Nova Fronteira ;Mateiros;Tocantins;Privado;17
+SJOR;Fazenda Onça do Barão;Cocos;Bahia;Privado;29
+SSUI;Fazenda Novo Horizonte;Santa Fé do Araguaia;Tocantins;Privado;17
+SDSM;Fazenda Nossa Senhora da Conceição;São Manuel;São Paulo;Privado;35
+SIJJ;Fazenda Cambay;Juti;Mato Grosso do Sul;Privado;50
+SNPW;Fazenda Palmeira;Alto Taquari;Mato Grosso;Privado;51
+SSDK;São Pedro;Igaratinga;Minas Gerais;Privado;31
+SWMX;Fazenda Jauquara;Barra do Bugres;Mato Grosso;Privado;51
+SSML;Comandante Jorge Mello;Bom Jesus da Lapa;Bahia;Privado;29
+SNFC;Marina do Caraipé;Tucuruí;Pará;Privado;15
+SIMQ;Fazenda Dois de Maio;Corumbá;Mato Grosso do Sul;Privado;50
+SIMA;Fazenda Mãe Margarida;Santa Rita do Trivelato;Mato Grosso;Privado;51
+SJNV;Fazenda São Francisco;Gouvelândia;Goiás;Privado;52
+SDVA;Fazenda Campo Vitória;Vargem Grande do Sul;São Paulo;Privado;35
+SIRM;Fazenda Couto Magalhães;Água Boa;Mato Grosso;Privado;51
+SJXU;Fazenda Coperbrás;Brasília;Distrito Federal;Privado;53
+SIZH;Fazenda Vista Alegre;Aparecida do Taboado;Mato Grosso do Sul;Privado;50
+SNQT;Fazenda Estrela do Sul;Umuarama;Paraná;Privado;41
+SDAY;Fazenda Santa Lucia;Santa Maria das Barreiras;Pará;Privado;15
+SIQZ;Fazenda Lagoa Serena;Lagoa Alegre;Piauí;Privado;22
+SSAM;Posto de Proteção Ambiental Santo André;Barão de Melgaço;Mato Grosso;Privado;51
+SBQB;Fazenda Pedrinhas II;Correntina;Bahia;Privado;29
+SNDX;Cachoeira;Coruripe;Alagoas;Privado;27
+SJVG;Fazenda Gameleira;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SIDM;Fazenda Cibrapa;Barra do Garças;Mato Grosso;Privado;51
+SJAR;Fazenda Araçatuba;Nova Crixás;Goiás;Privado;52
+SBOV;Fazenda Tabatinga;Santa Rita do Trivelato;Mato Grosso;Privado;51
+SWZH;Fazenda XV de Outubro;Colatina;Espírito Santo;Privado;32
+SDSQ;Usina Santa Rita;Santa Rita do Passa Quatro;São Paulo;Privado;35
+SJEK;Satélite Aviação Agrícola Ltda;Canarana;Mato Grosso;Privado;51
+SWOK;Fazenda Pontal;Itiquira;Mato Grosso;Privado;51
+SSDH;Fazenda Chapadão Alegre;Correntina;Bahia;Privado;29
+SDWM;Fazenda Modelo;Aurora do Pará;Pará;Privado;15
+SSFA;Foz do Areia;Pinhão;Paraná;Privado;41
+SDVI;Comandante Gastão;Tangará da Serra;Mato Grosso;Privado;51
+SDYS;Aeroportobelo;Porto Belo;Santa Catarina;Privado;42
+SSON;Fazenda Joalice;Tacuru;Mato Grosso do Sul;Privado;50
+SSTZ;Fazenda Sertãozinho;Aquidauana;Mato Grosso do Sul;Privado;50
+SIQA;Fazenda Bela Vista;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SWIC;Fazenda Rancho Alegre;Nova Mutum;Mato Grosso;Privado;51
+SSGH;Fazenda Capão Verde;Aquidauana;Mato Grosso do Sul;Privado;50
+SJMV;Serra do Sol;Uiramutã;Roraima;Privado;14
+SWQY;Fazenda Peturú;Porto de Moz;Pará;Privado;15
+SNGJ;Fazenda Padre Cícero;Marabá;Pará;Privado;15
+SIOR;Adhemar Ribeiro;Santa Rita do Passa Quatro;São Paulo;Privado;35
+SWSF;Fazenda São Francisco;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SJZO;Zi Viol;Campo Grande;Mato Grosso do Sul;Privado;50
+SWHJ;Fazenda Santa Lúcia;Brasiléia;Acre;Privado;12
+SJVN;Fazenda Pindorama;Campo Novo do Parecis;Mato Grosso;Privado;51
+SSLW;Fazendas Reunidas Schlatter;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SIOV;Municipal de Vera;Vera;Mato Grosso;Privado;51
+SIXX;Retiro Santo Antônio da Fazenda Triunfo;Corumbá;Mato Grosso do Sul;Privado;50
+SJJQ;Fazendas Apóstolo Simão Coffee;Rio Pardo de Minas;Minas Gerais;Privado;31
+SNCG;Fazenda Cedro;Campo Grande;Mato Grosso do Sul;Privado;50
+SWZN;Fazenda Tunica;Água Boa;Mato Grosso;Privado;51
+SJNI;Fazenda Buriti;Valentim Gentil;São Paulo;Privado;35
+SDGF;Usina Santa Luzia;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SSEU;Tabocal;Itaituba;Pará;Privado;15
+SWKW;Pista Aldeia Kawatire;São Félix do Xingu;Pará;Privado;15
+SSOW;Aeroclube de Frederico Westphalen;Frederico Westphalen;Rio Grande do Sul;Privado;43
+SIBI;Fazenda Boa Luz;Laranjeiras;Sergipe;Privado;28
+SJDT;Fazenda São Roque;Aquidauana;Mato Grosso do Sul;Privado;50
+SWNE;Nelson Saldanha;Nova Viçosa;Bahia;Privado;29
+SIFW;Fazenda São Lourenço;Corumbá;Mato Grosso do Sul;Privado;50
+SWUY;Fazenda Videira;Poconé;Mato Grosso;Privado;51
+SJXM;Carolina de Assis Repetto;Lima Duarte;Minas Gerais;Privado;31
+SJKO;Cararuau;Normandia;Roraima;Privado;14
+SJAC;Citropar;Capitão Poço;Pará;Privado;15
+SISO;Fazenda Santo Ambrósio;Chaves;Pará;Privado;15
+SJSF;Fazenda Serrana;Maracaju;Mato Grosso do Sul;Privado;50
+SSVG;Condomínio Fly Vila Resort;Guapé;Minas Gerais;Privado;31
+SIRR;Ecotur Univini Park;Caracaraí;Roraima;Privado;14
+SDAU;Fazenda Itau;Água Clara;Mato Grosso do Sul;Privado;50
+SNES;Fazenda Saltos do Poente;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SSND;Santa Maria;São Félix do Araguaia;Mato Grosso;Privado;51
+SNOL;Agropecuária Mariana;Alta Floresta;Mato Grosso;Privado;51
+SJDZ;Fazenda Canduá;Unaí;Minas Gerais;Privado;31
+SNFY;Fly Park Florianópolis;Florianópolis;Santa Catarina;Privado;42
+SIDS;Romaer Aviação Agrícola;Aral Moreira;Mato Grosso do Sul;Privado;50
+SNJI;Fazenda Fortaleza de Santa Teresinha;Jequitaí;Minas Gerais;Privado;31
+SDME;Marchesan S.A;Matão;São Paulo;Privado;35
+SSZS;Fazenda Sucupira;Vila Rica;Mato Grosso;Privado;51
+SSAO;Fazenda Olhos D'Água;Baixa Grande;Bahia;Privado;29
+SNCC;Fazenda Centrino;Cabixi;Rondônia;Privado;11
+SWSD;Fazenda Santo Antônio;Araguaiana;Mato Grosso;Privado;51
+SIFD;Fazenda Santa Marina II;Campo Grande;Mato Grosso do Sul;Privado;50
+SSZV;Fazenda Cifrão;Pedra Preta;Mato Grosso;Privado;51
+SSMX;Fazenda Planalto;Nova Resende;Minas Gerais;Privado;31
+SIMR;Fazendas Reunidas;Rio Verde;Goiás;Privado;52
+SJGD;Fazenda Rio Brilhante;São Desidério;Bahia;Privado;29
+SSJZ;Fazenda Três Unidos;Terra Roxa;Paraná;Privado;41
+SJLB;Fazenda Chaparral;Lambari D'Oeste;Mato Grosso;Privado;51
+SJLC;Hakoma;Alto Alegre;Roraima;Privado;14
+SDMX;Fazenda Fontana;Campo Verde;Mato Grosso;Privado;51
+SJMI;Parafuri;Alto Alegre;Roraima;Privado;14
+SWXC;Fazenda Tropical;Corumbiara;Rondônia;Privado;11
+SIFN;Fazenda Cachoeira Branca;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIXR;Fazenda Santa Maria III;Coxim;Mato Grosso do Sul;Privado;50
+SNQM;Fazenda Formoso de Paraúna;Paraúna;Goiás;Privado;52
+SDCM;Sete Povos;São Desidério;Bahia;Privado;29
+SWAZ;Santo Atanázio;São Gabriel da Cachoeira;Amazonas;Privado;13
+SIKA;Fazenda Alegria II;Amambai;Mato Grosso do Sul;Privado;50
+SWAY;Piripiri;Piripiri;Piauí;Privado;22
+SWJL;Fazenda Invernada;Itajá;Goiás;Privado;52
+SWDG;Fazenda São José;Reginópolis;São Paulo;Privado;35
+SNFZ;Fazenda Villa Terezinha;Bocaiúva;Minas Gerais;Privado;31
+SJUR;Fazenda Reunidas;Paranatinga;Mato Grosso;Privado;51
+SWAJ;Viatec Aviação Agrícola;Santa Vitória do Palmar;Rio Grande do Sul;Privado;43
+SJVZ;Represa Fazenda Capão da Cruz;Guatapará;São Paulo;Privado;35
+SWMV;Paa-Piu;Iracema;Roraima;Privado;14
+SSSR;Fazenda Serrana;São Desidério;Bahia;Privado;29
+SDFI;Fazenda Rio Crixás;Mundo Novo;Goiás;Privado;52
+SILU;BRPEC Agro-Pecuária;Miranda;Mato Grosso do Sul;Privado;50
+SWWF;Fazenda Inhumas do Chapadão;Uberaba;Minas Gerais;Privado;31
+SIQK;Nova Odessa;Nova Odessa;São Paulo;Privado;35
+SNQS;Fazenda Nossa Senhora Auxiliadora;Ivinhema;Mato Grosso do Sul;Privado;50
+SJUV;Fazenda Vitória;Nova Ubiratã;Mato Grosso;Privado;51
+SDZS;Serra Branca Agrícola;Uruçuí;Piauí;Privado;22
+SJQX;Fazenda Uruará;Uruará;Pará;Privado;15
+SDCB;Centro Brasileiro de Aviação Agrícola Experimental e Recreativo (CBAAER);Brasília;Distrito Federal;Privado;53
+SNUU;Fazenda Tainacan;Nova Crixás;Goiás;Privado;52
+SWWQ;Fazenda Santa Maria;Mundo Novo;Goiás;Privado;52
+SSGS;Fazenda São Pedro;Eldorado;Mato Grosso do Sul;Privado;50
+SSSW;Madeireira;Colniza;Mato Grosso;Privado;51
+SIWB;Fazenda Sperafico;Amambai;Mato Grosso do Sul;Privado;50
+SBQP;Fazenda Três Santos;Uruçuí;Piauí;Privado;22
+SJPL;Pista do Limão;Itaituba;Pará;Privado;15
+SDLH;Fazenda Pato Branco;São Gabriel do Oeste;Mato Grosso do Sul;Privado;50
+SNOT;Usina Vale do Tijuco;Uberaba;Minas Gerais;Privado;31
+SWIY;Santa Isabel do Morro;Lagoa da Confusão;Tocantins;Privado;17
+SJHE;Fazenda Palmeira;Ipiranga do Norte;Mato Grosso;Privado;51
+SWBF;Fazenda Boa Fortuna;Pium;Tocantins;Privado;17
+SSZD;Zirondi;Porto Velho;Rondônia;Privado;11
+SDGA;Adecoagro;Angélica;Mato Grosso do Sul;Privado;50
+SJKX;Cutia;Uiramutã;Roraima;Privado;14
+SWIH;Fazenda Felicidade;Novo São Joaquim;Mato Grosso;Privado;51
+SNMI;Mina Caraíba;Jaguarari;Bahia;Privado;29
+SWCH;Fazenda Jucurutu do Formoso;Jaborandi;Bahia;Privado;29
+SDJA;Dr. José Augusto de Arruda Botelho;Itirapina;São Paulo;Privado;35
+SJWB;Fazenda Bartira;Rancharia;São Paulo;Privado;35
+SSDF;Ecides Fires;São Sebastião do Passé;Bahia;Privado;29
+SSBI;Condomínio Irmãos Gatto;Barreiras;Bahia;Privado;29
+SDGQ;Jeová Gomes;Limoeiro do Norte;Ceará;Privado;23
+SDTY;Usina São Martinho;Pradópolis;São Paulo;Privado;35
+SSUW;Fazenda Palmeiras;Centenário do Sul;Paraná;Privado;41
+SDXA;SAWI;Normandia;Roraima;Privado;14
+SNTC;Fazenda Campo Alto;Prata;Minas Gerais;Privado;31
+SIYD;Fazenda Curitiba;Comodoro;Mato Grosso;Privado;51
+SSAY;Sítio Pouso do Aviador;Campo Grande;Mato Grosso do Sul;Privado;50
+SITC;Fazenda Colorado;Sorriso;Mato Grosso;Privado;51
+SJHD;Josidith;Darcinópolis;Tocantins;Privado;17
+SJLP;Manoá-pium;Bonfim;Roraima;Privado;14
+SDUL;Usina Santa Lydia;Ribeirão Preto;São Paulo;Privado;35
+SIDG;Irmãos Gonçalves;Jaru;Rondônia;Privado;11
+SDLO;Fazenda Pontal;Cairu;Bahia;Privado;29
+SIEG;Fazenda Chapadão;Guarda-Mor;Minas Gerais;Privado;31
+SNEA;Estância Primavera;Alegrete;Rio Grande do Sul;Privado;43
+SSWZ;Fazenda Dona Neném;Presidente Olegário;Minas Gerais;Privado;31
+SJOA;Fazenda Nossa Senhora Aparecida ;Ipiranga do Norte;Mato Grosso;Privado;51
+SSJM;Fazenda Júlio Martins;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SWPN;Pesqueiro Pantanal;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SWBP;Fazenda Continental;Colômbia;São Paulo;Privado;35
+SWFM;Fazenda Maiador;Goiandira;Goiás;Privado;52
+SNZD;Fazenda Capivara;Pimenteiras do Oeste;Rondônia;Privado;11
+SJBT;Fazenda Vera Lúcia;Aquidauana;Mato Grosso do Sul;Privado;50
+SIGA;Fazenda Granja Santiago;Paracatu;Minas Gerais;Privado;31
+SNIZ;Fazenda Jaqueline;Vilhena;Rondônia;Privado;11
+SIKU;Fazenda Gaúcha do Norte;Gaúcha do Norte;Mato Grosso;Privado;51
+SWIA;Antônio Costa da Silva;Juruá;Amazonas;Privado;13
+SJMA;Fazenda Marli;Camapuã;Mato Grosso do Sul;Privado;50
+SIMW;Fazenda Retiro do Cervo I;Jaraguari;Mato Grosso do Sul;Privado;50
+SWFA;Fazenda Pamplona;Cristalina;Goiás;Privado;52
+SJWX;Rio Alegre;Euclides da Cunha Paulista;São Paulo;Privado;35
+SSEG;Sementes Guerra;Renascença;Paraná;Privado;41
+SWRM;FAZENDA REMANSO;Cacoal;Rondônia;Privado;11
+SIFU;Fazenda Ribeirão;Barra do Piraí;Rio de Janeiro;Privado;33
+SNVH;Fazenda Santa Helena;Cáceres;Mato Grosso;Privado;51
+SSCW;Fazenda Centro Oeste;Nova Maringá;Mato Grosso;Privado;51
+SNWB;Bom Sossego;Porto Seguro;Bahia;Privado;29
+SDPA;Fazenda Portobello;Mangaratiba;Rio de Janeiro;Privado;33
+SIDJ;Fazenda Arpa;Santa Maria das Barreiras;Pará;Privado;15
+SIOU;Fazenda Progresso  ;Paragominas;Pará;Privado;15
+SDHC;Fazenda Koga;Getulina;São Paulo;Privado;35
+SNGR;Gorotire;Cumaru do Norte;Pará;Privado;15
+SSSQ;Fazenda Mata Roxa;Nova Aurora;Goiás;Privado;52
+SDPR;Fazenda Turazzi;Pontes e Lacerda;Mato Grosso;Privado;51
+SSAD;Fazenda Ribeirão;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SNRB;FAZENDA BRASA;Rosário do Sul;Rio Grande do Sul;Privado;43
+SJKL;Canã;;;Privado;
+SNWF;Fazenda Cachoeirinha;Ponta Porã;Mato Grosso do Sul;Privado;50
+SJUS;Fazenda Acará;Britânia;Goiás;Privado;52
+SNXK;Fazenda Lagoa do Triunfo;São Félix do Xingu;Pará;Privado;15
+SICN;Fazenda Vista Bonita;Sandovalina;São Paulo;Privado;35
+SWTX;Tertuliano Guedes de Pinho;Itabuna;Bahia;Privado;29
+SINR;Fazenda Santa Rosa;Cáceres;Mato Grosso;Privado;51
+SNXY;Cikel Brasil Verde;Portel;Pará;Privado;15
+SSHQ;Fazenda Sossego;Rosana;São Paulo;Privado;35
+SJRK;Agropecuária São Roberto;Santana do Araguaia;Pará;Privado;15
+SIUA;Águas Claras;Viamão;Rio Grande do Sul;Privado;43
+SWTD;Fazenda Nova Agropecuária;Nova Bandeirantes;Mato Grosso;Privado;51
+SJBA;Fazenda Beatriz;Campo Grande;Mato Grosso do Sul;Privado;50
+SJRW;PCH - Buriti;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SSCO;Cmt. Marilda Zaiden de Mesquita;Capão do Leão;Rio Grande do Sul;Privado;43
+SSHG;Fazenda Santa Helena;Rio Pardo;Rio Grande do Sul;Privado;43
+SNCJ;Piquiatuba;Santarém;Pará;Privado;15
+SIAU;Fazenda Pirizal;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SJTQ;AGD;Campos de Júlio;Mato Grosso;Privado;51
+SSDT;Fazenda Pau D'Arco;Redenção;Pará;Privado;15
+SDND;Fazenda Nova Damasco;Narandiba;São Paulo;Privado;35
+SJTL;Aero Agrícola Gaivota;Jaguapitã;Paraná;Privado;41
+SJYQ;Barreirinha;Uiramutã;Roraima;Privado;14
+SIQY;Fazenda Amizade;Sorriso;Mato Grosso;Privado;51
+SWPC;Pari-Cachoeira;São Gabriel da Cachoeira;Amazonas;Privado;13
+SWWI;Fazenda Fortaleza;Tesouro;Mato Grosso;Privado;51
+SWQQ;Fazenda Taquarussu;Sete Quedas;Mato Grosso do Sul;Privado;50
+SNSL;Fazenda São Luiz;Luís Eduardo Magalhães;Bahia;Privado;29
+SIOG;Suinobras;Diamantino;Mato Grosso;Privado;51
+SDZZ;Sítio São José;Nova Europa;São Paulo;Privado;35
+SJIF;Grupo Scheffer;Sapezal;Mato Grosso;Privado;51
+SNIH;Fazenda Rio Negro;Aquidauana;Mato Grosso do Sul;Privado;50
+SNTX;Fazenda Santo Antônio;Buriticupu;Maranhão;Privado;21
+SWNN;Fazenda Jandaira;Tapurah;Mato Grosso;Privado;51
+SDVF;Santo Antônio do Pão;Uiramutã;Roraima;Privado;14
+SWFU;Fortuna;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SSDM;Fazenda Serinhaém;Ituberá;Bahia;Privado;29
+SBOK;Fazenda São Vicente;Lucas do Rio Verde;Mato Grosso;Privado;51
+SDQB;Fazenda Estrela D'Alva;Querência;Mato Grosso;Privado;51
+SJSM;Chácara Marcella;Goioerê;Paraná;Privado;41
+SNFT;Fazenda Toca da Onça;União do Sul;Mato Grosso;Privado;51
+SDUR;Itaboraí;Itaboraí;Rio de Janeiro;Privado;33
+SWSQ;São Joaquim;;;Privado;
+SJPP;Aero Rural;Alta Floresta;Mato Grosso;Privado;51
+SJJR;Fazenda Recreio;Andrelândia;Minas Gerais;Privado;31
+SNHP;Fazenda São Judas Tadeu;Santa Rita do Pardo;Mato Grosso do Sul;Privado;50
+SILG;Fazenda Panamá;Sapezal;Mato Grosso;Privado;51
+SWRB;Fazenda Santa Rita;Campinas do Sul;Rio Grande do Sul;Privado;43
+SDZU;Fazenda Anhumas;Marabá Paulista;São Paulo;Privado;35
+SWQS;Fazenda Santa Rosa;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIKO;Fazenda Água Boa;Anastácio;Mato Grosso do Sul;Privado;50
+SIZR;Fazenda Águas Claras;Iguatemi;Mato Grosso do Sul;Privado;50
+SSAZ;Stratus Ale;Natal;Rio Grande do Norte;Privado;24
+SJMQ;Santa Maria de Normandia;Normandia;Roraima;Privado;14
+SSDZ;Fazenda Requinte;São Desidério;Bahia;Privado;29
+SILA;Fazenda Santa Ada;Jateí;Mato Grosso do Sul;Privado;50
+SSBS;Fazenda Selena;Alto Garças;Mato Grosso;Privado;51
+SNFI;Fazenda São José do Paranaíba;Tupaciguara;Minas Gerais;Privado;31
+SJPS;Fazenda Promissão;União do Sul;Mato Grosso;Privado;51
+SJOU;Minerva Paranatinga;Paranatinga;Mato Grosso;Privado;51
+SJNH;Fazenda Nova Esperança;São Félix do Xingu;Pará;Privado;15
+SNXN;Fazenda Novo Progresso;Altamira;Pará;Privado;15
+SWWL;Fazenda Agrocentro;Barra do Garças;Mato Grosso;Privado;51
+SDSA;Fazenda Califórnia;Corumbá;Mato Grosso do Sul;Privado;50
+SNHE;Fazenda Canuanã;Formoso do Araguaia;Tocantins;Privado;17
+SSNO;Fazenda Estrela Dalva;Aporé;Goiás;Privado;52
+SIMY;Fazenda Porto Oculto;Itaquiraí;Mato Grosso do Sul;Privado;50
+SJTP;Tapurah;Tapurah;Mato Grosso;Privado;51
+SDGB;Usina Colorado;Guaíra;São Paulo;Privado;35
+SSTV;Fazenda Diamantino;Sinop;Mato Grosso;Privado;51
+SWWP;Fazenda Pontal;Corumbaíba;Goiás;Privado;52
+SJDC;Fazenda Vale Verde;Pium;Tocantins;Privado;17
+SWEX;Boa Esperança;Santa Luzia;Maranhão;Privado;21
+SWEU;Fazenda Americana;Itambacuri;Minas Gerais;Privado;31
+SIXI;Pista Aldeia Kokraymoro;São Félix do Xingu;Pará;Privado;15
+SWQH;Agropecuária Nova Santana;Aripuanã;Mato Grosso;Privado;51
+SSGD;Fazenda Porta do Céu;Jaborandi;Bahia;Privado;29
+SDQE;Ilha do Caracará;Poconé;Mato Grosso;Privado;51
+SSLS;Aeródromo Público de Ruy Barbosa;Ruy Barbosa;Bahia;Privado;29
+SIMO;Fazenda Morro Vermelho;Ribeirão Claro;Paraná;Privado;41
+SWNC;Fazenda Nictheroy;Senador Guiomard;Acre;Privado;12
+SSVY;Fazenda Três Barras;Pitangueiras;São Paulo;Privado;35
+SIIK;Fazenda Santa Lídia;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SJRH;Fazenda Galheiro;Campo Verde;Mato Grosso;Privado;51
+SWDY;Fazenda Água Fria;Crixás;Goiás;Privado;52
+SJJU;Fazenda Barra Mansa;Nova Lacerda;Mato Grosso;Privado;51
+SDUY;Mairowy;Apiacás;Mato Grosso;Privado;51
+SJCW;Jatapu;Urucará;Amazonas;Privado;13
+SWYM;Fazenda Anhanguera;Conquista D'Oeste;Mato Grosso;Privado;51
+SJLI;Fazenda Liliani;Bom Jardim;Maranhão;Privado;21
+SSZB;Fazenda Chalana;Diamantino;Mato Grosso;Privado;51
+SIAG;Fazenda Goiasa;Goiatuba;Goiás;Privado;52
+SNTU;Fazenda Tupã;Gaúcha do Norte;Mato Grosso;Privado;51
+SIEH;Fazenda Vô Chico;Jales;São Paulo;Privado;35
+SNQO;Fazenda Carvalho;Corumbá;Mato Grosso do Sul;Privado;50
+SWJV;Palmeiras do Javari;Atalaia do Norte;Amazonas;Privado;13
+SWRP;Teles Pires Lodge;Apiacás;Mato Grosso;Privado;51
+SJGI;Fazenda Itiquira;Itiquira;Mato Grosso;Privado;51
+SJJV;Fazenda Primavera;Campo Grande;Mato Grosso do Sul;Privado;50
+SDTO;Fazenda Cataco;Ubarana;São Paulo;Privado;35
+SJXJ;Alimentos Dallas;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SSEF;Fazenda Passaredo;Cajuru;São Paulo;Privado;35
+SJAS;Fazenda São Roque;Reginópolis;São Paulo;Privado;35
+SNMW;Fazenda Parceiro;Corrente;Piauí;Privado;22
+SILB;Fazenda Belizário;Riachão das Neves;Bahia;Privado;29
+SISN;Fazenda Valiosa;Brasilândia de Minas;Minas Gerais;Privado;31
+SIJV;Fazenda Vitória;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SNZB;Rancho Sumidor;Rio do Oeste;Santa Catarina;Privado;42
+SNRA;Nossa Senhora da Abadia;Niquelândia;Goiás;Privado;52
+SNOR;Fazenda Recanto;Sidrolândia;Mato Grosso do Sul;Privado;50
+SNYH;Fazenda Vale Sereno;Cumaru do Norte;Pará;Privado;15
+SNXI;Alberto Ramos;Cordisburgo;Minas Gerais;Privado;31
+SWPF;Fazenda Primavera;Pimenteiras do Oeste;Rondônia;Privado;11
+SNOI;ESTANCIA IRMÃOS MARTINS;Tupã;São Paulo;Privado;35
+SJAA;Fazenda Araguari;Gaúcha do Norte;Mato Grosso;Privado;51
+SSUT;Usinas Itamarati;Nova Olímpia;Mato Grosso;Privado;51
+SDDB;Ninho do Bacurau;Bom Jesus da Lapa;Bahia;Privado;29
+SJQQ;Fazenda Terra Alta;Portel;Pará;Privado;15
+SSHK;Fazenda Jaguarundy;Ponta Porã;Mato Grosso do Sul;Privado;50
+SWVV;Fazenda Bela Vista;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SDVQ;Fazenda Cabeceira Verde;Campos Lindos;Tocantins;Privado;17
+SBOT;Fazenda Eldorado;Monção;Maranhão;Privado;21
+SILN;Aeroclube de Rio Negrinho;Rio Negrinho;Santa Catarina;Privado;42
+SDFK;Fazenda Figueira;Marabá Paulista;São Paulo;Privado;35
+SJFU;Tabuleiro;Bananeiras;Paraíba;Privado;25
+SDXR;Fazenda Romário;Barbosa;São Paulo;Privado;35
+SJZH;Fazenda Rio do Fogo;Nova Santa Helena;Mato Grosso;Privado;51
+SWGZ;Fazenda Cangaia;Tailândia;Pará;Privado;15
+SJJG;Fazenda Santa Bárbara;Corumbá;Mato Grosso do Sul;Privado;50
+SIIS;Fazenda Uberaba;Alto Paraíso;Paraná;Privado;41
+SSBW;Fazenda Boa Sorte;Sidrolândia;Mato Grosso do Sul;Privado;50
+SSRM;Fazenda Santos Reis;Rio Maria;Pará;Privado;15
+SWNM;Fazenda Módulo Aguapei;Porto Esperidião;Mato Grosso;Privado;51
+SJJB;Fazenda Barra Mansa;Brasilândia;Mato Grosso do Sul;Privado;50
+SNCY;Campo da Praia;Coruripe;Alagoas;Privado;27
+SDOY;Fazenda Monte Dourado;São Félix do Xingu;Pará;Privado;15
+SWVZ;Emal - Empresa de Mineração Aripuanã Ltda;Nobres;Mato Grosso;Privado;51
+SDSP;Santa Inês;Amajari;Roraima;Privado;14
+SIYS;Fazenda Sertaneja;Ananás;Tocantins;Privado;17
+SSVM;Fazenda Savannah;Cocos;Bahia;Privado;29
+SWCC;Candote;Três Lagoas;Mato Grosso do Sul;Privado;50
+SITS;Estância Indiana;Lucas do Rio Verde;Mato Grosso;Privado;51
+SIAD;Estância Regina;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SICW;Fazenda Santa Fé;Campo Alegre de Goiás;Goiás;Privado;52
+SWUE;Fazenda Tapayuna;Nova Canaã do Norte;Mato Grosso;Privado;51
+SIPY;Pista Aldeia Pykatô;Cumaru do Norte;Pará;Privado;15
+SJLK;Lago Grande 1;Boa Vista;Roraima;Privado;14
+SWEH;Fazenda Agroplan;Querência;Mato Grosso;Privado;51
+SJRR;Fazenda Barreiro;Paraúna;Goiás;Privado;52
+SISU;Fazenda Topázio Imperial;Gameleiras;Minas Gerais;Privado;31
+SSCE;Campos de Melo;São José de Mipibu;Rio Grande do Norte;Privado;24
+SITM;Fazenda Bela Vista;Panorama;São Paulo;Privado;35
+SDMA;Muraro;Itupeva;São Paulo;Privado;35
+SNNG;Riviera;Minas Novas;Minas Gerais;Privado;31
+SDNI;Nascimento I;Cotia;São Paulo;Privado;35
+SNVL;Nova Vida;Santana do Araguaia;Pará;Privado;15
+SJWP;Warpol;São Desidério;Bahia;Privado;29
+SNHK;Fazenda  Caacupê;Nioaque;Mato Grosso do Sul;Privado;50
+SJSE;Serabi;Itaituba;Pará;Privado;15
+SNXU;Fazenda Gruta Azul ;Dois Irmãos do Buriti;Mato Grosso do Sul;Privado;50
+SJTF;Fazenda Mequens;Alta Floresta D'Oeste;Rondônia;Privado;11
+SIPL;Pista Aldeia Pykararankre;São Félix do Xingu;Pará;Privado;15
+SJNE;Wapum;Caracaraí;Roraima;Privado;14
+SDOI;Centro Nacional de Pára-Quedismo;Boituva;São Paulo;Privado;35
+SDTH;Fazenda Tamanduá;Brasnorte;Mato Grosso;Privado;51
+SJVW;Fazenda Agronol;Luís Eduardo Magalhães;Bahia;Privado;29
+SWGD;Fazenda Estrela;Baixa Grande do Ribeiro;Piauí;Privado;22
+SJKQ;Caramambatai (Mapae);Uiramutã;Roraima;Privado;14
+SDKX;Fazenda Serra Azul;Rosário Oeste;Mato Grosso;Privado;51
+SJEH;Clemente Verillo;Ribeirão Bonito;São Paulo;Privado;35
+SDZC;Uxiu;Mucajaí;Roraima;Privado;14
+SJMO;Santa Isabel;Pacaraima;Roraima;Privado;14
+SWOX;Fazenda Pixoxó;São Carlos;São Paulo;Privado;35
+SWTQ;Rio Quente Resorts;Rio Quente;Goiás;Privado;52
+SDMC;Cajupí;Baixa Grande do Ribeiro;Piauí;Privado;22
+SDUD;Usina Santa Adélia;Jaboticabal;São Paulo;Privado;35
+SIZC;Fazenda Cachoeira do Café;Formosa do Rio Preto;Bahia;Privado;29
+SNQI;Fazenda Camagril Agropecuária;Diamantino;Mato Grosso;Privado;51
+SIEC;Agropecuária Cachoeira;Jaraguari;Mato Grosso do Sul;Privado;50
+SNNW;Fazenda Regalito;Flores de Goiás;Goiás;Privado;52
+SWAP;Sementes Petrovina;Pedra Preta;Mato Grosso;Privado;51
+SDVH;Fazenda Vale Eldorado - Dr José de Aguiar Leme;Bragança Paulista;São Paulo;Privado;35
+SSXB;Fazenda Água Boa Maricultura;Itaporanga d'Ajuda;Sergipe;Privado;28
+SWGV;Fazenda Cocal II;Canarana;Mato Grosso;Privado;51
+SILI;Fazenda Santa Clara;Bom Jesus;Piauí;Privado;22
+SWGO;Santa Cecília;Goianésia;Goiás;Privado;52
+SWJC;Fazenda Carandá;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SNRQ;Porto Rico;Jacareacanga;Pará;Privado;15
+SJYF;Ajarani;Caracaraí;Roraima;Privado;14
+SSMV;Fazenda Boa Vista;Pirassununga;São Paulo;Privado;35
+SJKG;Fazenda Chapada Grande;Regeneração;Piauí;Privado;22
+SNJE;Fazenda Fresadora;Gonçalves Dias;Maranhão;Privado;21
+SWRD;Chácara Rondoagro;São Miguel do Guaporé;Rondônia;Privado;11
+SSKX;SKYJU;Estância;Sergipe;Privado;28
+SIOT;Fazenda Santa Vergínia;Santa Rita do Pardo;Mato Grosso do Sul;Privado;50
+SIOE;Mocelin;Dois Vizinhos;Paraná;Privado;41
+SJDE;Fazenda União;Jateí;Mato Grosso do Sul;Privado;50
+SSQS;Fazenda Brasil;Barra do Garças;Mato Grosso;Privado;51
+SWTJ;Fazenda Cachoeira;Tangará da Serra;Mato Grosso;Privado;51
+SBOU;Fazenda São Jerônimo;Nova Canaã do Norte;Mato Grosso;Privado;51
+SIFM;Fazenda Mimoso;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SWQJ;COOMEJ;Almeirim;Pará;Privado;15
+SJVA;Fazenda Varnier;Brasnorte;Mato Grosso;Privado;51
+SJMF;Pacú;Normandia;Roraima;Privado;14
+SWLJ;Fazenda Santa Cruz;Iaciara;Goiás;Privado;52
+SWAX;Fazenda Sassapão II;Formosa do Rio Preto;Bahia;Privado;29
+SWTK;Fazenda Santa Maria do Guaporé;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SWCP;Pontal;Pontal;São Paulo;Privado;35
+SSYQ;Fazenda Água das Pedras;Anhembi;São Paulo;Privado;35
+SWXE;PCH Paranatinga II;Campinápolis;Mato Grosso;Privado;51
+SIPR;Fazenda GAP São Pedro;Uruguaiana;Rio Grande do Sul;Privado;43
+SWTR;Taraquá;São Gabriel da Cachoeira;Amazonas;Privado;13
+SIXE;Aeroclube de Eldorado do Sul;Eldorado do Sul;Rio Grande do Sul;Privado;43
+SDDL;Fazenda Limeira;São João da Paraúna;Goiás;Privado;52
+SWOR;Fazenda Colorado;Britânia;Goiás;Privado;52
+SDQD;Fazenda Candelária;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SSOC;Ivaí Aeroagrícola;Engenheiro Beltrão;Paraná;Privado;41
+SWHZ;Fazenda Taquaruçu Retiro;Carlinda;Mato Grosso;Privado;51
+SJZM;Fazenda Santa Clara ;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SJKP;Caraparu;Uiramutã;Roraima;Privado;14
+SWYR;Fazenda Nossa Senhora do Pilar;Jauru;Mato Grosso;Privado;51
+SSPP;FAZENDA ESTREITO E PONTE DE PEDRAS;Montividiu;Goiás;Privado;52
+SBIT;Hidrelétrica de Itumbiara;Itumbiara;Goiás;Privado;52
+SSMY;São Miguel do Iguaçu;São Miguel do Iguaçu;Paraná;Privado;41
+SNQR;Fazenda Bahia - Don Bosco;Poconé;Mato Grosso;Privado;51
+SWBX;Fazenda Santo Antônio do Paraíso;Itiquira;Mato Grosso;Privado;51
+SIQR;Fazenda Pioneira;Querência;Mato Grosso;Privado;51
+SNSF;Fazenda São Francisco;Fartura;São Paulo;Privado;35
+SDIL;Fazenda Pedra Branca;Angra dos Reis;Rio de Janeiro;Privado;33
+SSQK;Fazenda Gávea;Cerqueira César;São Paulo;Privado;35
+SIME;Comandante Carlos Inácio Agnes;Davinópolis;Maranhão;Privado;21
+SDZL;Fazenda Campo Zélia;Corumbá;Mato Grosso do Sul;Privado;50
+SJFR;Trancoso Rio Frade;Porto Seguro;Bahia;Privado;29
+SDEB;Fazenda São Paulo dos Palmares;Timburi;São Paulo;Privado;35
+SJSA;Fazenda Aimoré;Juti;Mato Grosso do Sul;Privado;50
+SSSP;Sítio Primavera;Bom Jesus do Sul;Paraná;Privado;41
+SSEN;Bainho de Baixo;Barão de Melgaço;Mato Grosso;Privado;51
+SIOP;Poletto;Santa Rita do Trivelato;Mato Grosso;Privado;51
+SJFK;Fazenda Cachoeira;Araguaçu;Tocantins;Privado;17
+SSNA;Estância Miranda;Miranda;Mato Grosso do Sul;Privado;50
+SJJM;Fazenda São João  ;Matupá;Mato Grosso;Privado;51
+SWRL;Fazenda Pouso Redondo;Corumbiara;Rondônia;Privado;11
+SSOU;Aripuanã;Aripuanã;Mato Grosso;Privado;51
+SSFE;Estância Hércules;Foz do Iguaçu;Paraná;Privado;41
+SWFH;Fly Club;Porto Seguro;Bahia;Privado;29
+SSLX;Fazenda Santa Lydia;Diamante do Norte;Paraná;Privado;41
+SNWK;Fazenda Santa Terezinha;Pedra Preta;Mato Grosso;Privado;51
+SSXU;Fazenda Aurora;Jardim;Mato Grosso do Sul;Privado;50
+SISA;Pista Aldeia Aukre;Ourilândia do Norte;Pará;Privado;15
+SIOO;Fazenda Água Doce do Pantanal;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SJHJ;Fazenda São João;Baixa Grande do Ribeiro;Piauí;Privado;22
+SSZT;Fazenda São João;Águas de Santa Bárbara;São Paulo;Privado;35
+SSHW;Nova Esperança;Recursolândia;Tocantins;Privado;17
+SIUY;Jair Feliciano de Deus;Mirassol d'Oeste;Mato Grosso;Privado;51
+SITU;Fazenda Santa Genoveva;Turvelândia;Goiás;Privado;52
+SSHV;Fazenda Genipapo;Várzea da Palma;Minas Gerais;Privado;31
+SDEO;Fazenda Entre Rios;Ibitinga;São Paulo;Privado;35
+SJHG;Confresa;Confresa;Mato Grosso;Privado;51
+SNQN;Fazenda Estrela;Canarana;Mato Grosso;Privado;51
+SJRC;Serra da Borda;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SBQO;Fazenda Paraíso;Prado;Bahia;Privado;29
+SDZN;Warogarem;Uiramutã;Roraima;Privado;14
+SNOW;Fazenda Turmalina;Rancharia;São Paulo;Privado;35
+SSCA;Fazenda Pantanal;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SIED;Fazenda Espadim;Paranhos;Mato Grosso do Sul;Privado;50
+SWEZ;Fazenda Estivado;Diamantino;Mato Grosso;Privado;51
+SIHV;Fazenda Ouro Verde;Juscimeira;Mato Grosso;Privado;51
+SNZH;Fazenda Novo Horizonte;Jaíba;Minas Gerais;Privado;31
+SNSV;Fazenda São Domingos;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SWEN;Estância Recanto;Alta Floresta;Mato Grosso;Privado;51
+SJYT;Campo Formoso;Pacaraima;Roraima;Privado;14
+SJYJ;Aratha-ú;Alto Alegre;Roraima;Privado;14
+SBQG;Fazenda Rio Azul;São José do Rio Claro;Mato Grosso;Privado;51
+SDUU;Usina Califórnia;Parapuã;São Paulo;Privado;35
+SSDY;Alegria Alcolumbre;Macapá;Amapá;Privado;16
+SWLU;CAVOK;Glorinha;Rio Grande do Sul;Privado;43
+SJQU;Fazenda Formosa;Formosa do Rio Preto;Bahia;Privado;29
+SITL;Fazenda Figueira II;Água Clara;Mato Grosso do Sul;Privado;50
+SSOK;14 Bis;Londrina;Paraná;Privado;41
+SSPF;Fly Village;Altos;Piauí;Privado;22
+SWKU;Cucuí;São Gabriel da Cachoeira;Amazonas;Privado;13
+SICJ;Gaivota Aviação Agrícola;Sapezal;Mato Grosso;Privado;51
+SSUQ;Fazenda Terra Morena;Correntina;Bahia;Privado;29
+SNOQ;Fazenda Agropecuária Crioulo;Tacuru;Mato Grosso do Sul;Privado;50
+SDSS;Fazenda Baia das Pedras;Aquidauana;Mato Grosso do Sul;Privado;50
+SJYI;Arai;Pacaraima;Roraima;Privado;14
+SJGL;Comandante Zequinha / Grand Lake;Luziânia;Goiás;Privado;52
+SJYG;Alto Mucajaí;Alto Alegre;Roraima;Privado;14
+SSXH;Sócrates Mariani Bittencourt;Malhada de Pedras;Bahia;Privado;29
+SWIJ;Fazenda Água Doce;Jaborandi;Bahia;Privado;29
+SJBN;Nossa Senhora Aparecida;Rio Maria;Pará;Privado;15
+SJLN;Maloquinha;Uiramutã;Roraima;Privado;14
+SSDV;Fazenda Santa Maria;Corumbá;Mato Grosso do Sul;Privado;50
+SBUY;Urucu;Coari;Amazonas;Privado;13
+SWIV;Águia Branca do Parú;Almeirim;Pará;Privado;15
+SWYG;Graciosa;Piraquara;Paraná;Privado;41
+SISD;Fazenda São Sebastião;Aparecida do Rio Doce;Goiás;Privado;52
+SSJC;Jacarezinho;Valparaíso;São Paulo;Privado;35
+SSAV;Fazenda Amonguijá;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SSMZ;Fazenda São Mateus;Comodoro;Mato Grosso;Privado;51
+SSKJ;Pau dos Ferros;Pau dos Ferros;Rio Grande do Norte;Privado;24
+SWPV;Dom Rodrigo El Manco;Piracuruca;Piauí;Privado;22
+SWYY;Fazenda Nova Viena;Barra do Garças;Mato Grosso;Privado;51
+SDNT;Fazenda Terra Prometida;Porto Nacional;Tocantins;Privado;17
+SDDK;Saint-Exupéry;Ocauçu;São Paulo;Privado;35
+SDSK;Fazenda Dona Rosa S. Rezek;Jateí;Mato Grosso do Sul;Privado;50
+SSYS;Aero do Vale Miracatu;Miracatu;São Paulo;Privado;35
+SWMI;Fazenda Esplanada;Brasilândia;Mato Grosso do Sul;Privado;50
+SSWP;Palmares;Delfinópolis;Minas Gerais;Privado;31
+SJCM;Catuleve;Aquiraz;Ceará;Privado;23
+SSDO;São Pedro;Porto Seguro;Bahia;Privado;29
+SWQN;Fazenda Nego Velho  ;Castanheira;Mato Grosso;Privado;51
+SNXP;Fazenda Pontal;Carneirinho;Minas Gerais;Privado;31
+SJYP;Bananeira;Uiramutã;Roraima;Privado;14
+SSYB;Fazenda Bela Manhã;Santa Clara d'Oeste;São Paulo;Privado;35
+SNEY;Fazenda Aguapey;Porto Esperidião;Mato Grosso;Privado;51
+SSPB;Fazenda São José do Pontal;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIUR;Fazenda Ribeirão;Camapuã;Mato Grosso do Sul;Privado;50
+SDWK;Junqueira;Igarapava;São Paulo;Privado;35
+SSUS;Uniggel Sementes - Fazenda Santa Maria;Costa Rica;Mato Grosso do Sul;Privado;50
+SDYQ;Fazenda Querência;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SWYU;Fazenda Sagarana;Correntina;Bahia;Privado;29
+SJJH;Fazenda Juína;Campos de Júlio;Mato Grosso;Privado;51
+SWIK;Fazenda Vanguarda;Cocalinho;Mato Grosso;Privado;51
+SDRZ;Fazenda Vó Zita do Rio Vermelho;Corumbá;Mato Grosso do Sul;Privado;50
+SSSI;Fazenda Manto Verde;Baixa Grande do Ribeiro;Piauí;Privado;22
+SNKE;Fazenda São Francisco;Morada Nova de Minas;Minas Gerais;Privado;31
+SWWW;Posto de Proteção Ambiental São Luis;Barão de Melgaço;Mato Grosso;Privado;51
+SIQU;Alcoolvale;Aparecida do Taboado;Mato Grosso do Sul;Privado;50
+SNIR;Fazenda Mata Escura;Parnarama;Maranhão;Privado;21
+SIJU;Fazenda Areia Branca;Juína;Mato Grosso;Privado;51
+SNVZ;Fazenda Flor da Serra;Jaborandi;Bahia;Privado;29
+SJGV;Toca;Santo Antônio de Goiás;Goiás;Privado;52
+SDDQ;Fazenda São Francisco;Riachão das Neves;Bahia;Privado;29
+SDQX;Fazenda Falcão;Primavera do Leste;Mato Grosso;Privado;51
+SDTD;Fazenda Campanário;Laguna Carapã;Mato Grosso do Sul;Privado;50
+SJYM;Bala;Pacaraima;Roraima;Privado;14
+SSNI;Fazenda Novo Rumo;Naviraí;Mato Grosso do Sul;Privado;50
+SNWP;Fazenda Parecis;Diamantino;Mato Grosso;Privado;51
+SNGW;Fazenda Santo Angelo;Barra do Choça;Bahia;Privado;29
+SSET;Sunset;Imbituba;Santa Catarina;Privado;42
+SNTY;Correntina;Correntina;Bahia;Privado;29
+SIZL;Fazenda Lagoa;Ribeirão do Sul;São Paulo;Privado;35
+SJLE;Halikato-u;Alto Alegre;Roraima;Privado;14
+SIUV;Fazenda Vianmacel;Nova Maringá;Mato Grosso;Privado;51
+SNKQ;Fazenda Quebraxo;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SSWL;Luiz Aragão;Tianguá;Ceará;Privado;23
+SIIT;Fazenda Cachoeira;Anastácio;Mato Grosso do Sul;Privado;50
+SWJZ;Sítio Primavera;Itaituba;Pará;Privado;15
+SILL;Fazenda Tabaroa;Águas de Santa Bárbara;São Paulo;Privado;35
+SDNK;Fazenda Vitória;Primavera do Leste;Mato Grosso;Privado;51
+SNKY;Fazenda Cikel;Paragominas;Pará;Privado;15
+SIIZ;Fazenda Iporanga;Mutunópolis;Goiás;Privado;52
+SSWX;Fazenda Rio Xingú;Santa Cruz do Xingu;Mato Grosso;Privado;51
+SIWE;Nelson Pizzani;Monte Carlo;Santa Catarina;Privado;42
+SSVW;Fazenda Galera;Conquista D'Oeste;Mato Grosso;Privado;51
+SDRU;Fazenda Caramuru;Inúbia Paulista;São Paulo;Privado;35
+SNEI;Fazenda São Miguel;Rio Pardo;Rio Grande do Sul;Privado;43
+SNRC;Fazenda Recanto;Alcinópolis;Mato Grosso do Sul;Privado;50
+SDTR;FAZENDA TRIUNFO;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SSJG;Fazenda Santa Ana;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWHU;Fazenda Izaura - Usina Cocal;Rancharia;São Paulo;Privado;35
+SSGX;Guacho;Santa Cruz do Rio Pardo;São Paulo;Privado;35
+SNRS;Fazenda Canoeiro;Cocalinho;Mato Grosso;Privado;51
+SDUK;Fazenda Xaimite;Água Boa;Mato Grosso;Privado;51
+SIZQ;Fazenda Real;Botucatu;São Paulo;Privado;35
+SJQB;Fazenda Jequitibá;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SWVI;Fazenda Centúria Vitória;Formosa do Rio Preto;Bahia;Privado;29
+SSUR;Fazenda Rio Fontoura;São Félix do Araguaia;Mato Grosso;Privado;51
+SSPR;Fazenda Pratinha;Uruçuí;Piauí;Privado;22
+SBOE;Fazenda Americana;Querência;Mato Grosso;Privado;51
+SDWJ;Fazenda São Sebastião;Campo Novo do Parecis;Mato Grosso;Privado;51
+SSUC;Célia Neuza;Santa Bárbara do Pará;Pará;Privado;15
+SJUJ;Fazenda Juruna;Peixoto de Azevedo;Mato Grosso;Privado;51
+SNGP;Fazenda Santa Maria ;Tupaciguara;Minas Gerais;Privado;31
+SWKN;Caramori;Reserva do Cabaçal;Mato Grosso;Privado;51
+SSVD;Fazenda Brasília do Sul;Juti;Mato Grosso do Sul;Privado;50
+SWOY;Fazenda Santa Rita I;Pedro Gomes;Mato Grosso do Sul;Privado;50
+SNCI;Cibrasa;Capanema;Pará;Privado;15
+SNKP;Conquista do Pontal;Mirante do Paranapanema;São Paulo;Privado;35
+SWWY;Posto de Proteção Ambiental Espírito Santo;Barão de Melgaço;Mato Grosso;Privado;51
+SDBJ;Boa Vista;Patrocínio;Minas Gerais;Privado;31
+SNSU;Fazenda Globo;Sapezal;Mato Grosso;Privado;51
+SWMR;Fazenda Retirinho;Aquidauana;Mato Grosso do Sul;Privado;50
+SWMC;Capão da Cruz;Luís Antônio;São Paulo;Privado;35
+SIWZ;Fazenda Fazendinha;Aquidauana;Mato Grosso do Sul;Privado;50
+SIVQ;Clube de Voo Aeroquadra;Quadra;São Paulo;Privado;35
+SSFN;Fazenda Nazaré;Corumbá;Mato Grosso do Sul;Privado;50
+SIQC;Fazenda Paraíso;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SWRE;Fazenda Renovo;Alto Garças;Mato Grosso;Privado;51
+SIRD;Gaelo;Charqueadas;Rio Grande do Sul;Privado;43
+SWDW;Fazenda Pessegueiro;Passo Fundo;Rio Grande do Sul;Privado;43
+SWRY;Fazenda Santa Maria;Porto Estrela;Mato Grosso;Privado;51
+SNGK;Fazenda Bela Vista;Monte Alegre de Minas;Minas Gerais;Privado;31
+SSWM;Fazenda Platô Azul;Tiros;Minas Gerais;Privado;31
+SIRS;Fazenda São Sebastião;Campo Florido;Minas Gerais;Privado;31
+SJZT;Busato II;Serra do Ramalho;Bahia;Privado;29
+SJIY;Fazenda Iaciara;Iaciara;Goiás;Privado;52
+SILY;Tabuleiro V;Correntina;Bahia;Privado;29
+SJDL;Fazenda Paraíso;Corumbá;Mato Grosso do Sul;Privado;50
+SSZF;Fazenda Santa Gertrudes;Corumbá;Mato Grosso do Sul;Privado;50
+SJHF;Aníbal Azevedo Filho;Mata de São João;Bahia;Privado;29
+SIOM;Fazenda Orquídeas;Barreiras;Bahia;Privado;29
+SSBT;Fazenda Santa Ilídia;Batayporã;Mato Grosso do Sul;Privado;50
+SWRX;Fazenda Ribeiro do Céu;Nova Mutum;Mato Grosso;Privado;51
+SSQQ;Condomínio CLC;Campo Grande;Mato Grosso do Sul;Privado;50
+SSJW;Fazenda Jauru;Nova Andradina;Mato Grosso do Sul;Privado;50
+SDWZ;Palo Verde;Araçatuba;São Paulo;Privado;35
+SSRA;Santa Rosa do Purus;Santa Rosa do Purus;Acre;Privado;12
+SNLF;Fazenda Três Flechas;Vila Rica;Mato Grosso;Privado;51
+SDIO;Aeroclube de Itápolis;Itápolis;São Paulo;Privado;35
+SDXO;Fazenda Barra Grande;Tomazina;Paraná;Privado;41
+SSNY;Fazenda Florida;Cáceres;Mato Grosso;Privado;51
+SWIT;Condomínio de Voo Itaipu - CVI;Santa Terezinha de Itaipu;Paraná;Privado;41
+SSVJ;Fazenda São João;Alcinópolis;Mato Grosso do Sul;Privado;50
+SIQX;Fazenda São Braz;Barra de Santo Antônio;Alagoas;Privado;27
+SNUF;Alfa Airport Posse;Santo Antônio de Posse;São Paulo;Privado;35
+SBOZ;Fazenda Arizona;Cáceres;Mato Grosso;Privado;51
+SWIE;Fazenda Planalto das Emas;Jaborandi;Bahia;Privado;29
+SICY;Fazenda Apucarana;Marabá;Pará;Privado;15
+SSJQ;Fazenda Floresta;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SIWS;Fazenda Santa Fé;Cáceres;Mato Grosso;Privado;51
+SWMZ;Aeroporto Agroer Aviação;Rondonópolis;Mato Grosso;Privado;51
+SJWA;Aerovaço;Bom Jesus do Galho;Minas Gerais;Privado;31
+SDIB;Irmãos  Ribeiro;Espírito Santo do Pinhal;São Paulo;Privado;35
+SJCU;SJ Agropecuária;Correntina;Bahia;Privado;29
+SWAQ;Érico;Amajari;Roraima;Privado;14
+SIXO;Fazenda Nossa Senhora de Fátima;Comodoro;Mato Grosso;Privado;51
+SSSM;Matheus Lopes Maia da Silva;Itamarati;Amazonas;Privado;13
+SDLU;Fazenda Santa Luíza;Barra Bonita;São Paulo;Privado;35
+SJYD;Fazenda Kajussol;Santa Luzia D'Oeste;Rondônia;Privado;11
+SDYI;Fazenda Buritiz;São Gonçalo do Abaeté;Minas Gerais;Privado;31
+SNOM;Fazenda Guaporeí;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SIWK;Pista Aldeia Moykarako;São Félix do Xingu;Pará;Privado;15
+SNUW;Fazenda Morada Bela;Morada Nova de Minas;Minas Gerais;Privado;31
+SIAC;Fazenda Paineira;São Sebastião da Bela Vista;Minas Gerais;Privado;31
+SJHH;Fazenda Poruína;Serranópolis;Goiás;Privado;52
+SIRX;Fazenda Santo Reis;Lambari D'Oeste;Mato Grosso;Privado;51
+SIPO;Sebastião José Pereira;Condeúba;Bahia;Privado;29
+SSFZ;Fazenda Carolina;Buritis;Minas Gerais;Privado;31
+SNHX;Fazenda Central;Aquidauana;Mato Grosso do Sul;Privado;50
+SWIB;Fazenda Santa Laura;Nova Santa Helena;Mato Grosso;Privado;51
+SNZL;Usina São Luiz;Ourinhos;São Paulo;Privado;35
+SIQH;Estância Ayrton Senna;Caarapó;Mato Grosso do Sul;Privado;50
+SDWE;Palmeiras;Corumbá;Mato Grosso do Sul;Privado;50
+SSWG;Fazenda Galiléia;Baixa Grande do Ribeiro;Piauí;Privado;22
+SWEM;Emal - Empresa de Mineração Aripuanã Ltda;Primavera do Leste;Mato Grosso;Privado;51
+SWOC;Fazenda São Bento do Bocajah;Caracol;Mato Grosso do Sul;Privado;50
+SWYH;Fazenda Aliança;Araputanga;Mato Grosso;Privado;51
+SJNA;Fazenda Nova Aliança;Glicério;São Paulo;Privado;35
+SJAZ;Fazenda Querubim;São Desidério;Bahia;Privado;29
+SJVP;Vila Pitinga;Presidente Figueiredo;Amazonas;Privado;13
+SWDI;Aeroagrícola Solo;Paranapanema;São Paulo;Privado;35
+SWBO;Fazenda Perobal;Corumbiara;Rondônia;Privado;11
+SBQA;FAZENDA FLORESTA;Nazário;Goiás;Privado;52
+SNNF;Fazenda Nossa Senhora de Fátima;Jaraguari;Mato Grosso do Sul;Privado;50
+SDXB;Piracuruca;Piracuruca;Piauí;Privado;22
+SJHQ;Fazenda São José das Reunidas;São José do Xingu;Mato Grosso;Privado;51
+SNKS;Santa Rita de Cássia;Santa Rita de Cássia;Bahia;Privado;29
+SICU;Ouro Branco;Paracatu;Minas Gerais;Privado;31
+SJBW;Berger Vile;;;Privado;
+SJTG;Fazenda Matão;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SNJV;Fazenda Santa Mônica;São João da Ponte;Minas Gerais;Privado;31
+SJEN;Pista Plá e Silva;Santa Vitória do Palmar;Rio Grande do Sul;Privado;43
+SJHO;Fazenda Colorado;Diamantino;Mato Grosso;Privado;51
+SWNF;Franciscus;Divinópolis do Tocantins;Tocantins;Privado;17
+SJYZ;Fazenda Gaúcha;Campo Novo do Parecis;Mato Grosso;Privado;51
+SWCE;Fazenda Centúria Austrália;Formosa do Rio Preto;Bahia;Privado;29
+SSKD;Fazenda Cristal 2;Nova Crixás;Goiás;Privado;52
+SIMF;Fazenda Imperial;Sebastião Leal;Piauí;Privado;22
+SSKE;Luís Antônio Fontenele - Cocal da Estação;Cocal;Piauí;Privado;22
+SDNA;Fazenda Vale Verde;Comendador Gomes;Minas Gerais;Privado;31
+SSGO;Rosada;São Gabriel do Oeste;Mato Grosso do Sul;Privado;50
+SSXA;Asas do MS;Fátima do Sul;Mato Grosso do Sul;Privado;50
+SSZQ;Fazenda Panorama;Bela Vista;Mato Grosso do Sul;Privado;50
+SWSL;SOLAG - Sol e Lua Aviação Agrícola;Lucas do Rio Verde;Mato Grosso;Privado;51
+SSOJ;Fazenda Estrela;Inocência;Mato Grosso do Sul;Privado;50
+SJCA;Comandante Vittório Bonomi;Mococa;São Paulo;Privado;35
+SISM;Sérgio Miranda;Macapá;Amapá;Privado;16
+SWXN;Fazenda Bom Jardim;Montividiu;Goiás;Privado;52
+SDMV;Fazenda Morro Vermelho;Jaú;São Paulo;Privado;35
+SJJX;Porto Conceição;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SDWO;SAUBA;Amajari;Roraima;Privado;14
+SDHP;Modelo II;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SWGF;Fazenda Fortaleza;Novo Aripuanã;Amazonas;Privado;13
+SWOA;Arnapar;Goianira;Goiás;Privado;52
+SJFJ;Fazenda Jaraguá;Terenos;Mato Grosso do Sul;Privado;50
+SDLD;Fazenda Barra Grande;Confresa;Mato Grosso;Privado;51
+SWHD;Fazenda Ipuitã;Naviraí;Mato Grosso do Sul;Privado;50
+SJRT;Aero Agrícola Rio Claro;São José do Rio Claro;Mato Grosso;Privado;51
+SNFQ;Fazenda Bandeirantes;Nova Marilândia;Mato Grosso;Privado;51
+SICM;Fazenda Nossa Senhora de Fátima;Brasilândia;Mato Grosso do Sul;Privado;50
+SNWD;Fazenda Guavirá;Iguatemi;Mato Grosso do Sul;Privado;50
+SNHJ;Usina de José Bonifácio;José Bonifácio;São Paulo;Privado;35
+SSNN;Fazenda Nova Fartura;Planalto da Serra;Mato Grosso;Privado;51
+SWRH;Fazenda Aurora;São Desidério;Bahia;Privado;29
+SISG;Aeroclube de Sergipe;Aracaju;Sergipe;Privado;28
+SJCH;Fernando João Pereira dos Santos Filho;Brejo da Madre de Deus;Pernambuco;Privado;26
+SSUL;Ultraleve Clube de Curitiba;São José dos Pinhais;Paraná;Privado;41
+SSYN;Fazenda Guarani;Nova Andradina;Mato Grosso do Sul;Privado;50
+SNTA;Fazenda São Miguel;Pompéia;São Paulo;Privado;35
+SWDC;Fazenda do Coronel;Coração de Maria;Bahia;Privado;29
+SWHR;Estância Rio Paraná;Presidente Epitácio;São Paulo;Privado;35
+SWNT;Fazenda Aracagi;Peixoto de Azevedo;Mato Grosso;Privado;51
+SWNP;Fazenda Diamante - Jufap;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SNUP;Usina Porto Rico;Campo Alegre;Alagoas;Privado;27
+SIRA;FAZENDA IRACEMA;Cáceres;Mato Grosso;Privado;51
+SNHW;Fazenda Agro-Maratá;Santa Luzia;Maranhão;Privado;21
+SIEM;Fazenda Encantado;Sapezal;Mato Grosso;Privado;51
+SJXV;Fazenda Bela Vista;Amambai;Mato Grosso do Sul;Privado;50
+SJVX;Pagrisa;Ulianópolis;Pará;Privado;15
+SJKI;Hangar Comandante Salomão Alcolumbre;Macapá;Amapá;Privado;16
+SIWR;Fazenda Amazonas;Nova Crixás;Goiás;Privado;52
+SWEF;Fazenda Europa;Cocalinho;Mato Grosso;Privado;51
+SBOJ;Crepurizão;Itaituba;Pará;Privado;15
+SDCW;Fazenda Paloma;Colômbia;São Paulo;Privado;35
+SIZO;Calcário Vale do Araguaia;Cocalinho;Mato Grosso;Privado;51
+SSIC;APLIC Aviação Agrícola LTDA;Dourados;Mato Grosso do Sul;Privado;50
+SDWI;Fazenda Lagoa do Cavalo;Gravatá;Pernambuco;Privado;26
+SNSP;Fazenda Tropical;Baixa Grande do Ribeiro;Piauí;Privado;22
+SJGF;Fazenda Irmãos Garcia;Campo Novo do Parecis;Mato Grosso;Privado;51
+SDPX;Nova Vitória;Pacaraima;Roraima;Privado;14
+SIJQ;A2 Aviação Agrícola Ltda;Alta Floresta;Mato Grosso;Privado;51
+SDXS;Aero Agrícola Boa Safra B1B2;Juara;Mato Grosso;Privado;51
+SWSA;Fazenda Santa Maria;Arapongas;Paraná;Privado;41
+SNWI;Fazenda São João do Guaporé;Nova Lacerda;Mato Grosso;Privado;51
+SSTK;Fazenda Albatroz II;Luís Eduardo Magalhães;Bahia;Privado;29
+SNIK;Kapoto;Peixoto de Azevedo;Mato Grosso;Privado;51
+SIDK;Fazenda Boqueirão de Cedro;Arraias;Tocantins;Privado;17
+SWLF;Filial Campo Florido;Campo Florido;Minas Gerais;Privado;31
+SNIV;Fazenda Jumari;Ipiaçu;Minas Gerais;Privado;31
+SIHA;Agropecuária São Bernardo;São Miguel das Missões;Rio Grande do Sul;Privado;43
+SICP;Fazenda São Pedro;Unaí;Minas Gerais;Privado;31
+SWNU;Fazenda Maringá;Ipixuna do Pará;Pará;Privado;15
+SJME;Mato Grosso;Pacaraima;Roraima;Privado;14
+SNXZ;Fazenda Nazaré;Santa Filomena;Piauí;Privado;22
+SJLD;Fazenda Porto do Campo;Lambari D'Oeste;Mato Grosso;Privado;51
+SSFD;Fazenda Acarajá;Amambai;Mato Grosso do Sul;Privado;50
+SWSM;Sulina Sementes;Diamantino;Mato Grosso;Privado;51
+SJNQ;Destilaria Medasa;Caravelas;Bahia;Privado;29
+SWXG;Fazenda Cachoeirinha;Caiapônia;Goiás;Privado;52
+SJPX;Fazenda Cidade Verde;Poxoréu;Mato Grosso;Privado;51
+SIWU;Fazenda São Sebastião;Aquidauana;Mato Grosso do Sul;Privado;50
+SNNN;Fazenda Buriti II;Arinos;Minas Gerais;Privado;31
+SIQQ;José Bernardo;São Francisco de Itabapoana;Rio de Janeiro;Privado;33
+SNJU;Nossa Senhora Da Penha;São José do Xingu;Mato Grosso;Privado;51
+SDMG;HAXIU;Alto Alegre;Roraima;Privado;14
+SWLZ;Fazenda São Luiz;Paracatu;Minas Gerais;Privado;31
+SDYX;Campo Maior;Campo Maior;Piauí;Privado;22
+SITH;Fazenda Vitória;Luís Eduardo Magalhães;Bahia;Privado;29
+SNNK;Fazenda Santa Bernadette da Volta Grande;Campo Grande;Mato Grosso do Sul;Privado;50
+SSRW;Fazenda J Campos;Porangaba;São Paulo;Privado;35
+SDRC;Fazenda Santana;Rancharia;São Paulo;Privado;35
+SDOE;Fazenda Sibéria;Grajaú;Maranhão;Privado;21
+SJEA;Cadete 56 - 147 Santana;Palmeirópolis;Tocantins;Privado;17
+SSPJ;Pousada Juruena;Nova Bandeirantes;Mato Grosso;Privado;51
+SDFE;Fazenda Pertinho do Céu;Guiratinga;Mato Grosso;Privado;51
+SIFX;Fazenda  Patropi;São Félix do Xingu;Pará;Privado;15
+SWLL;Fazenda Liberdade;Correntina;Bahia;Privado;29
+SIEW;Areia Branca;Novo Aripuanã;Amazonas;Privado;13
+SWHF;Fazenda Chaparral;Correntina;Bahia;Privado;29
+SJZF;Fazenda Campo Triste;Três Lagoas;Mato Grosso do Sul;Privado;50
+SINT;Fazenda Santa Adélia;Santa Isabel;Goiás;Privado;52
+SSDI;Fazenda Bacatuba;Buriti Bravo;Maranhão;Privado;21
+SIGS;Fazenda São Francisco;Mundo Novo;Goiás;Privado;52
+SJIZ;Fazenda Cafenápolis;Eunápolis;Bahia;Privado;29
+SDBP;Fazenda Pontal;Santa Fé de Goiás;Goiás;Privado;52
+SWTU;Fazenda Tucunaré;Sapezal;Mato Grosso;Privado;51
+SSWF;Fazenda Cachoeirinha;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SNJF;Rural Verde;Sítio do Mato;Bahia;Privado;29
+SDQQ;Cia. Agrícola Quatá;Quatá;São Paulo;Privado;35
+SDEM;Estância Machado;Álvares Machado;São Paulo;Privado;35
+SNUZ;Usina Coruripe;Coruripe;Alagoas;Privado;27
+SJEJ;Fazenda Estrela;Alto Alegre;Roraima;Privado;14
+SWYW;Fazenda Adriana;Alto Garças;Mato Grosso;Privado;51
+SIWY;Fazenda Campo Augusta;Corumbá;Mato Grosso do Sul;Privado;50
+SSBX;Fazenda Lageado;Coxim;Mato Grosso do Sul;Privado;50
+SWAN;Fazenda Jamaica;Pompéia;São Paulo;Privado;35
+SDJG;Fazenda São João do Pirajá;Currais;Piauí;Privado;22
+SJMN;Raposa;Normandia;Roraima;Privado;14
+SNVN;Fazenda Vitória Santa;Santa Vitória;Minas Gerais;Privado;31
+SNTD;Fazenda Mamoneira;Natalândia;Minas Gerais;Privado;31
+SSTJ;Walter Ewaldo Siegel;Trombudo Central;Santa Catarina;Privado;42
+SSVA;Fazenda Visa Estância;Ladário;Mato Grosso do Sul;Privado;50
+SIOL;Fazenda Rio Bonito;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SIQD;Fazenda Estância Regina;Terenos;Mato Grosso do Sul;Privado;50
+SWRT;Fazenda Santa Rita;Santa Rita do Araguaia;Goiás;Privado;52
+SJJD;Fazenda Cerro Porã;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWTC;Fazenda Beatriz;Brasilândia;Mato Grosso do Sul;Privado;50
+SJVD;Fazenda Santo André IV;Paranatinga;Mato Grosso;Privado;51
+SJRY;Fazenda Rio Mutuca;Juara;Mato Grosso;Privado;51
+SJPO;Xingó;Piranhas;Alagoas;Privado;27
+SWJM;Fazenda Bom Jesus;Novo Alegre;Tocantins;Privado;17
+SSDU;Fazenda Duas Lagoas;Cáceres;Mato Grosso;Privado;51
+SIQO;Fazenda Santa Glória;Corumbá;Mato Grosso do Sul;Privado;50
+SJKN;Caracanã;Uiramutã;Roraima;Privado;14
+SDJN;Fazenda São Luiz;Jardinópolis;São Paulo;Privado;35
+SDMW;Fazenda Karajá;Nova Crixás;Goiás;Privado;52
+SWWR;Fazenda Roseira;São Raimundo das Mangabeiras;Maranhão;Privado;21
+SWBZ;Projeto Brasil I;Santa Rita de Cássia;Bahia;Privado;29
+SWTZ;Fazenda Santo Antônio - Zampieri;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SSSU;Fazenda Sucuri;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SWLY;Chácara MCL;Andradina;São Paulo;Privado;35
+SDJL;Jales;Jales;São Paulo;Privado;35
+SWXW;Fazenda Montani Bahia;São Desidério;Bahia;Privado;29
+SNZT;Fazenda Recreio;Paragominas;Pará;Privado;15
+SWPE;Fazenda Lagoa da Mata;Carlinda;Mato Grosso;Privado;51
+SIVW;Banaer de Jacupiranga;Jacupiranga;São Paulo;Privado;35
+SDOS;Banaer;Sete Barras;São Paulo;Privado;35
+SNNP;Nilo Peçanha;São Félix do Xingu;Pará;Privado;15
+SWNL;Fazenda São Sebastião;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SJYU;Campo Grande;Pacaraima;Roraima;Privado;14
+SSZN;Fazenda Carandazal;Cáceres;Mato Grosso;Privado;51
+SJSO;Fazenda Divisão II;Lucas do Rio Verde;Mato Grosso;Privado;51
+SDWH;Fazenda Avanhandava;José Bonifácio;São Paulo;Privado;35
+SNZC;Fazenda Cervinho;Aquidauana;Mato Grosso do Sul;Privado;50
+SSFX;Fazenda Primavera;Nova Fátima;Paraná;Privado;41
+SNAN;Empresa Agrícola Chiapeta;Chiapetta;Rio Grande do Sul;Privado;43
+SJVK;Pian;São Lourenço do Sul;Rio Grande do Sul;Privado;43
+SDVZ;Kareli;Parelhas;Rio Grande do Norte;Privado;24
+SSVP;Fazenda São Joaquim;Conceição da Barra;Espírito Santo;Privado;32
+SNZN;Fazenda Naná Porã;Sete Quedas;Mato Grosso do Sul;Privado;50
+SIKQ;Fazenda Sararé;Conquista D'Oeste;Mato Grosso;Privado;51
+SIEO;Fazenda Mendonça;São Sebastião do Oeste;Minas Gerais;Privado;31
+SIBP;Fazenda Pampa Alegre;Itiquira;Mato Grosso;Privado;51
+SWDQ;Fazenda Baia Grande;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SNRK;Fazenda Soledade;Ipameri;Goiás;Privado;52
+SDAO;Fazenda Portela;Diamantino;Mato Grosso;Privado;51
+SJKC;Pista Aldeia Kikretum;Ourilândia do Norte;Pará;Privado;15
+SSPA;Fazenda Marajoara;Cariri do Tocantins;Tocantins;Privado;17
+SSYK;Fazenda Mandaçaia;Buri;São Paulo;Privado;35
+SNTL;Fazenda Treze Estrelas;Araguaína;Tocantins;Privado;17
+SNEJ;J.C. Peralta;Itaituba;Pará;Privado;15
+SDWC;Agropastoril Bom Pastor;Rondonópolis;Mato Grosso;Privado;51
+SNKU;Canudos;Canudos;Bahia;Privado;29
+SWKR;Fazenda Mangue Che II;Itarumã;Goiás;Privado;52
+SNFJ;Pousada Thaimaçu;Jacareacanga;Pará;Privado;15
+SNWH;Fazenda São Matheus;Querência do Norte;Paraná;Privado;41
+SWUB;Belo Horizonte;Araças;Bahia;Privado;29
+SWZT;Fazenda do Brejo ;Paraopeba;Minas Gerais;Privado;31
+SIYF;Fazenda São José;Serranópolis;Goiás;Privado;52
+SSCF;Max Fontoura;Campo Largo;Paraná;Privado;41
+SJQZ;Fazenda Peça Rara Agropecuária II;Alta Floresta D'Oeste;Rondônia;Privado;11
+SSKP;CEAL;Palotina;Paraná;Privado;41
+SDYN;Fazenda Esmeralda;Taciba;São Paulo;Privado;35
+SNTP;Agropalma;Tailândia;Pará;Privado;15
+SSEB;Mata Serena;São Domingos;Goiás;Privado;52
+SDIH;Fazenda Irohy;Biritiba-Mirim;São Paulo;Privado;35
+SWUR;Fazenda Ressaca;Cáceres;Mato Grosso;Privado;51
+SWIM;Fazenda Três Ranchos;Montes Claros de Goiás;Goiás;Privado;52
+SIUC;Fazenda Campo Grande;Januária;Minas Gerais;Privado;31
+SDCL;Fazenda Campo Alegre;Cerqueira César;São Paulo;Privado;35
+SDHR;Fazenda União;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SSBJ;Fazenda Savana;Riachão das Neves;Bahia;Privado;29
+SNGQ;Bom Despacho;Bom Despacho;Minas Gerais;Privado;31
+SSMI;Fazenda São Miguel;Campo Verde;Mato Grosso;Privado;51
+SNDA;Fazenda Vale Formoso;Figueirópolis D'Oeste;Mato Grosso;Privado;51
+SSPU;Fazenda São João do Ibiporã;Pontes e Lacerda;Mato Grosso;Privado;51
+SSQA;Fazenda Guaporé;Comodoro;Mato Grosso;Privado;51
+SIAW;Sítio Gurupi;Ulianópolis;Pará;Privado;15
+SWJU;Fazenda Mundo Novo;Dueré;Tocantins;Privado;17
+SNQE;Fazenda Serra Grande;Parauapebas;Pará;Privado;15
+SDIZ;Fazenda Diamante;Baixa Grande do Ribeiro;Piauí;Privado;22
+SIXG;Fazenda Pouso Alegre;Catalão;Goiás;Privado;52
+SIFF;Sunset Airfield;São Francisco de Paula;Rio Grande do Sul;Privado;43
+SJSJ;Fazenda São Jorge;Eunápolis;Bahia;Privado;29
+SSRO;Fazenda Arrojadinho;Jaborandi;Bahia;Privado;29
+SJAF;Santo Antônio das Furnas;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SIPK;SESC Pantanal;Poconé;Mato Grosso;Privado;51
+SJIP;Fazenda Laguna;Eldorado;Mato Grosso do Sul;Privado;50
+SDNJ;Nascimento II;Capão Bonito;São Paulo;Privado;35
+SIUQ;Fazenda Rancho Alegre;Cocalinho;Mato Grosso;Privado;51
+SSMP;Fazenda Três Minas;Itambé;Paraná;Privado;41
+SWJI;Fazenda Maringá;Baixa Grande do Ribeiro;Piauí;Privado;22
+SJQT;Haras RPC;Nova Lima;Minas Gerais;Privado;31
+SIFT;Fazenda Travessão;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SIDZ;Fazenda Santa Fé;Cristópolis;Bahia;Privado;29
+SJXB;Fazenda Rancho Bonito;Bonito;Mato Grosso do Sul;Privado;50
+SIPF;Feliz;Feliz;Rio Grande do Sul;Privado;43
+SSPZ;Fazenda Redenção;Piracicaba;São Paulo;Privado;35
+SDBE;Biopalma;Moju;Pará;Privado;15
+SDUS;Fazenda Sucuri;Machadinho D'Oeste;Rondônia;Privado;11
+SIGX;Fazenda Gairova;Juara;Mato Grosso;Privado;51
+SIWA;Fazenda Estrela do Aripuanã;Aripuanã;Mato Grosso;Privado;51
+SWQW;Fazenda Bacaeri;Alta Floresta;Mato Grosso;Privado;51
+SNEC;Outeiro das Brisas;Porto Seguro;Bahia;Privado;29
+SIOQ;Fazenda Mato Alto;Iguatemi;Mato Grosso do Sul;Privado;50
+SSIT;Rancho Toca do Lobo;Tangará da Serra;Mato Grosso;Privado;51
+SNAF;Fazenda Aparecida;Penápolis;São Paulo;Privado;35
+SDVO;Clube Voart;Araguaína;Tocantins;Privado;17
+SWZL;Base Aeroverde;Rio Verde;Goiás;Privado;52
+SDQJ;Fazenda Santo Antônio da Serra do Boqueirão;Wanderley;Bahia;Privado;29
+SIAS;Fazenda Cachoeira Alta;Paranatinga;Mato Grosso;Privado;51
+SWBJ;Fazenda Itarema;Canarana;Mato Grosso;Privado;51
+SNFF;Feijó;Fortaleza;Ceará;Privado;23
+SDLN;Primavera;Querência;Mato Grosso;Privado;51
+SNKH;Creputiá;Jacareacanga;Pará;Privado;15
+SJIN;Fazenda Lagoa Baia da Saudade;Cocalinho;Mato Grosso;Privado;51
+SNBE;Fazenda Bela Vista;Novo Horizonte do Sul;Mato Grosso do Sul;Privado;50
+SSFS;Fazenda Sapezal;Sapezal;Mato Grosso;Privado;51
+SIFO;Fazenda Santo Antônio Oriçanga;Estiva Gerbi;São Paulo;Privado;35
+SSKQ;Fazenda Santa Rosa;Nova Crixás;Goiás;Privado;52
+SNVJ;Fazenda Senhora Aparecida;Tangará da Serra;Mato Grosso;Privado;51
+SDMQ;Fazenda Quebracho Brasil;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWED;Fazenda Eldorado;Arapoema;Tocantins;Privado;17
+SSLR;Ocorema;Ladário;Mato Grosso do Sul;Privado;50
+SNEG;Fazenda Netolândia;Tangará da Serra;Mato Grosso;Privado;51
+SWOL;Fazenda Roncador;Barra do Garças;Mato Grosso;Privado;51
+SSXT;Cristal;Borá;São Paulo;Privado;35
+SBTV;Terravista;Porto Seguro;Bahia;Privado;29
+SIMS;Fazenda Califórnia;Camapuã;Mato Grosso do Sul;Privado;50
+SSZL;Fazenda Córrego Azul;Brasilândia;Mato Grosso do Sul;Privado;50
+SDIE;Fazenda Lagoa;Lagoa Grande;Minas Gerais;Privado;31
+SWSP;Sopave Norte;Nova Ubiratã;Mato Grosso;Privado;51
+SITX;Fazenda Estrela do Sul;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SJOP;Fazenda Panflora;Rosário Oeste;Mato Grosso;Privado;51
+SIZN;Fazenda Lagoa Nova;Damianópolis;Goiás;Privado;52
+SDCZ;Fazenda Bom Jardim;Mangaratiba;Rio de Janeiro;Privado;33
+SWFZ;Fazenda Galiléia;Almas;Tocantins;Privado;17
+SDXE;Jeremias de Paula Martins;Jaboticabal;São Paulo;Privado;35
+SIRQ;Fazenda Ouro Verde;Porto Alegre do Norte;Mato Grosso;Privado;51
+SNDJ;Pousada Sucunduri;Borba;Amazonas;Privado;13
+SJMK;Pedra Preta;Uiramutã;Roraima;Privado;14
+SWNA;Novo Aripuanã;Novo Aripuanã;Amazonas;Privado;13
+SSJX;São Bento;Corumbá;Mato Grosso do Sul;Privado;50
+SIUW;Comandante Milton Tosto;Bonito;Bahia;Privado;29
+SIKI;Cialne Irauçuba;Irauçuba;Ceará;Privado;23
+SIIG;Elisa Camargo de Arruda Botelho;Rancharia;São Paulo;Privado;35
+SSFJ;Fazenda Retiro da Cachoeira;Campo Grande;Mato Grosso do Sul;Privado;50
+SJJI;Fazenda São José  ;Matupá;Mato Grosso;Privado;51
+SWMK;Maturacá;Santa Isabel do Rio Negro;Amazonas;Privado;13
+SSYU;Fazenda Concórdia;Naviraí;Mato Grosso do Sul;Privado;50
+SDSB;Fazenda São Sebastião;Rifaina;São Paulo;Privado;35
+SSYE;Fazenda Gabriela;Araputanga;Mato Grosso;Privado;51
+SSCH;Fazenda Cachoeirão;Nova Andradina;Mato Grosso do Sul;Privado;50
+SSNS;Fazenda Pajuçara;Correntina;Bahia;Privado;29
+SWHO;Fazenda Novo Horizonte;Capitão Enéas;Minas Gerais;Privado;31
+SSJO;Fazenda Angico;Corumbá;Mato Grosso do Sul;Privado;50
+SSGM;Fazenda Seriema;Bela Vista;Mato Grosso do Sul;Privado;50
+SNLM;Pousada Pirá-Açu;Apuí;Amazonas;Privado;13
+SJLW;Mudubim 1;Uiramutã;Roraima;Privado;14
+SWLR;Fazenda Perdizes;Silvânia;Goiás;Privado;52
+SWZQ;Fazenda Jussara;Santa Fé de Goiás;Goiás;Privado;52
+SWOG;Fazenda Itaipu;São José do Rio Claro;Mato Grosso;Privado;51
+SWUJ;São Gotardo;São Gotardo;Minas Gerais;Privado;31
+SSXY;Fazenda Rainha da Serra;Uruçuí;Piauí;Privado;22
+SIEJ;Monte Verde;Nova Monte Verde;Mato Grosso;Privado;51
+SINN;Comandante Nelinho;Araranguá;Santa Catarina;Privado;42
+SSZX;Fazenda Ranchinho do Guaporé;Pontes e Lacerda;Mato Grosso;Privado;51
+SSJD;Fazenda Bacaba - JEM;Miranorte;Tocantins;Privado;17
+SDLX;Fazenda Jacareúna;São Félix do Araguaia;Mato Grosso;Privado;51
+SWCO;Fazenda Continental;Cocalinho;Mato Grosso;Privado;51
+SWYE;Fazenda São Lourenço;Alegrete;Rio Grande do Sul;Privado;43
+SSEA;Sesc Serra Azul;Rosário Oeste;Mato Grosso;Privado;51
+SWXP;Fazenda Palmeiras;Corumbá;Mato Grosso do Sul;Privado;50
+SIAT;Fazenda Tolosa;Brasnorte;Mato Grosso;Privado;51
+SICS;Fazenda Santa Terezinha;Santa Rita do Trivelato;Mato Grosso;Privado;51
+SWBN;Fazenda São Gabriel;Balsas;Maranhão;Privado;21
+SIUS;Fazenda Santana;Formosa do Rio Preto;Bahia;Privado;29
+SJKT;Contão;Pacaraima;Roraima;Privado;14
+SWBH;Fazenda São José do Rancho Grande;Aquidauana;Mato Grosso do Sul;Privado;50
+SDXZ;Fazenda Agrorosso;São Miguel do Passa Quatro;Goiás;Privado;52
+SDHE;Fazenda Herdade;Itapira;São Paulo;Privado;35
+SJBX;Severino Lopes;São José de Mipibu;Rio Grande do Norte;Privado;24
+SSNZ;Paradiso Agropecuária;Campos Novos Paulista;São Paulo;Privado;35
+SIAP;Fazenda Nossa Senhora Aparecida;Nova Ubiratã;Mato Grosso;Privado;51
+SJIS;Fazenda Annalu;Deodápolis;Mato Grosso do Sul;Privado;50
+SJBK;Iriri;Altamira;Pará;Privado;15
+SSNV;Fazenda Novo Horizonte;Corumbá;Mato Grosso do Sul;Privado;50
+SSLQ;Fazenda Taiamã;Corumbá;Mato Grosso do Sul;Privado;50
+SWPQ;Fazenda Piraguassu;Porto Alegre do Norte;Mato Grosso;Privado;51
+SJRI;Condomínio Boa Esperança;Ribeiro Gonçalves;Piauí;Privado;22
+SIPU;Guatambu Piauí;Santa Rita de Cássia;Bahia;Privado;29
+SIUU;Fazenda Santa Eulália;Poconé;Mato Grosso;Privado;51
+SNZO;Fazenda Bebida Velha;Touros;Rio Grande do Norte;Privado;24
+SJIJ;Fazenda 2J;Novo São Joaquim;Mato Grosso;Privado;51
+SSUK;Fazenda Menina;Itapura;São Paulo;Privado;35
+SJZP;Mathovi;Novo Mundo;Mato Grosso;Privado;51
+SIEX;Fazenda São Joaquim I;Santa Vitória;Minas Gerais;Privado;31
+SIDV;Doutor Saulo Villela;Juiz de Fora;Minas Gerais;Privado;31
+SSPO;APLIC Aviação agrícola II;Itaporã;Mato Grosso do Sul;Privado;50
+SSXP;Fazenda Sete Barras;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SNDZ;NX GOLD;Nova Xavantina;Mato Grosso;Privado;51
+SSHC;Fazenda Alvemi;Paranaíba;Mato Grosso do Sul;Privado;50
+SSEK;Fazenda Lontra;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SINP;Campo Primavera;Santa Mônica;Paraná;Privado;41
+SIHY;Tom Aviação Agrícola Ltda.;Itápolis;São Paulo;Privado;35
+SSXO;Pousada das Águias;Presidente Castelo Branco;Paraná;Privado;41
+SJDJ;Fazenda São José;Camapuã;Mato Grosso do Sul;Privado;50
+SJNO;Fazenda Bela Nova;Itaju do Colônia;Bahia;Privado;29
+SWKA;Fazenda Cachoeira 2;Buritizeiro;Minas Gerais;Privado;31
+SJAL;Lagoa Grande;Iramaia;Bahia;Privado;29
+SDCF;Fazenda Porto Ciriaco;Aquidauana;Mato Grosso do Sul;Privado;50
+SDGT;Agrotec;Manacapuru;Amazonas;Privado;13
+SDCU;Brigadeiro Francisco Pinto de Moura;Casimiro de Abreu;Rio de Janeiro;Privado;33
+SNFS;Fazenda Barcelona V;Riachão das Neves;Bahia;Privado;29
+SIMP;Fazenda Triunfo;Sonora;Mato Grosso do Sul;Privado;50
+SJVV;Fazenda Viviane;Dueré;Tocantins;Privado;17
+SSMW;ICA;Peruíbe;São Paulo;Privado;35
+SJDI;Fazenda Ipiranga;Loanda;Paraná;Privado;41
+SIMV;Fazenda Mata Velha;Uberaba;Minas Gerais;Privado;31
+SIVK;Fazenda Ilha Verde;Corumbá;Mato Grosso do Sul;Privado;50
+SWYV;Clube de Marte Ibirá de Pára-Quedismo;Ibirá;São Paulo;Privado;35
+SWXB;Fazenda Jangada;Campo Verde;Mato Grosso;Privado;51
+SJFI;Fazenda JAD;Santa Rita do Tocantins;Tocantins;Privado;17
+SSFC;Safra;Dom Pedrito;Rio Grande do Sul;Privado;43
+SJXX;Recreio;Ponta Porã;Mato Grosso do Sul;Privado;50
+SNDI;Fazenda Dois Irmãos;Naviraí;Mato Grosso do Sul;Privado;50
+SWUW;Fazenda Okuhara;Barra do Bugres;Mato Grosso;Privado;51
+SDRQ;Fazenda Brinquinho;São Desidério;Bahia;Privado;29
+SNFW;Fazenda Girua;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SSKO;Fazenda Matrinchã;Brasnorte;Mato Grosso;Privado;51
+SJPE;Pedra;Pedra Lavrada;Paraíba;Privado;25
+SDVM;Fazenda Minas Gerais;Pontes e Lacerda;Mato Grosso;Privado;51
+SBON;Fazenda Renascer;Goiatins;Tocantins;Privado;17
+SJZC;Destilaria São Luiz;Maraial;Pernambuco;Privado;26
+SIIJ;São Geraldo;Bonito;Mato Grosso do Sul;Privado;50
+SDMY;Fazenda Cambuhy;Matão;São Paulo;Privado;35
+SITJ;Estância Tejo;Coxim;Mato Grosso do Sul;Privado;50
+SSYP;Gessomar;Codó;Maranhão;Privado;21
+SWOF;Fazenda Três Fronteiras;Alto Taquari;Mato Grosso;Privado;51
+SJQV;Pousada Amazon Roosevelt;Novo Aripuanã;Amazonas;Privado;13
+SJIV;Fazenda Veneza;Caseara;Tocantins;Privado;17
+SDYG;Fazenda Rosa do Deserto;Ubaíra;Bahia;Privado;29
+SJJJ;Aeroxingu;Altamira;Pará;Privado;15
+SSEC;Fazenda F5;Tupaciguara;Minas Gerais;Privado;31
+SISR;Fazenda Reunidas Sococo;Santa Izabel do Pará;Pará;Privado;15
+SNGM;Fazenda Epemaju;São Félix do Xingu;Pará;Privado;15
+SISK;Fazenda Cimal;Aporé;Goiás;Privado;52
+SIJK;Fazenda Capuame;Camaçari;Bahia;Privado;29
+SJTB;Fazenda Buriti;Chapada dos Guimarães;Mato Grosso;Privado;51
+SSBA;Fazenda Arizona;Formosa do Rio Preto;Bahia;Privado;29
+SDKZ;Caraparu 4;Uiramutã;Roraima;Privado;14
+SSFW;Fazenda Progresso;Mucugê;Bahia;Privado;29
+SSUD;Fazenda Serra Dourada;Itaituba;Pará;Privado;15
+SINJ;Tamanduá Bandeira - MC;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIXB;Fazenda Cambara;Porto dos Gaúchos;Mato Grosso;Privado;51
+SJPW;Fazenda Boa Esperança;Lucas do Rio Verde;Mato Grosso;Privado;51
+SNJL;J Lem;Luís Eduardo Magalhães;Bahia;Privado;29
+SNAH;Fazenda Piloto Padrão KKS37/3;Duque de Caxias;Rio de Janeiro;Privado;33
+SITA;Municipal de Taiobeiras;Taiobeiras;Minas Gerais;Privado;31
+SIKM;Fazenda Viamão;Arame;Maranhão;Privado;21
+SJYK;Baixo Catrimani;Caracaraí;Roraima;Privado;14
+SDXI;Cel Porto;Camapuã;Mato Grosso do Sul;Privado;50
+SNIJ;Joca Viol;Birigui;São Paulo;Privado;35
+SJWL;Doutor Mauro de Souza Castro;Campo Largo;Paraná;Privado;41
+SWKL;Fazenda Primavera do Terebinto;Alto Alegre dos Parecis;Rondônia;Privado;11
+SSOZ;Fazenda Onça Parda;Antônio João;Mato Grosso do Sul;Privado;50
+SWGQ;Fazenda Monte Alegre;Nova Olímpia;Mato Grosso;Privado;51
+SWMH;Fazenda Bom Pastor;Itapirapuã;Goiás;Privado;52
+SJJW;Fazenda Canamari;Quirinópolis;Goiás;Privado;52
+SDFF;Fazenda Fusão;Lábrea;Amazonas;Privado;13
+SSMF;Fazenda Santri;Barão de Melgaço;Mato Grosso;Privado;51
+SSMK;El Dorado;Eldorado do Sul;Rio Grande do Sul;Privado;43
+SDVK;Fazenda São Pedro;Nova Andradina;Mato Grosso do Sul;Privado;50
+SWKP;Pista Aldeia Krãnhãmpare;São Félix do Xingu;Pará;Privado;15
+SNVA;Fazenda Bela Vista;Cumaru do Norte;Pará;Privado;15
+SILZ;Fazenda Santo Expedito IV;Rio Sono;Tocantins;Privado;17
+SNQB;FERMAP;Sorriso;Mato Grosso;Privado;51
+SDYW;Luzilandia;Luzilândia;Piauí;Privado;22
+SIGF;Rumenos Sarkis Simão;Padre Bernardo;Goiás;Privado;52
+SIFQ;Condomínio Menega;Flores da Cunha;Rio Grande do Sul;Privado;43
+SIIU;Santa Marta;Campo Florido;Minas Gerais;Privado;31
+SIIP;Fazenda Paraíso;Alfenas;Minas Gerais;Privado;31
+SWEB;Bahiagliding;Formosa do Rio Preto;Bahia;Privado;29
+SINM;Fazenda Mangabas;Santa Vitória;Minas Gerais;Privado;31
+SSPH;Fazenda Santa Lucia;Lucas do Rio Verde;Mato Grosso;Privado;51
+SNNC;Fazenda Namocoli;Corumbá;Mato Grosso do Sul;Privado;50
+SIYA;CAT - Clube Aéreo Taquari;Vilhena;Rondônia;Privado;11
+SIDF;Fazenda São José;Cáceres;Mato Grosso;Privado;51
+SSJJ;Fazenda Brejon;Camapuã;Mato Grosso do Sul;Privado;50
+SSSL;Fazenda Santa Luzia;Alto Paraíso;Paraná;Privado;41
+SIVF;Fazenda Santa Cruz;Querência;Mato Grosso;Privado;51
+SSSK;FC;Codó;Maranhão;Privado;21
+SJCZ;Fazenda Cascata;Ipiranga do Norte;Mato Grosso;Privado;51
+SSNK;Fazenda Campanário;Bodoquena;Mato Grosso do Sul;Privado;50
+SSSF;Fazenda Frances;Acreúna;Goiás;Privado;52
+SNCO;AGROPECUÁRIA SANTA PAOLA;Tacuru;Mato Grosso do Sul;Privado;50
+SDDV;Usina Catanduva;Palmares Paulista;São Paulo;Privado;35
+SDAJ;Fazenda Recanto;Jateí;Mato Grosso do Sul;Privado;50
+SIBC;Fazenda Bonança;Pereira Barreto;São Paulo;Privado;35
+SDTX;Fazenda São José;Ilha Solteira;São Paulo;Privado;35
+SWKV;Fazenda Beira Rio;Itaúba;Mato Grosso;Privado;51
+SJOX;Fazenda Alegria;São José do Xingu;Mato Grosso;Privado;51
+SWSH;Fazenda Agropecuária Nossa Senhora Aparecida;João Pinheiro;Minas Gerais;Privado;31
+SNNB;Fazenda Cana Brava;Paracatu;Minas Gerais;Privado;31
+SNNM;Entre Rios;Guarapuava;Paraná;Privado;41
+SIJG;Fazenda Jaguaretê;Guararapes;São Paulo;Privado;35
+SWJS;Santa Rosa Pantanal Hotel;Poconé;Mato Grosso;Privado;51
+SNXT;Pousada Alvorada;Barão de Melgaço;Mato Grosso;Privado;51
+SBOF;FAZENDA BANDEIRANTES;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SJML;Piolho;Pacaraima;Roraima;Privado;14
+SJWT;Fazenda Tucumã;Correntina;Bahia;Privado;29
+SIEF;Fazenda São José;Campo Grande;Mato Grosso do Sul;Privado;50
+SWXX;Fazenda Canadá;Uberlândia;Minas Gerais;Privado;31
+SDUM;Usina Vale do Pontal;Limeira do Oeste;Minas Gerais;Privado;31
+SSED;Fazenda Escalada;Pedro Gomes;Mato Grosso do Sul;Privado;50
+SNVY;Fazenda Ouro Verde;Paranhos;Mato Grosso do Sul;Privado;50
+SWUL;Fazenda Furna Azul;Ananás;Tocantins;Privado;17
+SDHS;Fazenda Ouro Branco ;Porto dos Gaúchos;Mato Grosso;Privado;51
+SJYL;Baixo Mucajaí;Alto Alegre;Roraima;Privado;14
+SISL;Fazenda Santa Lúcia;Barão de Melgaço;Mato Grosso;Privado;51
+SJHN;Fazenda Meio Século;Itaquiraí;Mato Grosso do Sul;Privado;50
+SWPT;Ventura I;São Desidério;Bahia;Privado;29
+SWAS;Usina Açucareira Santo Antônio;Sertãozinho;São Paulo;Privado;35
+SSOY;Fazenda Morada do Sol;Nova Maringá;Mato Grosso;Privado;51
+SSHA;Aeroclube de Aquidauana;Aquidauana;Mato Grosso do Sul;Privado;50
+SBOL;Fazenda Santa Lúcia;Aporé;Goiás;Privado;52
+SDZX;Fazenda Suri;Campinápolis;Mato Grosso;Privado;51
+SWOQ;Fazenda Vista Verde;Palmeira do Piauí;Piauí;Privado;22
+SNIX;Fazenda Masutti;Campos de Júlio;Mato Grosso;Privado;51
+SWFD;Fazenda Don Felipe;Ponta Porã;Mato Grosso do Sul;Privado;50
+SNMB;Fazenda Santa Maria;Corumbá;Mato Grosso do Sul;Privado;50
+SIVR;Fazenda Fortuna;Jacareacanga;Pará;Privado;15
+SSXM;Fazenda Guaciara;Jateí;Mato Grosso do Sul;Privado;50
+SIKX;Fazenda Água Boa ;Juara;Mato Grosso;Privado;51
+SJHV;Granja 4 Irmãos - Taim;Rio Grande;Rio Grande do Sul;Privado;43
+SNKB;Aeroclube de Campina Grande;Campina Grande;Paraíba;Privado;25
+SNFN;Fazenda Santa Fé;Jardinópolis;São Paulo;Privado;35
+SNDF;Fecularia Lopes;Itaúna do Sul;Paraná;Privado;41
+SIRT;Fazenda Guapirama;Diamantino;Mato Grosso;Privado;51
+SJXC;Usina Santa Cruz;Santa Cruz Cabrália;Bahia;Privado;29
+SDMP;Fazenda DIMEP;Itatinga;São Paulo;Privado;35
+SWPH;Fazenda Paulo Abreu;Barra do Garças;Mato Grosso;Privado;51
+SNPN;Fazenda Água Fria;Lavínia;São Paulo;Privado;35
+SIYH;Fazenda Cruzeiro;Rio Verde de Mato Grosso;Mato Grosso do Sul;Privado;50
+SWRA;Fazenda Bela Vista;Nova Monte Verde;Mato Grosso;Privado;51
+SWQT;Fazenda São Nicolau;Cotriguaçu;Mato Grosso;Privado;51
+SJPR;Asas de Balsa Nova;Balsa Nova;Paraná;Privado;41
+SDFH;Fazenda Amália;Santa Rosa de Viterbo;São Paulo;Privado;35
+SSZK;Fazenda Água Santa;Perdizes;Minas Gerais;Privado;31
+SSZY;Fazenda Nascente;Jaciara;Mato Grosso;Privado;51
+SWEQ;Clube de Esportes Aéreos e Náuticos do Pará;Belém;Pará;Privado;15
+SIHP;Fazenda Esperança;Itapeva;São Paulo;Privado;35
+SDWX;Pista Sol Nascente;Itaituba;Pará;Privado;15
+SIWO;Fazenda Juliana;Chupinguaia;Rondônia;Privado;11
+SIJL;São João da Barra;São João da Barra;Rio de Janeiro;Privado;33
+SWBK;Fazenda Paladino;São Desidério;Bahia;Privado;29
+SWJX;Fazenda Eldorado;Gaúcha do Norte;Mato Grosso;Privado;51
+SJMM;Pipi;Uiramutã;Roraima;Privado;14
+SJBU;Fazenda Alto Jaborandir;Jaborandi;Bahia;Privado;29
+SDSD;Samã I;Pacaraima;Roraima;Privado;14
+SIGY;Fazenda Guadiana;Martinópolis;São Paulo;Privado;35
+SBOG;Fazenda Vereda Grande;Vitória da Conquista;Bahia;Privado;29
+SWFG;Fazenda Guanabara;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SWSN;Fazenda São Valentim;Pontes e Lacerda;Mato Grosso;Privado;51
+SDDE;Fazenda Dois Irmãos;Manicoré;Amazonas;Privado;13
+SSNF;Fazenda Naisa;Colômbia;São Paulo;Privado;35
+SJMT;São Miguel Cachoeirinha;Pacaraima;Roraima;Privado;14
+SNVP;Fazenda Paraíso;Várzea da Palma;Minas Gerais;Privado;31
+SIVO;Fazenda Malu;Bom Jesus do Araguaia;Mato Grosso;Privado;51
+SIGT;Fazenda Goiabeira;Itaberá;São Paulo;Privado;35
+SWSC;Fazenda São Carlos;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SNCQ;Dal Molin;Santa Izabel do Oeste;Paraná;Privado;41
+SSHE;Fazenda Nova Guaporé;Comodoro;Mato Grosso;Privado;51
+SSEX;Estância Caiman;Miranda;Mato Grosso do Sul;Privado;50
+SSDQ;Fazenda Marema;Miranda;Mato Grosso do Sul;Privado;50
+SWCJ;Fazenda Campo Alegre;Palmeira do Piauí;Piauí;Privado;22
+SWML;Fazenda Nova Santa Rita;Itaituba;Pará;Privado;15
+SNUX;Fazenda Santo Antônio;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SIXF;Fazenda Lageado;Três Lagoas;Mato Grosso do Sul;Privado;50
+SINZ;Xanadu;Fernandes Pinheiro;Paraná;Privado;41
+SNYO;Fazenda Rio Preto;Guararapes;São Paulo;Privado;35
+SSZG;Fazenda São João;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SDKL;Caracaranã;Normandia;Roraima;Privado;14
+SWDS;Condomínio Aéreo Santos Dumont;Ji-Paraná;Rondônia;Privado;11
+SIRN;Fazenda Jaó;Nova Xavantina;Mato Grosso;Privado;51
+SJVB;Bugio;Pedrinhas Paulista;São Paulo;Privado;35
+SWQC;Fazenda São Francisco;Rio Verde;Goiás;Privado;52
+SNUJ;Fazenda São Francisco;Indiavaí;Mato Grosso;Privado;51
+SWMO;Fazenda Mirandópolis;Juscimeira;Mato Grosso;Privado;51
+SWFI;Fazenda Santa Paula;Cáceres;Mato Grosso;Privado;51
+SJEQ;Fazenda Cristal;Corumbá;Mato Grosso do Sul;Privado;50
+SSPC;Fazenda Santa Júlia;Cocalinho;Mato Grosso;Privado;51
+SSTU;Fazenda Tujuri;Eldorado;Mato Grosso do Sul;Privado;50
+SIOI;Fazenda Onça Parda;Novo Horizonte do Sul;Mato Grosso do Sul;Privado;50
+SWUX;Fazenda 4 Amigos;Abreulândia;Tocantins;Privado;17
+SWFL;Fazenda Peixe Bravo;Santa Terezinha;Mato Grosso;Privado;51
+SNIS;Fazenda Rio Largo;Caxias;Maranhão;Privado;21
+SITV;Fazenda Serra Dourada;Coxim;Mato Grosso do Sul;Privado;50
+SJVU;Maicom Manica;Unaí;Minas Gerais;Privado;31
+SJJL;Fazenda Campo Aberto;Barreiras;Bahia;Privado;29
+SSCU;Fazenda Santa Marina;Santa Maria das Barreiras;Pará;Privado;15
+SSDW;Fazenda Potrich;Sorriso;Mato Grosso;Privado;51
+SNZV;Fazenda Jamaica;Ulianópolis;Pará;Privado;15
+SNQW;Cururu;Jacareacanga;Pará;Privado;15
+SWCF;Fazenda Califórnia;São Félix do Xingu;Pará;Privado;15
+SJVF;Fazenda Várzea Funda;Cáceres;Mato Grosso;Privado;51
+SJJF;Pousada do Rio Roosevelt;Novo Aripuanã;Amazonas;Privado;13
+SIFJ;Fazenda Bom Jesus;Pedra Preta;Mato Grosso;Privado;51
+SSQO;Fazenda Sequóia;Angelândia;Minas Gerais;Privado;31
+SWVK;Fazenda Vale do Rio Celeste;Nova Ubiratã;Mato Grosso;Privado;51
+SWYC;Fazenda Rancho Alegre I;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SIAO;Fazenda Araras;Corguinho;Mato Grosso do Sul;Privado;50
+SDRV;Tenoar;Chapadão do Sul;Mato Grosso do Sul;Privado;50
+SDFZ;Fazenda Santana;Riachão das Neves;Bahia;Privado;29
+SDOQ;Fazenda Campo Claro;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SDCJ;Fazenda São Domingos;Alto Araguaia;Mato Grosso;Privado;51
+SSWN;Fazenda Cayman;São Félix do Araguaia;Mato Grosso;Privado;51
+SIUG;Fazenda Santa Irene;Sandovalina;São Paulo;Privado;35
+SISX;Santa Terezinha;Aquidauana;Mato Grosso do Sul;Privado;50
+SDHK;Fazenda Tulipa;Campinorte;Goiás;Privado;52
+SJSB;Fazenda São Bento do Nabileque;Corumbá;Mato Grosso do Sul;Privado;50
+SJLA;Flechal;Uiramutã;Roraima;Privado;14
+SJXS;Veracel;Belmonte;Bahia;Privado;29
+SSTY;Fazenda Tosana;Cabo Frio;Rio de Janeiro;Privado;33
+SBQD;Fazenda Vaca Branca;Alta Floresta;Mato Grosso;Privado;51
+SIIC;Celeiro 1;Jaborandi;Bahia;Privado;29
+SSYR;José Mendes Ribeiro;São João dos Patos;Maranhão;Privado;21
+SNIW;Fazenda Carmelo;Maracaju;Mato Grosso do Sul;Privado;50
+SDZK;Waphuta;Alto Alegre;Roraima;Privado;14
+SINA;Asas do Ar;Brasília;Distrito Federal;Privado;53
+SNXA;Brigadeiro Sampaio;Tamboril;Ceará;Privado;23
+SWFC;Fazenda Cedro;Lucas do Rio Verde;Mato Grosso;Privado;51
+SNWJ;Fazenda Rancho Grande;Indiavaí;Mato Grosso;Privado;51
+SWFQ;Fazenda Alvorada;Porto Nacional;Tocantins;Privado;17
+SSBY;Orlando Chesini Ometto;Miranda;Mato Grosso do Sul;Privado;50
+SDDI;Fazenda Tamara;Salmourão;São Paulo;Privado;35
+SSVR;Adão Veríssimo;Itinga do Maranhão;Maranhão;Privado;21
+SIFC;Coroa do Avião;Igarassu;Pernambuco;Privado;26
+SJMR;Maragogipe;Iguatemi;Mato Grosso do Sul;Privado;50
+SWWZ;Fazenda WSA;General Carneiro;Mato Grosso;Privado;51
+SSQG;Fazenda Bom Gosto ;Rondon do Pará;Pará;Privado;15
+SDOB;Fazenda São José O.B.;Tapiratiba;São Paulo;Privado;35
+SDSG;Ipiranga;Alto Taquari;Mato Grosso;Privado;51
+SWCD;Colider;Colíder;Mato Grosso;Privado;51
+SIHB;Fazenda Soberana;Grajaú;Maranhão;Privado;21
+SSVX;Valeu Boi Leilões;Rio Maria;Pará;Privado;15
+SJPV;Reserva Pituba;Coruripe;Alagoas;Privado;27
+SDDD;Fazenda São Francisco;Corumbá;Mato Grosso do Sul;Privado;50
+SWAE;Uaicas;Alto Alegre;Roraima;Privado;14
+SIDR;Retiro Piúva;Miranda;Mato Grosso do Sul;Privado;50
+SDUF;Fazenda Touro Peru;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWVS;Baía do Padre;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SJIR;Engenheiro Joaquim Martins;Iramaia;Bahia;Privado;29
+SDHX;D'Tapes;Tapes;Rio Grande do Sul;Privado;43
+SNYY;Sítio São Luiz;Boa Esperança;Paraná;Privado;41
+SWRW;Fazenda Santa Alice;Mirassol d'Oeste;Mato Grosso;Privado;51
+SNMD;Mundico Coelho;Itaituba;Pará;Privado;15
+SWOZ;Fazenda Santo Antônio;Campo Verde;Mato Grosso;Privado;51
+SJNG;Xidea;Alto Alegre;Roraima;Privado;14
+SITI;Fazenda Baluarte;Lagoa dos Patos;Minas Gerais;Privado;31
+SJRU;Fazenda Terra Roxa;Santa Maria das Barreiras;Pará;Privado;15
+SIBK;Aeroclube de Bagé;Bagé;Rio Grande do Sul;Privado;43
+SJCP;Fazenda São Roberto;Paraúna;Goiás;Privado;52
+SWJA;FAZENDA AERO-AMIL;Itajaí;Santa Catarina;Privado;42
+SJCS;Fazenda Santa Carmem;Porto Velho;Rondônia;Privado;11
+SWGL;AAGV - Associação Aerodesportiva de Getulio Vargas;Getúlio Vargas;Rio Grande do Sul;Privado;43
+SWGP;Nilton Perillo de Oliveira/ Palmeiras de Goiás;Palmeiras de Goiás;Goiás;Privado;52
+SSPE;Essência Retiro do Rio Cuiabá;Nobres;Mato Grosso;Privado;51
+SNXS;Agropecuária Lazarotto;Tapurah;Mato Grosso;Privado;51
+SJAQ;Fazenda Renascença;Uruana de Minas;Minas Gerais;Privado;31
+SNSH;São José;Santarém;Pará;Privado;15
+SNPT;Fazenda Paraíso;Conceição das Alagoas;Minas Gerais;Privado;31
+SNOJ;Fazenda Paz;Formosa do Rio Preto;Bahia;Privado;29
+SNWX;Fazenda Vista Alegre;Campo Grande;Mato Grosso do Sul;Privado;50
+SJGY;Fazenda Barriguda;São Domingos;Goiás;Privado;52
+SIWX;Fazenda Comil;Sapezal;Mato Grosso;Privado;51
+SIWD;Pequena Holanda I;Alto Parnaíba;Maranhão;Privado;21
+SSBM;Fazenda Lageado;Dois Irmãos do Buriti;Mato Grosso do Sul;Privado;50
+SIWT;Fazenda Santa Terezinha I;Santa Terezinha;Mato Grosso;Privado;51
+SSBU;Fazenda Baguaçu - Miragem;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SDOA;Fazenda Lagoa da Floresta;Barra do Corda;Maranhão;Privado;21
+SWEP;Estância Punta Del Este;Sertaneja;Paraná;Privado;41
+SIKW;Fazenda Vista Linda ;Mucuri;Bahia;Privado;29
+SIRI;Barra Grande;Maraú;Bahia;Privado;29
+SJQD;Grupo Shimohira;Formosa do Rio Preto;Bahia;Privado;29
+SWLM;Fazenda Mustang II;Candeias do Jamari;Rondônia;Privado;11
+SJTH;Fazenda Pôr do Sol;Cristalina;Goiás;Privado;52
+SNAY;Fazenda São João;Pontes e Lacerda;Mato Grosso;Privado;51
+SWJH;Sementes Beé;Tapejara;Rio Grande do Sul;Privado;43
+SWXO;Fazenda Porto Seguro;São Félix do Xingu;Pará;Privado;15
+SWDB;Fazenda Barro Preto;Corumbá;Mato Grosso do Sul;Privado;50
+SSME;Fazenda Ipiranga;Anastácio;Mato Grosso do Sul;Privado;50
+SJBF;Fazenda Santa Bárbara;Manga;Minas Gerais;Privado;31
+SDBI;Fazenda Piray;Sete Quedas;Mato Grosso do Sul;Privado;50
+SJRP;Grupo Pronorte;Marcelândia;Mato Grosso;Privado;51
+SDES;Estância Colorado;Sales Oliveira;São Paulo;Privado;35
+SNBJ;Fazenda São Gotardo;Brasnorte;Mato Grosso;Privado;51
+SJOJ;Simasa;Açailândia;Maranhão;Privado;21
+SBOY;Fazenda São José;Corumbá;Mato Grosso do Sul;Privado;50
+SSXC;Fazenda Laguna Porã;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SIBV;Fazenda Bela Vista;Nova Alvorada do Sul;Mato Grosso do Sul;Privado;50
+SISW;Fazenda Mato Grosso;Campos de Júlio;Mato Grosso;Privado;51
+SSKF;Fazenda Santa Fé;Iranduba;Amazonas;Privado;13
+SDFC;Fazenda Constância;Altair;São Paulo;Privado;35
+SJLS;Marupá;Bonfim;Roraima;Privado;14
+SJQJ;Fazenda Fortaleza;Jaborandi;São Paulo;Privado;35
+SIKJ;Fazenda JK;Comodoro;Mato Grosso;Privado;51
+SIQF;Fazenda Palmital;Morro Agudo;São Paulo;Privado;35
+SJBH;Fazenda Canaã;Canarana;Mato Grosso;Privado;51
+SDZW;Jonis Pereco;Buritizeiro;Minas Gerais;Privado;31
+SNXE;Aero Z Ferrus;Ferreira Gomes;Amapá;Privado;16
+SWOS;Fazenda Santa Márcia;Caiapônia;Goiás;Privado;52
+SJFL;Fazenda Campo Formoso;Sandolândia;Tocantins;Privado;17
+SIYN;Recanto dos Mouras;Afogados da Ingazeira;Pernambuco;Privado;26
+SDZO;Waromada;Uiramutã;Roraima;Privado;14
+SNAD;Fazenda Águia Branca;Centro Novo do Maranhão;Maranhão;Privado;21
+SBOM;Fazenda Santa Maria;Lambari D'Oeste;Mato Grosso;Privado;51
+SNZE;Fazenda Santa Zélia;Itaqui;Rio Grande do Sul;Privado;43
+SJJO;João de Oliveira Bueno;Monte Alegre de Goiás;Goiás;Privado;52
+SNUV;Rancho Bela Vista;São José do Rio Claro;Mato Grosso;Privado;51
+SJGZ;Fazenda Araçatuba;Anaurilândia;Mato Grosso do Sul;Privado;50
+SJRO;Fazenda Santa Elisa;Auriflama;São Paulo;Privado;35
+SNSY;Fazenda São José;Anastácio;Mato Grosso do Sul;Privado;50
+SISZ;Fazenda São José;Couto Magalhães;Tocantins;Privado;17
+SWMA;Fazenda Córrego do Mato;Figueirão;Mato Grosso do Sul;Privado;50
+SJGJ;Sítio São Jorge;Itapeva;São Paulo;Privado;35
+SSCJ;Fazenda Celeiro;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SWCU;Fazenda Curuá;Altamira;Pará;Privado;15
+SSXF;Fátima do Sul;Fátima do Sul;Mato Grosso do Sul;Privado;50
+SDIC;Fazenda Capão Seco;Formiga;Minas Gerais;Privado;31
+SNON;André Textor;Montividiu;Goiás;Privado;52
+SJTM;Santa Cecília;Mirandópolis;São Paulo;Privado;35
+SWZA;Agrosan;Juara;Mato Grosso;Privado;51
+SNCL;Lorenzo;Cairu;Bahia;Privado;29
+SWYX;Horizonte Azul;Gaúcha do Norte;Mato Grosso;Privado;51
+SDZH;Fazenda Santa Helena;Pindamonhangaba;São Paulo;Privado;35
+SDRA;Fazenda das Represas;São Miguel Arcanjo;São Paulo;Privado;35
+SJTR;Fazenda Timbaúba I;Aurora do Tocantins;Tocantins;Privado;17
+SJHX;Fazenda Ouro Verde;Unaí;Minas Gerais;Privado;31
+SNNQ;Fazenda Mina de Ouro;Paranatinga;Mato Grosso;Privado;51
+SNOG;Ceará Mirim;Ceará-Mirim;Rio Grande do Norte;Privado;24
+SNEZ;Fazenda Palmeira do Capim;Novo Brasil;Goiás;Privado;52
+SJUB;Fazenda Rio Azul;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SWBT;Fazenda Tupi;Nova Andradina;Mato Grosso do Sul;Privado;50
+SNFG;Pista Fogoió;Itaituba;Pará;Privado;15
+SJDM;Fazenda Jarinã;Peixoto de Azevedo;Mato Grosso;Privado;51
+SWIX;JPO;Sorriso;Mato Grosso;Privado;51
+SWJB;Fazenda Jubá;Barra do Bugres;Mato Grosso;Privado;51
+SNOK;Fazenda Chão de Estrelas;Aurora do Pará;Pará;Privado;15
+SJSN;Fazenda Carvalho;São Luiz do Norte;Goiás;Privado;52
+SSTA;Fazenda Santa Cecília II;Corumbá;Mato Grosso do Sul;Privado;50
+SSFH;Vale dos Dinossauros;Uberaba;Minas Gerais;Privado;31
+SSQU;Fazenda Alegrete - Retiro Carandá;Aquidauana;Mato Grosso do Sul;Privado;50
+SNEL;Fazenda Joá;Caarapó;Mato Grosso do Sul;Privado;50
+SIYX;Fazenda Tereré;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWKF;Fazenda Furnas do Sararé;Pontes e Lacerda;Mato Grosso;Privado;51
+SDNY;Fazenda Ponte Serrada;Campo Novo do Parecis;Mato Grosso;Privado;51
+SWRS;Fazenda Santa Mônica;Rondonópolis;Mato Grosso;Privado;51
+SWTG;Fazenda Santa Marina;Santo Antônio do Aracanguá;São Paulo;Privado;35
+SJKZ;Estevão;Uiramutã;Roraima;Privado;14
+SNYL;Fazenda Morro Alto;Nova Canaã do Norte;Mato Grosso;Privado;51
+SSDX;Fazenda da Coxilha;Camaquã;Rio Grande do Sul;Privado;43
+SWBV;Auaris;Amajari;Roraima;Privado;14
+SJPI;Porto Bonito;Itaquiraí;Mato Grosso do Sul;Privado;50
+SDAR;Fazenda Agrovera;Porto dos Gaúchos;Mato Grosso;Privado;51
+SDLZ;Campo Verde;Campo Verde;Mato Grosso;Privado;51
+SDKC;Fazenda São Lucas;Gália;São Paulo;Privado;35
+SDAF;Fazenda Palmeiras;Analândia;São Paulo;Privado;35
+SINS;Fazenda Grupo Nissey;Cáceres;Mato Grosso;Privado;51
+SWZO;Fazenda Lagoa Funda;Campo Verde;Mato Grosso;Privado;51
+SJDU;Nossa Senhora do Loreto;Uruguaiana;Rio Grande do Sul;Privado;43
+SJNK;Fazenda Três Perobas;Santa Luzia D'Oeste;Rondônia;Privado;11
+SJZN;Fazenda Cima;Sapezal;Mato Grosso;Privado;51
+SDAN;Fazenda Santo Ângelo;Brotas;São Paulo;Privado;35
+SNOP;Vale da Providência;Rondolândia;Mato Grosso;Privado;51
+SNRH;João Fonseca;Envira;Amazonas;Privado;13
+SWXD;Joatão do Colorado;São Félix do Araguaia;Mato Grosso;Privado;51
+SJQO;Fazenda Confiança;Baixa Grande do Ribeiro;Piauí;Privado;22
+SWSV;Fazenda Santa Silvia;Cocalinho;Mato Grosso;Privado;51
+SSAT;Vazante;Vazante;Minas Gerais;Privado;31
+SSXV;Fazenda Santa Rita;Naviraí;Mato Grosso do Sul;Privado;50
+SJKE;Pista Aldeia Kedjêrêkrã;São Félix do Xingu;Pará;Privado;15
+SSRC;Fazenda Santa Inês;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SJLL;Maturuca;Uiramutã;Roraima;Privado;14
+SNQF;Fazenda Paraíso;Inocência;Mato Grosso do Sul;Privado;50
+SJUC;Fazenda Santa Cruz;Padre Bernardo;Goiás;Privado;52
+SSFO;Fazenda Novo Horizonte;Miranda;Mato Grosso do Sul;Privado;50
+SSQM;Malibu do Parecis;Brasnorte;Mato Grosso;Privado;51
+SNGH;Fazenda Esparrame;Figueirão;Mato Grosso do Sul;Privado;50
+SWQX;Fazenda Cachoeira;Água Clara;Mato Grosso do Sul;Privado;50
+SJLT;Milho;Boa Vista;Roraima;Privado;14
+SWIP;Fazenda Três Rios;Unaí;Minas Gerais;Privado;31
+SIQG;Fazenda Guanandy;Ponta Porã;Mato Grosso do Sul;Privado;50
+SDLV;Fazenda São Francisco;Florestópolis;Paraná;Privado;41
+SWZG;Fazenda Lagoa Encantada;Porto Esperidião;Mato Grosso;Privado;51
+SWWH;Fazenda Marca Salto;Angélica;Mato Grosso do Sul;Privado;50
+SDFT;Virgolino de Oliveira;Itapira;São Paulo;Privado;35
+SJEG;Estância Esmeralda;Corumbá;Mato Grosso do Sul;Privado;50
+SIEQ;Fazenda Tauá;Nova Mutum;Mato Grosso;Privado;51
+SNLK;Skydive Litoral;Saquarema;Rio de Janeiro;Privado;33
+SNGY;Salles;Castanhal;Pará;Privado;15
+SWAO;Anamoim;São Gabriel da Cachoeira;Amazonas;Privado;13
+SSNJ;Fazenda Primavera;Aquidauana;Mato Grosso do Sul;Privado;50
+SJCF;SÍTIO FLYER;Palmas;Tocantins;Privado;17
+SJMP;Santa Liberdade;Uiramutã;Roraima;Privado;14
+SJDF;Fazenda Futura;Brasilândia de Minas;Minas Gerais;Privado;31
+SJCN;Fazenda Jacuba;Mineiros;Goiás;Privado;52
+SWXS;Fazenda Poças;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SSSV;Fazenda Palmitos;Nova Ubiratã;Mato Grosso;Privado;51
+SSFQ;Fazenda Canoa Quebrada;Grajaú;Maranhão;Privado;21
+SSJR;Fazenda São Roque;Sorriso;Mato Grosso;Privado;51
+SSTW;Quissamã;Quissamã;Rio de Janeiro;Privado;33
+SWRU;Grupo Rotta;Novo Progresso;Pará;Privado;15
+SDOL;Fazenda Agropesp;Tapurah;Mato Grosso;Privado;51
+SSWV;Fazenda Vista Alegre;São Félix do Xingu;Pará;Privado;15
+SIPG;Fazenda Água Preta;Cocalinho;Mato Grosso;Privado;51
+SNGT;Gentio do Ouro;Gentio do Ouro;Bahia;Privado;29
+SDKA;Angical;Normandia;Roraima;Privado;14
+SIFS;Fazenda dos Sonhos;Anastácio;Mato Grosso do Sul;Privado;50
+SJFV;Fazenda Gaia;Monte Alegre de Minas;Minas Gerais;Privado;31
+SSJS;Autos do Sangue;Brasnorte;Mato Grosso;Privado;51
+SWPA;Fazenda Futura;Nova Ubiratã;Mato Grosso;Privado;51
+SJXG;Fazenda Agrovás;São Félix do Araguaia;Mato Grosso;Privado;51
+SDNS;Fazenda Furnas;Chapada dos Guimarães;Mato Grosso;Privado;51
+SJEL;Fazenda Santa Helena;Cornélio Procópio;Paraná;Privado;41
+SIRH;Fazenda Morada da Lua;Coxim;Mato Grosso do Sul;Privado;50
+SNWL;Fazenda Santarém;Bandeirantes;Mato Grosso do Sul;Privado;50
+SWLX;Fazenda Analice;Jauru;Mato Grosso;Privado;51
+SJDY;Fazenda da Barra;Figueirão;Mato Grosso do Sul;Privado;50
+SWAL;Fazenda Santa Albana;Itapetininga;São Paulo;Privado;35
+SJRJ;Fazenda Jacaré;Campo Grande;Mato Grosso do Sul;Privado;50
+SWJP;Vila Bittencourt;Japurá;Amazonas;Privado;13
+SNNX;Cabanha Umbú;Barra do Quaraí;Rio Grande do Sul;Privado;43
+SJEF;Fazenda Costa Rica;Aquidauana;Mato Grosso do Sul;Privado;50
+SDPZ;Sossego;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SDUA;Vale do Curuá;Novo Progresso;Pará;Privado;15
+SNMV;Fazenda Flávia;Alcinópolis;Mato Grosso do Sul;Privado;50
+SNUG;Fazenda Eunice;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SWXA;Fazenda Canadazinho;Jussara;Goiás;Privado;52
+SSJL;Fazenda Murará;Bonfim;Roraima;Privado;14
+SJVM;Estância Califórnia;Alta Floresta;Mato Grosso;Privado;51
+SSDC;Caxixe (ACA);Venda Nova do Imigrante;Espírito Santo;Privado;32
+SJYO;Bananal;Uiramutã;Roraima;Privado;14
+SSUY;Fazenda Fundão;Paracatu;Minas Gerais;Privado;31
+SWJD;Fazenda Genipapo;São Domingos;Goiás;Privado;52
+SSSH;Fazenda Santo Inácio;Corumbá;Mato Grosso do Sul;Privado;50
+SDYE;Fazenda São Diego;Formosa do Rio Preto;Bahia;Privado;29
+SWXR;Fazenda Flights Ranch;Santana;Bahia;Privado;29
+SJKW;Cumanã 2;Pacaraima;Roraima;Privado;14
+SDRT;Ponto Geral;Pacaraima;Roraima;Privado;14
+SSHN;Recanto das Águias;Iguaraçu;Paraná;Privado;41
+SJVR;Fazenda São Joaquim;Jardim;Mato Grosso do Sul;Privado;50
+SWUC;Fazenda Ouro Verde II;Campo Novo do Parecis;Mato Grosso;Privado;51
+SJUD;Fazenda Uberaba;Comodoro;Mato Grosso;Privado;51
+SJCC;Fazenda Serrana;Correntina;Bahia;Privado;29
+SSFV;Fazenda Viveiros;Pirapora;Minas Gerais;Privado;31
+SWBS;Rolim de Moura;Rolim de Moura;Rondônia;Privado;11
+SNJJ;Fazenda Vô Anízio;Dois Irmãos do Buriti;Mato Grosso do Sul;Privado;50
+SWZY;Fazenda Estrela do Sangue;Brasnorte;Mato Grosso;Privado;51
+SJEV;Evanderto Almeida;Assaré;Ceará;Privado;23
+SIQJ;Morro do Chapéu II;Chapada dos Guimarães;Mato Grosso;Privado;51
+SDBZ;Fazenda Brauna;Arraias;Tocantins;Privado;17
+SJWV;Fazenda São Judas;São Miguel do Araguaia;Goiás;Privado;52
+SSGF;Fazenda Formosa;Ribas do Rio Pardo;Mato Grosso do Sul;Privado;50
+SNRN;Fazenda 20 de Maio;Getulina;São Paulo;Privado;35
+SNQZ;Fazenda Taquarussu;Caarapó;Mato Grosso do Sul;Privado;50
+SBQC;Fazenda Cantagalo;Nova Mutum;Mato Grosso;Privado;51
+SIDO;Pagador;Presidente Prudente;São Paulo;Privado;35
+SSTX;Fazenda Lagoa dos Patos;Riacho dos Machados;Minas Gerais;Privado;31
+SJWQ;Aeroclube de Birigui - CMTE Munir Djabak;Birigui;São Paulo;Privado;35
+SWQL;Fazenda Três Companheiros;Doverlândia;Goiás;Privado;52
+SNXG;Fazenda dos Castanhais;Sapucaia;Pará;Privado;15
+SJNX;Cosmos Aviação Agrícola;Chapadão do Céu;Goiás;Privado;52
+SIPA;Aeroclube São José do Rio Pardo;São José do Rio Pardo;São Paulo;Privado;35
+SSWB;COOPADF;Brasília;Distrito Federal;Privado;53
+SJLU;Missão Catrimani;Caracaraí;Roraima;Privado;14
+SWGJ;Fazenda Campo Grande;Baianópolis;Bahia;Privado;29
+SICF;Fazenda Catuaí;Juara;Mato Grosso;Privado;51
+SDCX;Celeiro 2;Monte Alegre do Piauí;Piauí;Privado;22
+SWEV;Fazenda Cambara 1;Correntina;Bahia;Privado;29
+SNLJ;Fazenda Campo Aliancinha;Corumbá;Mato Grosso do Sul;Privado;50
+SWLK;Fazenda Boa Vista - Grupo IJP;Sorriso;Mato Grosso;Privado;51
+SSLI;Fazenda Nova Piúva;Aquidauana;Mato Grosso do Sul;Privado;50
+SNBN;Balbinot;Portel;Pará;Privado;15
+SWEJ;Associação Tocantinense de Aviação;Porto Nacional;Tocantins;Privado;17
+SSYI;Fazenda Sesmarias;Itaeté;Bahia;Privado;29
+SIGN;ACGC;Mimoso de Goiás;Goiás;Privado;52
+SWFK;Fazenda Kurupay;Angélica;Mato Grosso do Sul;Privado;50
+SSOD;Fazenda Pouso Alegre;Miranda;Mato Grosso do Sul;Privado;50
+SNXV;Tranquilo Testolin;Felixlândia;Minas Gerais;Privado;31
+SNNR;Fazenda Nossa Senhora Medianeira;Naviraí;Mato Grosso do Sul;Privado;50
+SJJN;Fazenda Shangri-lá;Alta Floresta;Mato Grosso;Privado;51
+SBQT;Fazenda Campo Formoso;Tesouro;Mato Grosso;Privado;51
+SSQI;Santa Anastácia I;Sorriso;Mato Grosso;Privado;51
+SIDY;Fazenda Yanduy;Lunardelli;Paraná;Privado;41
+SILS;BIG MASTER;Tangará da Serra;Mato Grosso;Privado;51
+SSRK;Campo Alegre de Lourdes;Campo Alegre de Lourdes;Bahia;Privado;29
+SJGW;Fazenda São Geraldo;Couto Magalhães;Tocantins;Privado;17
+SDBX;Eloy Biesuz;Itapejara d'Oeste;Paraná;Privado;41
+SDNL;Fazenda Santa Claudina;Caarapó;Mato Grosso do Sul;Privado;50
+SWUH;Fazenda Primavera;Cáceres;Mato Grosso;Privado;51
+SSVE;Fazenda Cerro Verde;Tacuru;Mato Grosso do Sul;Privado;50
+SSKN;Takeo Noguchi;Araraquara;São Paulo;Privado;35
+SDXY;Sitio Cajuapara;Itinga do Maranhão;Maranhão;Privado;21
+SJZE;Fazenda Tapiraguaia;Santa Terezinha;Mato Grosso;Privado;51
+SWHN;Fazenda Colibri;Selvíria;Mato Grosso do Sul;Privado;50
+SJVQ;Fazenda Rio Verde;Loreto;Maranhão;Privado;21
+SIVU;João Monteiro;Vila Velha;Espírito Santo;Privado;32
+SWWE;M. Baumann;Piên;Paraná;Privado;41
+SIFE;Fazenda Estiva;Maracaju;Mato Grosso do Sul;Privado;50
+SWTI;São Vicente;Nova Lacerda;Mato Grosso;Privado;51
+SNDP;Derso Portilho Vieira;São Félix do Araguaia;Mato Grosso;Privado;51
+SNFL;Fly Lagos;Cabo Frio;Rio de Janeiro;Privado;33
+SJTO;Tabuleiro III;São Desidério;Bahia;Privado;29
+SBOO;Fazenda Ceita Corê;Bonito;Mato Grosso do Sul;Privado;50
+SJRS;Fazenda Guanabara;Junqueirópolis;São Paulo;Privado;35
+SWLD;Condomínio Milla ;Baixa Grande do Ribeiro;Piauí;Privado;22
+SIBJ;Fazenda Retiro do Bom Fim;Ipiaçu;Minas Gerais;Privado;31
+SJVY;Fazenda Vitória;Itarumã;Goiás;Privado;52
+SWJF;Fazenda São Francisco;Corumbá;Mato Grosso do Sul;Privado;50
+SDQF;Fazenda Floresta;Santo Antônio da Barra;Goiás;Privado;52
+SIKR;Fazenda Barra Mansa;Aquidauana;Mato Grosso do Sul;Privado;50
+SNZP;Fazenda Três Lagoas;Sapezal;Mato Grosso;Privado;51
+SWUK;Uapui-Cachoeira;São Gabriel da Cachoeira;Amazonas;Privado;13
+SJAK;Aerobako;Sinop;Mato Grosso;Privado;51
+SSQL;Fazenda La Poveda;Felixlândia;Minas Gerais;Privado;31
+SNII;Fazenda Joazeiro;Corumbá;Mato Grosso do Sul;Privado;50
+SNYT;Ituaçu;Ituaçu;Bahia;Privado;29
+SSAI;Fazenda Panamá;Iaciara;Goiás;Privado;52
+SIKN;Fazenda Bonanza;Arame;Maranhão;Privado;21
+SNBF;Fazenda Vale Verde;Canarana;Mato Grosso;Privado;51
+SWHQ;Fazenda Santa Cruz;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SJSS;Agrifor;Sorriso;Mato Grosso;Privado;51
+SWQE;Querari;São Gabriel da Cachoeira;Amazonas;Privado;13
+SJOK;Fazenda Modelo;Paraíso das Águas;Mato Grosso do Sul;Privado;50
+SWVU;Fazenda Ramalhete;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SJFN;Fazenda Brasil Novo;Coxim;Mato Grosso do Sul;Privado;50
+SJWE;Fazenda Santa Delfina;Miranda;Mato Grosso do Sul;Privado;50
+SNUA;Fazenda Paulista;Santa Terezinha de Itaipu;Paraná;Privado;41
+SDAS;Fazenda Santo Antônio;Mirandópolis;São Paulo;Privado;35
+SWDR;Fazenda Bandeirantes;Taquarussu;Mato Grosso do Sul;Privado;50
+SIQE;Planalto Central;Brasília;Distrito Federal;Privado;53
+SIEZ;Asa Branca;Tubarão;Santa Catarina;Privado;42
+SIYK;Fazenda Sorriso Metálico;Urutaí;Goiás;Privado;52
+SSKB;Fazenda Tupanciretã;Aquidauana;Mato Grosso do Sul;Privado;50
+SWFF;Fazenda Franciosi;Sapezal;Mato Grosso;Privado;51
+SJFT;Fazenda Triunfo do Rio Turvo;Nova Bandeirantes;Mato Grosso;Privado;51
+SIAJ;Fazenda Tauá;Prado;Bahia;Privado;29
+SJQI;Hotel Porto Jofre;Poconé;Mato Grosso;Privado;51
+SJMZ;Fazenda Mizote;São Desidério;Bahia;Privado;29
+SDSE;Sítio Santa Helena;Gabriel Monteiro;São Paulo;Privado;35
+SIAY;Fazenda Santa Fé do Guaporé;Comodoro;Mato Grosso;Privado;51
+SDYF;Fazenda Irmãos Munaretto;Lucas do Rio Verde;Mato Grosso;Privado;51
+SNAI;Fazenda Nossa Senhora das Graças;Jateí;Mato Grosso do Sul;Privado;50
+SJHW;Professor Maurício Joppert;Engenheiro Navarro;Minas Gerais;Privado;31
+SWJQ;Fazenda São João;Paranhos;Mato Grosso do Sul;Privado;50
+SJHK;Fazenda Santa Maria do Porto da Capivara;Barão de Melgaço;Mato Grosso;Privado;51
+SNUD;Fazenda Arruda Ramos;Porto Esperidião;Mato Grosso;Privado;51
+SSNR;Fazenda Novo Horizonte;Coxim;Mato Grosso do Sul;Privado;50
+SWTL;Fazenda Corumbiara;Parecis;Rondônia;Privado;11
+SDJF;Fazenda Jequitibá;Buri;São Paulo;Privado;35
+SDSI;Fazenda Alice;Sambaíba;Maranhão;Privado;21
+SIJO;Fazenda São Sebastião do Jatobazinho;Corumbá;Mato Grosso do Sul;Privado;50
+SSKR;Fazenda Primavera;Paraúna;Goiás;Privado;52
+SSUA;Fazenda Sonora Estância;Sonora;Mato Grosso do Sul;Privado;50
+SNWZ;Fazenda Santa Maria;Santana do Araguaia;Pará;Privado;15
+SIEB;Fazenda São Bento;Sidrolândia;Mato Grosso do Sul;Privado;50
+SJRV;PCH Garganta da Jararaca;Nova Maringá;Mato Grosso;Privado;51
+SWEC;Estância das Cascatas;Aragarças;Goiás;Privado;52
+SDWV;Chácara Maringá;Senador José Porfírio;Pará;Privado;15
+SDWN;Fazenda Barreiro Grande;Colômbia;São Paulo;Privado;35
+SNKC;Cocos;Cocos;Bahia;Privado;29
+SSFI;Fazenda Eldorado da Formosa;Corumbá;Mato Grosso do Sul;Privado;50
+SWFE;Fazenda São Félix;Machadinho D'Oeste;Rondônia;Privado;11
+SSEM;Fazenda Girassol do Prata;Santo Antônio do Leverger;Mato Grosso;Privado;51
+SNFV;Serra da Pintura;Santa Fé de Goiás;Goiás;Privado;52
+SWUU;Fazenda Três Marias;Água Clara;Mato Grosso do Sul;Privado;50
+SWXZ;Fazenda Taquarussu;Comodoro;Mato Grosso;Privado;51
+SJKV;Cumanã 1;Pacaraima;Roraima;Privado;14
+SSYO;Usina São Simão;São Simão;Goiás;Privado;52
+SSHL;Fazenda Jussara;Jussara;Paraná;Privado;41
+SNNO;Fazenda São Domingos;Comodoro;Mato Grosso;Privado;51
+SNEK;Fazenda Acalanto;São Desidério;Bahia;Privado;29
+SJGR;Santa Maria;Flores de Goiás;Goiás;Privado;52
+SWBI;Santa Colomba Cafés;Cocos;Bahia;Privado;29
+SDYJ;JOSÉ MARTINS DA SILVA;Regente Feijó;São Paulo;Privado;35
+SJXA;Clube de Aviação de Itaúna;Itaúna;Minas Gerais;Privado;31
+SNCM;FAZENDA CAMPARINO;Cáceres;Mato Grosso;Privado;51
+SSHF;Fazenda Gerais;Formosa do Rio Preto;Bahia;Privado;29
+SSVT;Aníbal;Russas;Ceará;Privado;23
+SJNP;Novo Progresso;Novo Progresso;Pará;Privado;15
+SDLR;Luiz Ribeiro Maia;Tapauá;Amazonas;Privado;13
+SWJY;Professora Francisca Cardoso;São Miguel de Taipu;Paraíba;Privado;25
+SJGH;Aeropel;São Borja;Rio Grande do Sul;Privado;43
+SDDJ;Fazenda Santa Maria;Monções;São Paulo;Privado;35
+SWKE;Cobrape;Formoso do Araguaia;Tocantins;Privado;17
+SIGW;Fazenda Serra Grande;Ribeiro Gonçalves;Piauí;Privado;22
+SSQJ;Fazenda Buriti 10;Paracatu;Minas Gerais;Privado;31
+SWSJ;Fazenda São José;Sapezal;Mato Grosso;Privado;51
+SJNR;Fazenda Rosário;;;Privado;
+SIXL;Fazenda Barra do Triunfo;São Félix do Xingu;Pará;Privado;15
+SDZF;Fazenda Lamarão;Brasília;Distrito Federal;Privado;53
+SIYE;Fazenda Barra do Agudo;Morro Agudo;São Paulo;Privado;35
+SDKO;Fazenda Campo Grande;Colômbia;São Paulo;Privado;35
+SSZO;Santa Marta I;Santa Maria das Barreiras;Pará;Privado;15
+SJDV;Fazenda Redenção;Aquidauana;Mato Grosso do Sul;Privado;50
+SWRQ;Aero Park;Teresina;Piauí;Privado;22
+SSGL;FNSC;Sorriso;Mato Grosso;Privado;51
+SILO;Fazenda Santa Luzia;Aruanã;Goiás;Privado;52
+SSKY;Fazenda Querência;Tangará da Serra;Mato Grosso;Privado;51
+SIMN;Aviação Agrícola Manain;Sinop;Mato Grosso;Privado;51
+SNVR;Aeroclube da Bahia;Vera Cruz;Bahia;Privado;29
+SIRF;José Múcio Monteiro;Rio Formoso;Pernambuco;Privado;26
+SDJS;Andorinha;Uiramutã;Roraima;Privado;14
+SJZS;Fazenda Canel;Uruçuí;Piauí;Privado;22
+SJYH;Fazenda Cachoeira Alta;Santana do Araguaia;Pará;Privado;15
+SINQ;Laranjal;Laranjal do Jari;Amapá;Privado;16
+SNYJ;Pista São Jorge;Jacareacanga;Pará;Privado;15
+SWWV;Posto de Proteção Ambiental Santa Maria;Barão de Melgaço;Mato Grosso;Privado;51
+SNFR;Presidente Roosevelt;Novo Aripuanã;Amazonas;Privado;13
+SNNV;Vila Nova;Joinville;Santa Catarina;Privado;42
+SIVN;Fazenda Sansara;Montes Claros;Minas Gerais;Privado;31
+SWAR;Fazenda Aruanã;Ribeirão Cascalheira;Mato Grosso;Privado;51
+SWFP;Fazenda Prata;Rurópolis;Pará;Privado;15
+SJXE;Deputado Moraes Souza;Buriti dos Lopes;Piauí;Privado;22
+SWNJ;Fazenda Itaquerê;Novo São Joaquim;Mato Grosso;Privado;51
+SJBC;Fazenda União;Cumaru do Norte;Pará;Privado;15
+SIPH;Fazenda Ipanema;Correntina;Bahia;Privado;29
+SDNQ;Fazenda Água Limpa;Senador Guiomard;Acre;Privado;12
+SNIY;Fazenda Fartura;Planalto da Serra;Mato Grosso;Privado;51
+SIVZ;Mata-Fome;Itaqui;Rio Grande do Sul;Privado;43
+SDTA;Tasi;Sinop;Mato Grosso;Privado;51
+SIWC;Asas do Cerrado;Uberlândia;Minas Gerais;Privado;31
+SNJD;Fazenda Jardim;Chapadão do Céu;Goiás;Privado;52
+SIRV;Fazenda Morro Branco;Porto Esperidião;Mato Grosso;Privado;51
+SJPU;Clube de Ultraleves do Piauí;Teresina;Piauí;Privado;22
+SWVF;Fazenda Santo Antônio do Guaporé;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SIEV;Fazenda Boca da Onça;Bodoquena;Mato Grosso do Sul;Privado;50
+SIIA;Fazenda Paraná;Brasnorte;Mato Grosso;Privado;51
+SWZD;Fazenda Denusa Destilaria Nova União;Jandaia;Goiás;Privado;52
+SWFO;Fazenda Santa Maria;Formosa do Rio Preto;Bahia;Privado;29
+SSJP;Fazenda Junqueira;Colorado;Paraná;Privado;41
+SINH;Fazenda Esperança;Novo Horizonte do Sul;Mato Grosso do Sul;Privado;50
+SNUS;Usina Delta I;Delta;Minas Gerais;Privado;31
+SDQT;Fazenda Vista Alegre;Novo Horizonte do Sul;Mato Grosso do Sul;Privado;50
+SIJY;Campo Comandantes;Itajaí;Santa Catarina;Privado;42
+SDWF;SAPAN;Pacaraima;Roraima;Privado;14
+SIZS;Agropecuária Equus;Gaúcha do Norte;Mato Grosso;Privado;51
+SJZR;Fazenda Rodeio;São Miguel do Guaporé;Rondônia;Privado;11
+SJFM;Fazenda Macuco;Eldorado;Mato Grosso do Sul;Privado;50
+SDXU;Fazenda Relu;Gaúcha do Norte;Mato Grosso;Privado;51
+SSTP;Fazenda Baessa;Turvelândia;Goiás;Privado;52
+SSDS;Fazenda Vale;Tapurah;Mato Grosso;Privado;51
+SDFY;Fazenda Valença;Rio Negro;Mato Grosso do Sul;Privado;50
+SJNF;Wilimon;Uiramutã;Roraima;Privado;14
+SBOA;Fazenda Antas;Sapé;Paraíba;Privado;25
+SIAB;Guatambu São Paulo;Buri;São Paulo;Privado;35
+SSGU;Fazenda Gurucaia;Santa Isabel do Ivaí;Paraná;Privado;41
+SNGO;Montes Claros de Goiás;Montes Claros de Goiás;Goiás;Privado;52
+SJQF;Fazenda Londrina;Campo Novo do Parecis;Mato Grosso;Privado;51
+SSGE;Fazenda Periquitos;Três Lagoas;Mato Grosso do Sul;Privado;50
+SJLJ;Jatapuzinho;Caroebe;Roraima;Privado;14
+SIXA;Fazenda União Suzanápolis;Suzanápolis;São Paulo;Privado;35
+SSGP;Piquet;Brasília;Distrito Federal;Privado;53
+SWPD;Pouso da Águia;Cantá;Roraima;Privado;14
+SJGN;Fazenda Agromar;São José do Rio Claro;Mato Grosso;Privado;51
+SJLQ;Maracanã;Uiramutã;Roraima;Privado;14
+SNQQ;Centroar;Flores de Goiás;Goiás;Privado;52
+SDNW;Fazenda Guanabara;Rio Negro;Mato Grosso do Sul;Privado;50
+SJIC;Pedro da Costa Lima;Santa Rita do Pardo;Mato Grosso do Sul;Privado;50
+SSGT;Fazenda Capão Alto;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SJQP;Estância Rebog;Cocalinho;Mato Grosso;Privado;51
+SWBD;Fazenda Mundo Acabado;Sonora;Mato Grosso do Sul;Privado;50
+SD6Z;VCM;Guararapes;São Paulo;Privado;35
+SNLE;Estância Mil;Corumbá;Mato Grosso do Sul;Privado;50
+SDJX;Fazenda Serra Dourada;Palmeirópolis;Tocantins;Privado;17
+SJAH;Fazenda Gesso Integral;Grajaú;Maranhão;Privado;21
+SSKH;Fazenda Karl Hermann Isenberg;Aral Moreira;Mato Grosso do Sul;Privado;50
+SIJE;Fazenda Joana Estância;Corumbá;Mato Grosso do Sul;Privado;50
+SJMW;Socó;Uiramutã;Roraima;Privado;14
+SIIN;Fazenda Marrecão;São Miguel do Guaporé;Rondônia;Privado;11
+SSRR;Fazenda Meu Ranchinho;Pedro Gomes;Mato Grosso do Sul;Privado;50
+SNLD;Fazenda São Luiz do Matão;Carneirinho;Minas Gerais;Privado;31
+SWTH;Fazenda Smith;Bonfim;Roraima;Privado;14
+SNFM;Fazenda Mourão;Colniza;Mato Grosso;Privado;51
+SJZL;Fazenda Vaca Mocha;Caracol;Mato Grosso do Sul;Privado;50
+SIOZ;Pista Aldeia Kenjdã;Altamira;Pará;Privado;15
+SJWG;Itagro;Alegrete;Rio Grande do Sul;Privado;43
+SJFG;Fazenda Fartura;Campo Verde;Mato Grosso;Privado;51
+SJCQ;Fazenda Serra Azul;Baixa Grande;Bahia;Privado;29
+SIZK;Fazenda Vera Cruz;Barra do Garças;Mato Grosso;Privado;51
+SWYS;Usina Cerradão;Frutal;Minas Gerais;Privado;31
+SSXQ;Fazenda Jota III;Inocência;Mato Grosso do Sul;Privado;50
+SWSG;Fazenda Simarelli;Campos de Júlio;Mato Grosso;Privado;51
+SSLL;Fazenda Vale Verde;Porto Velho;Rondônia;Privado;11
+SWXL;Fazenda Santa Maria ;Inocência;Mato Grosso do Sul;Privado;50
+SJTK;Fazenda Itakiray;Itaquiraí;Mato Grosso do Sul;Privado;50
+SWHL;Fazenda Marabá;Campo Verde;Mato Grosso;Privado;51
+SJUI;Fazenda Uirapuru ;Araguanã;Tocantins;Privado;17
+SNRV;Fazenda Rio Vermelho;Sapucaia;Pará;Privado;15
+SDDC;Fazenda São João do Guaporé;Pontes e Lacerda;Mato Grosso;Privado;51
+SIUH;Fazenda Flores;Tamboril;Ceará;Privado;23
+SWSU;Fazenda Santa Umbelina;Naviraí;Mato Grosso do Sul;Privado;50
+SDCH;Fazenda Rosa dos Ventos;Itumbiara;Goiás;Privado;52
+SJCR;Fazenda Rebeca;Brejolândia;Bahia;Privado;29
+SNTV;Fazenda Timbaúba;Luís Eduardo Magalhães;Bahia;Privado;29
+SSKA;Fazenda Campinas;Corumbá;Mato Grosso do Sul;Privado;50
+SNYP;Chácara Paraíso;Benevides;Pará;Privado;15
+SSVV;Fazenda Garimpinho;Figueirão;Mato Grosso do Sul;Privado;50
+SIII;Dr. Heráclito da Motta Luiz;Guaíra;São Paulo;Privado;35
+SJGE;Nações Unidas;Itaituba;Pará;Privado;15
+SWPW;CEA-Caçapava;Caçapava;São Paulo;Privado;35
+SSMB;Fazenda Oriente;Valença;Rio de Janeiro;Privado;33
+SDVS;Fazenda Vassoural;Pontal;São Paulo;Privado;35
+SDDA;Fazenda Santa Alaydes;Corumbá;Mato Grosso do Sul;Privado;50
+SBOB;Fazenda Buriti;Unaí;Minas Gerais;Privado;31
+SDTS;Fazenda Planalto;Jaraguari;Mato Grosso do Sul;Privado;50
+SDTE;Fazenda Tapijara;Arandu;São Paulo;Privado;35
+SIFA;Fazenda Sete;Aquidauana;Mato Grosso do Sul;Privado;50
+SJAV;Aerocéu Aviação Agrícola;Chapadão do Céu;Goiás;Privado;52
+SSBK;Fazenda Araruna;Sonora;Mato Grosso do Sul;Privado;50
+SIKK;Calciolândia;Arcos;Minas Gerais;Privado;31
+SDJR;JN Resort;Sete Lagoas;Minas Gerais;Privado;31
+SDOX;Fazenda Água Fria;Xinguara;Pará;Privado;15
+SDCR;Fazenda Caiçara;Itanhaém;São Paulo;Privado;35
+SSKI;Fazenda Cristo Rei;Parecis;Rondônia;Privado;11
+SWXT;Fazenda Parnaguá;Santa Filomena;Piauí;Privado;22
+SWAV;Fazenda Vale dos Sonhos;Palestina de Goiás;Goiás;Privado;52
+SJSH;Fly Ville;Governador Celso Ramos;Santa Catarina;Privado;42
+SIGL;Fazenda Dumont - Chiquinho Ribeiro;Bragança Paulista;São Paulo;Privado;35
+SJNB;Ubarú;Pacaraima;Roraima;Privado;14
+SJOW;Fazenda Guadalupe;Santo Antônio do Aracanguá;São Paulo;Privado;35
+SIUB;Fazenda Uberaba;Cáceres;Mato Grosso;Privado;51
+SDQZ;Fazenda Espinhaço II;Barra do Garças;Mato Grosso;Privado;51
+SIXV;Fazenda Rancho do Planalto;Alcinópolis;Mato Grosso do Sul;Privado;50
+SDVJ;Fazenda Santa Marta;Santa Maria das Barreiras;Pará;Privado;15
+SNZY;Fazenda Lago Vermelho;Buritizeiro;Minas Gerais;Privado;31
+SWMT;Chácara São Matheus;Japurá;Paraná;Privado;41
+SJYS;Camará;Normandia;Roraima;Privado;14
+SSAH;Fazenda Sorriso;São Félix do Araguaia;Mato Grosso;Privado;51
+SILD;Pachu Aviação Agrícola;Olímpia;São Paulo;Privado;35
+SNQJ;Fazenda Aerovilas;Divinópolis;Minas Gerais;Privado;31
+SJLM;Leão de Ouro;Amajari;Roraima;Privado;14
+SJMX;Suapí;Pacaraima;Roraima;Privado;14
+SWDT;Dezoito;Nerópolis;Goiás;Privado;52
+SIXM;Cifi;Cuiabá;Mato Grosso;Privado;51
+SSBG;Aeroclube de Bento Gonçalves;Bento Gonçalves;Rio Grande do Sul;Privado;43
+SDLW;Fazenda Colorado;Aruanã;Goiás;Privado;52
+SSWR;Fazenda Campana;Rio Brilhante;Mato Grosso do Sul;Privado;50
+SSIS;Major José Ignácio;Ibaté;São Paulo;Privado;35
+SDCK;Fazenda Gleba da Barra;Brasilândia de Minas;Minas Gerais;Privado;31
+SWER;Fazenda Entre Rios;Porto Murtinho;Mato Grosso do Sul;Privado;50
+SWRG;Rancho Maria e Tereza;Guajará-Mirim;Rondônia;Privado;11
+SWNB;Luís Eduardo Magalhães;Luís Eduardo Magalhães;Bahia;Privado;29
+SDZV;Fazenda Lagoa Vermelha;Tesouro;Mato Grosso;Privado;51
+SIEK;Fazenda Espírito Santo;Cachoeira do Arari;Pará;Privado;15
+SWBY;Fazenda Bela Vista;Indiara;Goiás;Privado;52
+SJLO;Manalai;Uiramutã;Roraima;Privado;14
+SWWM;Mantena;Mantena;Minas Gerais;Privado;31
+SSDG;Fazenda Nossa Senhora das Graças;Sorriso;Mato Grosso;Privado;51
+SSEV;Fazenda São Camilo;Corumbá;Mato Grosso do Sul;Privado;50
+SIIE;Fazenda Santa Fé;Guia Lopes da Laguna;Mato Grosso do Sul;Privado;50
+SITB;Fazenda Touro Branco;Naviraí;Mato Grosso do Sul;Privado;50
+SJWO;Joule Agropecuária;Cocalinho;Mato Grosso;Privado;51
+SWES;Clube de Aviação Experimental do Paraná;Ibiporã;Paraná;Privado;41
+SNPG;Fazenda Uval;Corumbá;Mato Grosso do Sul;Privado;50
+SIQS;Fazenda Terra do Sol;Porto Estrela;Mato Grosso;Privado;51
+SNAJ;Fazenda Jaguaré;Paragominas;Pará;Privado;15
+SNRJ;Juruti;Juruti;Pará;Privado;15
+SIYI;Fazenda Planalto ;Montividiu;Goiás;Privado;52
+SSSA;Fazenda Sant'Anna do APA;Bela Vista;Mato Grosso do Sul;Privado;50
+SSPD;Fazenda Paraguá;Vila Bela da Santíssima Trindade;Mato Grosso;Privado;51
+SBBV;Aeroporto Internacional de Boa Vista;Boa Vista;Roraima;Público;14
+SBFE;Aeroporto de Feira de Santana;Feira de Santana;Bahia;Público;29
+SBGU;Aeroporto Tancredo Thomas de Farias;Guarapuava;Paraná;Público;41
+SBQV;Aeroporto Pedro Otacílio Figueiredo;Vitória da Conquista;Bahia;Público;29
+SWSI;Presidente João Batista Figueiredo;Sinop;Mato Grosso;Público;51
