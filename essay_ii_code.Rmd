@@ -51,3 +51,80 @@ ESTBAN = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/E
                                                                 
 ```
 
+```{r base_transformation, include=FALSE}
+
+# importing aerodromo database
+aerodromos = read_delim(url("https://raw.githubusercontent.com/jrtonin/thesis_essay_ii/main/data/aerodromos.csv"), 
+                        delim = ";", escape_double = FALSE, 
+                        locale = locale(encoding = "ISO-8859-1"), 
+                        trim_ws = TRUE)
+
+# importing lat and lon by city
+urlfile = "https://raw.githubusercontent.com/kelvins/Municipios-Brasileiros/main/csv/municipios.csv"
+latlon = read_csv(url(urlfile)) %>%
+  mutate(code_city = codigo_ibge,
+         lat = latitude,
+         lon = longitude,
+         city = nome,
+         uf_code = codigo_uf) %>% 
+  dplyr::select(code_city, city, uf_code, lat, lon)
+
+# including IBGE code and lat and lon
+aerodromos = aerodromos %>%
+  left_join(latlon, by = c("city", "uf_code"))
+
+# changing NA's
+ HAUSMAN[is.na(HAUSMAN)] = 0
+
+# merging ESTBAN and HAUSMAN data
+LBASE1a = LBASE1 %>%
+  left_join(aerodromos %>% dplyr::select(code, code_city), by = c("air_dep" = "code")) %>%
+  mutate(code_city_dep = code_city) %>% dplyr::select(-code_city) %>%
+  left_join(aerodromos %>% dplyr::select(code, code_city), by = c("air_arr" = "code")) %>%
+  mutate(code_city_arr = code_city) %>% dplyr::select(-code_city) %>% 
+  left_join(ESTBAN %>% 
+            mutate(year = as.double(str_sub(time, 1,4)),
+                   month = as.double(str_sub(time, 5, 6))) %>%
+              dplyr::select(year, month, code_city, nbank, deposits, credit_loan), 
+            by = c("code_city_dep" = "code_city", "year" = "year", "month" = "month")) %>%
+  mutate(ldep_nbank = log(nbank),
+         ldep_deposits = log(deposits+1),
+         ldep_credit_loan = log(credit_loan)) %>% 
+  dplyr::select(-nbank, -deposits, -credit_loan) %>%
+  left_join(ESTBAN %>% 
+            mutate(year = as.double(str_sub(time, 1,4)),
+                   month = as.double(str_sub(time, 5, 6))) %>%
+              dplyr::select(year, month, code_city, nbank, deposits, credit_loan), 
+            by = c("code_city_arr" = "code_city", "year" = "year", "month" = "month")) %>%
+  mutate(larr_nbank = log(nbank),
+         larr_deposits = log(deposits+1),
+         larr_credit_loan = log(credit_loan)) %>% 
+  dplyr::select(-nbank, -deposits, -credit_loan) %>%
+  mutate(nbank = (larr_nbank*ldep_nbank)^1/2,
+         deposits = (ldep_deposits*larr_deposits)^1/2,
+         credit_loan = (ldep_credit_loan*larr_credit_loan)^1/2) %>%
+  dplyr::select(-larr_nbank, -larr_deposits, -larr_credit_loan, 
+                -ldep_nbank, -ldep_deposits, -ldep_credit_loan) %>%
+  mutate(id = sequence(n())) %>% 
+  left_join(HAUSMAN, by = c("id")) %>%
+  mutate(m150RouteHHI = log(m150RouteHHI+1), 
+         m300RouteHHI = log(m300RouteHHI+1),
+         m500RouteHHI = log(m500RouteHHI+1),
+         m150DepHHI = log(m150DepHHI+1),
+         m300DepHHI = log(m300DepHHI+1),
+         m500DepHHI = log(m500DepHHI+1),
+         m150seat_dem = log(m150seat_dem+1),
+         m300seat_dem = log(m300seat_dem+1),
+         m500seat_dem = log(m500seat_dem+1),
+         m150price = log(m150price+1),
+         m300price = log(m300price+1),
+         m500price = log(m500price+1),
+         m150RouteShare = log(m150RouteShare+1), 
+         m300RouteShare = log(m300RouteShare+1),
+         m500RouteShare = log(m500RouteShare+1))
+
+```
+
+
+
+
