@@ -27,16 +27,16 @@ getwd()
 ```{r reading_databases, include=FALSE, echo=TRUE}
 
 # reading databases
-BASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE1_EssayI.rds.rds")) %>%
+BASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE1_EssayI.rds")) %>%
   filter(year >= 2019)
 
-BASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE2_EssayI.rds.rds")) %>% 
+BASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE2_EssayI.rds")) %>% 
   filter(year >= 2019)
 
-LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_EssayI.rds.rds")) %>% 
+LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_EssayI.rds")) %>% 
   filter(year >= 2019)
 
-LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_EssayI.rds.rds")) %>% 
+LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_EssayI.rds")) %>% 
   filter(year >= 2019)
 
 BASE = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/BASE_EssayI.rds")) %>% 
@@ -123,6 +123,8 @@ LBASE1a = LBASE1 %>%
          m300RouteShare = log(m300RouteShare+1),
          m500RouteShare = log(m500RouteShare+1))
 
+# changing NA's
+ LBASE1a[is.na(LBASE1a)] = 0
 ```
 
 ```{r equation_new, warning=FALSE, message=FALSE, error=FALSE, include=TRUE, echo = FALSE}
@@ -132,17 +134,101 @@ dLBASE1 = LBASE1a %>%
   arrange(year, month, air_dep, air_arr, airline) %>%
   group_by(year, month) %>% 
   mutate(id = sequence(n()),
-         time = paste0(year,"/", month)) 
+         time = paste0(year,"/", month)) %>%
+  filter(!time %in% c("2019/1", "2019/2", "2019/3"))
 
 # creating group indices' variable
 dLBASE1$group = dLBASE1 %>% group_indices(time)
 
 # transforming to panel data
-dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) 
+dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) %>%
+  mutate(endo = seat_dem,
+         z1 = m150seat_dem,
+         z2 = nbank,
+         z3 = deposits, 
+         z4 = credit_loan,
+         z5 = m150price)
 
 ### equations
-eq = price ~ 
+OLS = price ~ flight_hours + endo
+FS = endo ~ flight_hours + z5 
+HR = endo ~ flight_hours + fs$residuals
+W1 = price ~ flight_hours + endo | . -endo + z5 
 
 ```
+
+```{r did_reg, include=FALSE}
+
+# 2SLS
+
+ols = plm(OLS, data = dLBASE1, effect = "time")
+fe =  update(ols, effect = "twoways")
+ivfe = update(fe, . ~ . | . -endo + z5)
+
+# joining regression results
+screenreg(list(ols   = ols,  fe   = fe, ivfe  = ivfe),
+               digits = 3, omit.coef = "(Intercept)")
+
+# tests 
+
+## instrument relevance
+
+# first stage: regress endogenous variable with all exogenous variables
+fs = plm(FS, data = dLBASE1, effect = "twoways")
+
+# second stage: regress first stage equation without z's variables
+instrFtest = waldtest(fs, . ~ . -z5 )
+print(instrFtest) # H0: instruments are irrelevants -> needs p_valor < 0,10 
+
+
+## exogeneity test
+
+# first stage: idem fs estimation
+
+# second stage: regress normal equation with fs$residuals as independent variable
+Hausman_reg = plm(HR, data = dLBASE1, effect = "twoways")
+print(summary(Hausman_reg))
+
+# third stage: execute Wu-Hausman exogeneity test
+HausWutest = waldtest(Hausman_reg,.~.-fs$residuals)
+print(HausWutest) # H0: residuals are irrelevants -> needs p_valor > 0.10
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# ec2sls
+
+w1 = plm(W1, data = dLBASE1, model = "within")
+r1 = update(w1, model = "random", random.method = "nerlove",
+            random.dfcor = c(3, 3), inst.method = "baltagi")
+
+# Hausman test
+phtest(w1, r1) # H1: one model is inconsistent - p_valor < 0,10 : within
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# ht2sls
+
+# ec
+ht1r = plm(W1, data = dLBASE1, model = "random", 
+           inst.method = "baltagi", random.method = "ht")
+
+# w
+ht1w = plm(W1, data = dLBASE1, model = "within", 
+           inst.method = "baltagi", random.method = "ht")
+
+# Hausman test
+phtest(ht1w, ht1r)
+
+# gmm
+
+gmm1 = pgmm(lag(price) ~ flight_hours + lag(endo) 
+            | lag(endo, 1:99) + lag(price, 2:99),
+            dLBASE1, model = "twosteps")
+
+summary(gmm1)
+
+```
+
+
 
 
