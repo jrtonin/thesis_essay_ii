@@ -149,11 +149,18 @@ dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) %>%
          z4 = credit_loan,
          z5 = m150price)
 
+
+
+
 ### equations
 OLS = price ~ flight_hours + endo
 FS = endo ~ flight_hours + z5 
 HR = endo ~ flight_hours + fs$residuals
 W1 = price ~ flight_hours + endo | . -endo + z5 
+
+pgmm = price ~ lag(price) + flight_hours + endo + aircraft + hubling +  
+  tx_seat + tx_dir + MMC + connection + X6.11 + X12.17 + X18.23 |
+  lag(endo, 1:20) + lag(price, 2:20) | z2 + z3
 
 ```
 
@@ -221,12 +228,13 @@ phtest(ht1w, ht1r)
 
 # gmm
 
-gmm1 = pgmm(lag(price) ~ flight_hours + lag(endo) 
-            | lag(endo, 1:99) + lag(price, 2:99),
-            dLBASE1, model = "twosteps")
+gmm1 = pgmm(pgmm, dLBASE1, model = "twosteps", effect="twoways", colapse=TRUE, transformation = "ld")
 
 summary(gmm1)
 
+mtest(gmm1, order = 1)
+sargan(gmm1)
+mtest(gmm1, order = 2, vcov = vcovHC)
 ```
 
 
