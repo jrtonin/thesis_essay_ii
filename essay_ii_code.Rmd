@@ -377,6 +377,78 @@ saveRDS(resgmm1d, "resgmm1d.rds")
 resgmm1e = reggmm(gmm1e)
 saveRDS(resgmm1e, "resgmm1e.rds")
 
+
+# defining types of gmm's equation
+gmm2a = price ~ lag(price) + flight_hours + endo | lag(z1, 1:10) 
+gmm2b = price ~ lag(price) + flight_hours + endo | lag(z1, 1:20) 
+gmm2c = price ~ lag(price) + flight_hours + endo | lag(z1, 1:30) 
+gmm2d = price ~ lag(price) + flight_hours + endo | lag(z1, 1:50) 
+gmm2e = price ~ lag(price) + flight_hours + endo | lag(z1, 1:99)
+
+# executing all regression
+resgmm2a = reggmm(gmm2a)
+saveRDS(resgmm2a, "resgmm2a.rds")
+
+resgmm2b = reggmm(gmm2b)
+saveRDS(resgmm2b, "resgmm2b.rds")
+
+resgmm2c = reggmm(gmm2c)
+saveRDS(resgmm2c, "resgmm2c.rds")
+
+resgmm2d = reggmm(gmm2d)
+saveRDS(resgmm2d, "resgmm2d.rds")
+
+resgmm2e = reggmm(gmm2e)
+saveRDS(resgmm2e, "resgmm2e.rds")
+
+
+# defining types of gmm's equation
+gmm3a = price ~ lag(price) + flight_hours + endo | lag(z5, 1:10) 
+gmm3b = price ~ lag(price) + flight_hours + endo | lag(z5, 1:20) 
+gmm3c = price ~ lag(price) + flight_hours + endo | lag(z5, 1:30) 
+gmm3d = price ~ lag(price) + flight_hours + endo | lag(z5, 1:50) 
+gmm3e = price ~ lag(price) + flight_hours + endo | lag(z5, 1:99)
+
+# executing all regression
+resgmm3a = reggmm(gmm3a)
+saveRDS(resgmm3a, "resgmm3a.rds")
+
+resgmm3b = reggmm(gmm3b)
+saveRDS(resgmm3b, "resgmm3b.rds")
+
+resgmm3c = reggmm(gmm3c)
+saveRDS(resgmm3c, "resgmm3c.rds")
+
+resgmm3d = reggmm(gmm3d)
+saveRDS(resgmm3d, "resgmm3d.rds")
+
+resgmm3e = reggmm(gmm3e)
+saveRDS(resgmm3e, "resgmm3e.rds")
+
+
+# defining types of gmm's equation
+gmm4a = price ~ lag(price) + flight_hours + endo | lag(z1, 1:10) + lag(z5, 1:10)
+gmm4b = price ~ lag(price) + flight_hours + endo | lag(z1, 1:20) + lag(z5, 1:20)
+gmm4c = price ~ lag(price) + flight_hours + endo | lag(z1, 1:30) + lag(z5, 1:30)
+gmm4d = price ~ lag(price) + flight_hours + endo | lag(z1, 1:50) + lag(z5, 1:50)
+gmm4e = price ~ lag(price) + flight_hours + endo | lag(z1, 1:99) + lag(z5, 1:99)
+
+# executing all regression
+resgmm4a = reggmm(gmm4a)
+saveRDS(resgmm4a, "resgmm4a.rds")
+
+resgmm4b = reggmm(gmm4b)
+saveRDS(resgmm4b, "resgmm4b.rds")
+
+resgmm4c = reggmm(gmm4c)
+saveRDS(resgmm4c, "resgmm4c.rds")
+
+resgmm4d = reggmm(gmm4d)
+saveRDS(resgmm4d, "resgmm4d.rds")
+
+resgmm4e = reggmm(gmm4e)
+saveRDS(resgmm4e, "resgmm4e.rds")
+
 ```
 
 
