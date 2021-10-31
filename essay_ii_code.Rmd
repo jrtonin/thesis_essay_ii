@@ -12,7 +12,7 @@ getwd()
 
 { 
   # Check if the packages that we need are installed
-  want = c("tidyverse", "plm", "texreg", "lmtest")
+  want = c("tidyverse", "plm", "texreg", "lmtest", "tibble")
   have = want %in% rownames(installed.packages())
   # Install the packages that we miss
   if ( any(!have) ) { install.packages( want[!have] ) }
@@ -151,8 +151,6 @@ dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) %>%
   arrange(year, month)
 
 
-
-
 ### equations
 OLS = price ~ flight_hours + endo
 FS = endo ~ flight_hours + z5 
@@ -241,124 +239,144 @@ mtest(gmm1, order = 2, vcov = vcovHC)
 
 ```{r gmm_i, include=FALSE, error=TRUE}
 
-# equation
-pgmm1_a = price ~ lag(price) + flight_hours + endo | lag(endo, 1:10) + lag(price, 2:10)
-pgmm1_b = price ~ lag(price) + flight_hours + endo | lag(endo, 1:20) + lag(price, 2:20)
-pgmm1_c = price ~ lag(price) + flight_hours + endo | lag(endo, 1:30) + lag(price, 2:30)
-pgmm1_d = price ~ lag(price) + flight_hours + endo | lag(endo, 1:50) + lag(price, 2:50)  
-pgmm1_e = price ~ lag(price) + flight_hours + endo | lag(endo, 1:99) + lag(price, 2:99) 
+# setting directory 
+setwd("C:/TESE/GITHUB/thesis_essay_ii/results")
 
-
-# regression 1
-a11 = pgmm(pgmm1_a, dLBASE1, model = "onestep", 
-          effect="individual")
-a12 = pgmm(pgmm1_a, dLBASE1, model = "onestep", 
-          effect="time")
-a13 = pgmm(pgmm1_a, dLBASE1, model = "onestep", 
-          effect="twoways")
-a14 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="individual")
-a15 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="time")
-a16 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="twoways") 
-a17 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="individual",colapse = TRUE)
-a18 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="time", colapse = TRUE)
-a19 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE) 
-a20 = pgmm(pgmm1_a, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE, transformation = "ld") 
-
-# regression 2
-a21 = pgmm(pgmm1_b, dLBASE1, model = "onestep", 
-          effect="individual")
-a22 = pgmm(pgmm1_b, dLBASE1, model = "onestep", 
-          effect="time")
-a23 = pgmm(pgmm1_b, dLBASE1, model = "onestep", 
-          effect="twoways")
-a24 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="individual")
-a25 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="time")
-a26 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="twoways") 
-a27 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="individual",colapse = TRUE)
-a28 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="time", colapse = TRUE)
-a29 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE) 
-a20 = pgmm(pgmm1_b, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE, transformation = "ld") 
-
-# regression 3
-a31 = pgmm(pgmm1_c, dLBASE1, model = "onestep", 
-          effect="individual")
-a32 = pgmm(pgmm1_c, dLBASE1, model = "onestep", 
-          effect="time")
-a33 = pgmm(pgmm1_c, dLBASE1, model = "onestep", 
-          effect="twoways")
-a34 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="individual")
-a35 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="time")
-a36 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="twoways") 
-a37 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="individual",colapse = TRUE)
-a38 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="time", colapse = TRUE)
-a39 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE) 
-a40 = pgmm(pgmm1_c, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE, transformation = "ld")
-
-# regression 4
-a41 = pgmm(pgmm1_d, dLBASE1, model = "onestep", 
-          effect="individual")
-a42 = pgmm(pgmm1_d, dLBASE1, model = "onestep", 
-          effect="time")
-a43 = pgmm(pgmm1_d, dLBASE1, model = "onestep", 
-          effect="twoways")
-a44 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="individual")
-a45 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="time")
-a46 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="twoways") 
-a47 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="individual",colapse = TRUE)
-a48 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="time", colapse = TRUE)
-a49 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE) 
-a50 = pgmm(pgmm1_d, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE, transformation = "ld")
-
-# regression 5
-a51 = pgmm(pgmm1_e, dLBASE1, model = "onestep", 
-          effect="individual")
-a52 = pgmm(pgmm1_e, dLBASE1, model = "onestep", 
-          effect="time")
-a53 = pgmm(pgmm1_e, dLBASE1, model = "onestep", 
-          effect="twoways")
-a54 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="individual")
-a55 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="time")
-a56 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="twoways") 
-a57 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="individual",colapse = TRUE)
-a58 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="time", colapse = TRUE)
-a59 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE) 
-a60 = pgmm(pgmm1_e, dLBASE1, model = "twosteps", 
-          effect="twoways", colapse = TRUE, transformation = "ld")
+# editing function of organizing database
+tabgmm = function(model){
   
+  # extracting parameters
+  param = as.data.frame(matrix(c(list(model$args$model, 
+                                      model$args$effect, model$args$transformation)), 
+                             ncol = 1, byrow = TRUE))
+  colnames(param) = c("coef")
+  row.names(param) = c("model", "effect", "transformation")
+  param = param %>% 
+    mutate(coef = as.character(coef))
+  
+  # extracting sargan test statistics
+  sargan = sargan(model)
+  sargan = as.data.frame(list(round(sargan$statistic, 3), round(sargan$p.value, 3)))
+  colnames(sargan) = c("coef","pvalue")
+  row.names(sargan) = c("sargan")
+  
+  # extracting mtest statistics
+  mtest = mtest(model, order = 2)
+  mtest = as.data.frame(list(round(mtest$statistic, 3), round(mtest$p.value, 3)))
+  colnames(mtest) = c("coef","pvalue")
+  row.names(mtest) = c("mtest")
+  
+  # extracting waldtest coef. statistics
+  pwaldtest = pwaldtest(model, param = "coef")
+  pwaldtest = as.data.frame(list(round(pwaldtest$statistic, 3), round(pwaldtest$p.value, 3)))
+  colnames(pwaldtest) = c("coef","pvalue")
+  row.names(pwaldtest) = c("Wald coef")
+  
+  # organizing database
+  coef = as.data.frame(coef(summary(model))) %>% 
+    mutate(pvalue = round(`Pr(>|z|)`,3),
+           coef = round(Estimate,3)) %>%
+    select(coef, pvalue) 
+  
+  # merging dataframes
+  res = bind_rows(coef, sargan, mtest, pwaldtest) %>%
+    mutate(coef = as.character(coef),
+           pvalue = as.character(pvalue)) %>%
+    bind_rows(param)
+  
+  return(res)
+}
+
+# editing function of regression gmm model
+reggmm = function(equation){
+  
+  # regressing equation 1
+  a11 = pgmm(equation, dLBASE1, model = "onestep", effect="individual")
+  
+  # tabulation main results
+  ra11 = tabgmm(a11)
+  colnames(ra11) = c("ra11_c", "ra11_p")
+  
+  # regressing equation 2
+  a12 = pgmm(equation, dLBASE1, model = "onestep", effect="twoways")
+  
+  # tabulation main results
+  ra12 = tabgmm(a12)
+  colnames(ra12) = c("ra12_c", "ra12_p")
+  
+  # regressing equation 3
+  a13 = pgmm(equation, dLBASE1, model = "twosteps", effect="individual")
+  
+  # tabulation main results
+  ra13 = tabgmm(a13)
+  colnames(ra13) = c("ra13_c", "ra13_p")
+  
+  # regressing equation 4
+  a14 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways")
+  
+  # tabulation main results
+  ra14 = tabgmm(a14)
+  colnames(ra14) = c("ra14_c", "ra14_p")
+  
+  # regressing equation 5
+  a15 = pgmm(equation, dLBASE1, model = "twosteps", effect="individual",colapse = TRUE)
+  
+  # tabulation main results
+  ra15 = tabgmm(a15)
+  colnames(ra15) = c("ra15_c", "ra15_p")
+  
+  # regressing equation 6
+  a16 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways", colapse = TRUE)
+  
+  # tabulation main results
+  ra16 = tabgmm(a16)
+  colnames(ra16) = c("ra16_c", "ra16_p")
+  
+  # regressing equation 7
+  a17 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways", colapse = TRUE, 
+           transformation = "ld")
+  
+  # tabulation main results
+  ra17 = tabgmm(a17)
+  colnames(ra17) = c("ra17_c", "ra17_p")
+  
+  # regressing equation 7
+  a18 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways", colapse = TRUE, 
+           transformation = "ld")
+  
+  # tabulation main results
+  ra18 = tabgmm(a18)
+  colnames(ra18) = c("ra18_c", "ra18_p")
+  
+    # merging databases
+  table = bind_cols(ra11, ra12, ra13, ra14, ra15, ra16, ra17, ra18)
+  
+  return(table)
+}
+
+# defining types of gmm's equation
+gmm1a = price ~ lag(price) + flight_hours + endo | lag(endo, 1:10) + lag(price, 2:10)
+gmm1b = price ~ lag(price) + flight_hours + endo | lag(endo, 1:20) + lag(price, 2:20)
+gmm1c = price ~ lag(price) + flight_hours + endo | lag(endo, 1:30) + lag(price, 2:30)
+gmm1d = price ~ lag(price) + flight_hours + endo | lag(endo, 1:50) + lag(price, 2:50)  
+gmm1e = price ~ lag(price) + flight_hours + endo | lag(endo, 1:99) + lag(price, 2:99) 
+
+# executing all regression
+resgmm1a = reggmm(gmm1a)
+saveRDS(resgmm1a, "resgmm1a.rds")
+
+resgmm1b = reggmm(gmm1b)
+saveRDS(resgmm1b, "resgmm1b.rds")
+
+resgmm1c = reggmm(gmm1c)
+saveRDS(resgmm1c, "resgmm1c.rds")
+
+resgmm1d = reggmm(gmm1d)
+saveRDS(resgmm1d, "resgmm1d.rds")
+
+resgmm1e = reggmm(gmm1e)
+saveRDS(resgmm1e, "resgmm1e.rds")
+
 ```
 
 
