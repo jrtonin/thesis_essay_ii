@@ -10,6 +10,19 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = "")
 getwd()
 
+print(getwd())
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+dwdir = print(getwd())
+
+# setting directories
+dwb1rds  = paste0(dwdir, "/results/base1")
+dwb1crds = paste0(dwdir, "/results/base1c")
+dwb2rds  = paste0(dwdir, "/results/base2")
+dwb2crds = paste0(dwdir, "/results/base2c")
+
+# define memory limit
+memory.limit(size = 999999999999)
+
 { 
   # Check if the packages that we need are installed
   want = c("tidyverse", "plm", "texreg", "lmtest", "tibble")
@@ -205,10 +218,14 @@ tabgmm = function(model){
 # editing function of regression gmm model
 reggmm = function(equation){
   
+  # creating a empty database
+  base = as.data.frame(matrix(c("0", "0"), ncol = 2))
+  
   # regressing equation 1
   a11 = pgmm(equation, dLBASE1, model = "onestep", effect="individual")
   
   # tabulation main results
+  ra11 = base
   ra11 = tabgmm(a11)
   colnames(ra11) = c("ra11_c", "ra11_p")
   
@@ -216,6 +233,7 @@ reggmm = function(equation){
   a12 = pgmm(equation, dLBASE1, model = "onestep", effect="twoways")
   
   # tabulation main results
+  ra12 = base
   ra12 = tabgmm(a12)
   colnames(ra12) = c("ra12_c", "ra12_p")
   
@@ -223,6 +241,7 @@ reggmm = function(equation){
   a13 = pgmm(equation, dLBASE1, model = "twosteps", effect="individual")
   
   # tabulation main results
+  ra13 = base
   ra13 = tabgmm(a13)
   colnames(ra13) = c("ra13_c", "ra13_p")
   
@@ -230,6 +249,7 @@ reggmm = function(equation){
   a14 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways")
   
   # tabulation main results
+  ra14 = base
   ra14 = tabgmm(a14)
   colnames(ra14) = c("ra14_c", "ra14_p")
   
@@ -237,6 +257,7 @@ reggmm = function(equation){
   a15 = pgmm(equation, dLBASE1, model = "twosteps", effect="individual",colapse = TRUE)
   
   # tabulation main results
+  ra15 = base
   ra15 = tabgmm(a15)
   colnames(ra15) = c("ra15_c", "ra15_p")
   
@@ -244,6 +265,7 @@ reggmm = function(equation){
   a16 = pgmm(equation, dLBASE1, model = "twosteps", effect="twoways", colapse = TRUE)
   
   # tabulation main results
+  ra16 = base
   ra16 = tabgmm(a16)
   colnames(ra16) = c("ra16_c", "ra16_p")
   
@@ -252,6 +274,7 @@ reggmm = function(equation){
            transformation = "ld")
   
   # tabulation main results
+  ra17 = base
   ra17 = tabgmm(a17)
   colnames(ra17) = c("ra17_c", "ra17_p")
   
@@ -260,6 +283,7 @@ reggmm = function(equation){
            transformation = "ld")
   
   # tabulation main results
+  ra18 = base
   ra18 = tabgmm(a18)
   colnames(ra18) = c("ra18_c", "ra18_p")
   
@@ -290,7 +314,7 @@ screenreg(list(ols1 = ols1, fe1 = fe1, ols2  = ols2, fe2 = fe2, ivfe = ivfe),
 ```{r gmm_1, include=FALSE, error=TRUE}
 
 # setting directory 
-setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base1")
+setwd(dwb1rds)
 
 # defining types of gmm's equation
 gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
@@ -385,7 +409,7 @@ saveRDS(resgmm3e, "resgmm3e.rds")
 dLBASE1 = dLBASE1c
 
 # setting directory 
-setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base1c")
+setwd(dwb1crds)
 
 # defining types of gmm's equation
 gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
@@ -480,7 +504,7 @@ saveRDS(resgmm3e, "resgmm3e.rds")
 dLBASE1 = dLBASE2
 
 # setting directory 
-setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base2")
+setwd(dwb2rds)
 
 # defining types of gmm's equation
 gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
@@ -574,8 +598,8 @@ saveRDS(resgmm3e, "resgmm3e.rds")
 # adjusting database
 dLBASE1 = dLBASE2c
 
-# setting directory 
-setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base2c")
+# setting directory 444444444444444444444444444444444444444444444444444444444444444+
+setwd(dwb2crds)
 
 # defining types of gmm's equation
 gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
