@@ -27,10 +27,10 @@ getwd()
 ```{r reading_databases, include=FALSE, echo=TRUE}
 
 # reading databases
-LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_data/raw/main/data/final/LBASE2c_Essay_II.rds"))
-LBASE1c = readRDS(url("https://github.com/jrtonin/thesis_data/raw/main/data/final/LBASE1c_Essay_II.rds"))
-LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_data/raw/main/data/final/LBASE2_Essay_II.rds"))
-LBASE2c = readRDS(url("https://github.com/jrtonin/thesis_data/raw/main/data/final/LBASE2c_Essay_II.rds"))
+LBASE1 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1_Essay_II.rds"))
+LBASE1c = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE1c_Essay_II.rds"))
+LBASE2 = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2_Essay_II.rds"))
+LBASE2c = readRDS(url("https://github.com/jrtonin/thesis_essay_ii/raw/main/data/LBASE2c_Essay_II.rds"))
 
 ```
 
@@ -54,86 +54,111 @@ dLBASE1 = pdata.frame(dLBASE1, index = c("id","time")) %>%
 
 } # organizing LBASE1
 
+{
+# organizing database
+dLBASE1c = LBASE1c %>% 
+  ungroup() %>%
+  arrange(year, month, air_dep, air_arr, airline) %>%
+  group_by(year, month) %>% 
+  mutate(id = sequence(n()),
+         time = paste0(year,"/", month))
+
+# creating group indices' variable
+dLBASE1c$group = dLBASE1c %>% group_indices(time)
+
+# transforming to panel data
+dLBASE1c = pdata.frame(dLBASE1c, index = c("id","time")) %>%
+  ungroup() %>% arrange(year, month)
+
+} # organizing LBASE1c
+
+{
+# organizing database
+dLBASE2 = LBASE2 %>% 
+  ungroup() %>%
+  arrange(year, month, air_dep, air_arr) %>%
+  group_by(year, month) %>% 
+  mutate(id = sequence(n()),
+         time = paste0(year,"/", month))
+
+# creating group indices' variable
+dLBASE2$group = dLBASE2 %>% group_indices(time)
+
+# transforming to panel data
+dLBASE2 = pdata.frame(dLBASE2, index = c("id","time")) %>%
+  ungroup() %>% arrange(year, month)
+
+} # organizing LBASE2
+
+{
+# organizing database
+dLBASE2c = LBASE2c %>% 
+  ungroup() %>%
+  arrange(year, month, air_dep, air_arr) %>%
+  group_by(year, month) %>% 
+  mutate(id = sequence(n()),
+         time = paste0(year,"/", month))
+
+# creating group indices' variable
+dLBASE2c$group = dLBASE2c %>% group_indices(time)
+
+# transforming to panel data
+dLBASE2c = pdata.frame(dLBASE2c, index = c("id","time")) %>%
+  ungroup() %>% arrange(year, month)
+
+} # organizing LBASE2c
+
 ```
 
-```{r did_reg, include=FALSE}
+```{r equation, include=FALSE}
 
-# 2SLS
+## variables
 
-ols = plm(OLS, data = dLBASE1, effect = "time")
-fe =  update(ols, effect = "twoways")
-ivfe = update(fe, . ~ . | . -endo + z5)
+# dependet price
+# independent variables hubling | aircraft | flight_hours | distance | distance2 | paid_luggage | free_luggage | connection | X6.11 | X12.17 | X18.23
+# dummies | Tourist | N | market | covid | covid_wave | quarter | airline
+# arrival dummies | ArrHUB | market_arr | region_arr | capital_arr 
+# departure dummies | DepHUB | market_dep | capital_dep | region_dep
+# endogenous | seat_dem | RouteShare | RouteHHI
+# independent instruments | nbank | deposits | credit_loan | m150price | m300price | m500price
+# RouteShare instruments | m150RouteShare | m300RouteShare | m5000RouteShare
+# RouteHHI instruments | m150RouteHHI | m300RouteHHI | m500RouteHHI
+# seat_dem instruments | m150seat_dem | m300seat_dem | m500seat_dem
 
-# joining regression results
-screenreg(list(ols   = ols,  fe   = fe, ivfe  = ivfe),
-               digits = 3, omit.coef = "(Intercept)")
+{
 
-# tests 
+# equations  
+eq1a = price ~  hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + factor(Tourist) + factor(N) + factor(market) + 
+  factor(covid) + factor(covid_wave) + factor (quarter) + factor(airline) + factor(ArrHUB) + 
+  factor(market_arr) + factor(region_arr) + factor(capital_arr) + RouteShare
 
-## instrument relevance
+eq1b = price ~  hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + factor(Tourist) + factor(N) + factor(market) + 
+  factor(covid) + factor(covid_wave) + factor (quarter) + factor(airline) + factor(DepHUB) + 
+  factor(market_dep) + factor(region_dep) + factor(capital_dep) + RouteShare
 
-# first stage: regress endogenous variable with all exogenous variables
-fs = plm(FS, data = dLBASE1, effect = "twoways")
+eq1c = price ~  hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + factor(Tourist) + factor(N) + factor(market) + 
+  factor(covid) + factor(covid_wave) + factor (quarter) + factor(airline) + factor(DepHUB) + 
+  factor(market_dep) + factor(region_dep) + factor(capital_dep) + RouteShare | . -RouteShare + nbank + 
+  m150price + m150RouteShare
 
-# second stage: regress first stage equation without z's variables
-instrFtest = waldtest(fs, . ~ . -z5 )
-print(instrFtest) # H0: instruments are irrelevants -> needs p_valor < 0,10 
+eq1d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
 
+eq1e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) +
+  m150RouteShare
 
-## exogeneity test
+} # dLBASE1 equation
 
-# first stage: idem fs estimation
-
-# second stage: regress normal equation with fs$residuals as independent variable
-Hausman_reg = plm(HR, data = dLBASE1, effect = "twoways")
-print(summary(Hausman_reg))
-
-# third stage: execute Wu-Hausman exogeneity test
-HausWutest = waldtest(Hausman_reg,.~.-fs$residuals)
-print(HausWutest) # H0: residuals are irrelevants -> needs p_valor > 0.10
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# ec2sls
-
-w1 = plm(W1, data = dLBASE1, model = "within")
-r1 = update(w1, model = "random", random.method = "nerlove",
-            random.dfcor = c(3, 3), inst.method = "baltagi")
-
-# Hausman test
-phtest(w1, r1) # H1: one model is inconsistent - p_valor < 0,10 : within
+a11 = pgmm(eq1e, dLBASE2, model = "onestep", effect="individual")
 
 
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# ht2sls
-
-# ec
-ht1r = plm(W1, data = dLBASE1, model = "random", 
-           inst.method = "baltagi", random.method = "ht")
-
-# w
-ht1w = plm(W1, data = dLBASE1, model = "within", 
-           inst.method = "baltagi", random.method = "ht")
-
-# Hausman test
-phtest(ht1w, ht1r)
-
-# gmm
-
-gmm1 = pgmm(pgmm, dLBASE1, model = "twosteps", effect="twoways", colapse=TRUE, transformation = "ld")
-
-summary(gmm1)
-coef(summary(gmm1))
-
-mtest(gmm1, order = 1)
-sargan(gmm1)
-mtest(gmm1, order = 2, vcov = vcovHC)
 ```
 
-```{r gmm_i, include=FALSE, error=TRUE}
-
-# setting directory 
-setwd("C:/TESE/GITHUB/thesis_essay_ii/results")
+```{r functions, include=FALSE}
 
 # editing function of organizing database
 tabgmm = function(model){
@@ -247,12 +272,40 @@ reggmm = function(equation){
   return(table)
 }
 
+```
+
+```{r reg1_2sls, include = FALSE, error = TRUE}
+
+# 2SLS
+
+ols1 = plm(eq1a, data = dLBASE1)
+fe1 =  update(ols1, effect = "individual")
+ols2 = plm(eq1b, data = dLBASE1)
+fe2 =  update(ols2, effect = "individual")
+ivfe = update(fe2, eq1c)
+
+# joining regression results
+screenreg(list(ols1 = ols1, fe1 = fe1, ols2  = ols2, fe2 = fe2, ivfe = ivfe),
+               digits = 3, omit.coef = "(Intercept)")
+
+```
+
+```{r gmm_1, include=FALSE, error=TRUE}
+
+# setting directory 
+setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base1")
+
 # defining types of gmm's equation
-gmm1a = price ~ lag(price) + flight_hours + endo | lag(endo, 1:10) + lag(price, 2:10)
-gmm1b = price ~ lag(price) + flight_hours + endo | lag(endo, 1:20) + lag(price, 2:20)
-gmm1c = price ~ lag(price) + flight_hours + endo | lag(endo, 1:30) + lag(price, 2:30)
-gmm1d = price ~ lag(price) + flight_hours + endo | lag(endo, 1:50) + lag(price, 2:50)  
-gmm1e = price ~ lag(price) + flight_hours + endo | lag(endo, 1:99) + lag(price, 2:99) 
+gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
+gmm1b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:20) + lag(price, 2:20) + m150RouteShare 
+gmm1c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:30) + lag(price, 2:30) + m150RouteShare 
+gmm1d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:40) + lag(price, 2:40) + m150RouteShare  
+gmm1e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:50) + lag(price, 2:50) + m150RouteShare
 
 # executing all regression
 resgmm1a = reggmm(gmm1a)
@@ -270,13 +323,17 @@ saveRDS(resgmm1d, "resgmm1d.rds")
 resgmm1e = reggmm(gmm1e)
 saveRDS(resgmm1e, "resgmm1e.rds")
 
-
 # defining types of gmm's equation
-gmm2a = price ~ lag(price) + flight_hours + endo | lag(z1, 1:10) 
-gmm2b = price ~ lag(price) + flight_hours + endo | lag(z1, 1:20) 
-gmm2c = price ~ lag(price) + flight_hours + endo | lag(z1, 1:30) 
-gmm2d = price ~ lag(price) + flight_hours + endo | lag(z1, 1:50) 
-gmm2e = price ~ lag(price) + flight_hours + endo | lag(z1, 1:99)
+gmm2a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:10) + lag(price, 2:10) + m150seat_dem 
+gmm2b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:20) + lag(price, 2:20) + m150seat_dem 
+gmm2c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:30) + lag(price, 2:30) + m150seat_dem 
+gmm2d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:40) + lag(price, 2:40) + m150seat_dem  
+gmm2e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:50) + lag(price, 2:50) + m150seat_dem
 
 # executing all regression
 resgmm2a = reggmm(gmm2a)
@@ -296,11 +353,16 @@ saveRDS(resgmm2e, "resgmm2e.rds")
 
 
 # defining types of gmm's equation
-gmm3a = price ~ lag(price) + flight_hours + endo | lag(z5, 1:10) 
-gmm3b = price ~ lag(price) + flight_hours + endo | lag(z5, 1:20) 
-gmm3c = price ~ lag(price) + flight_hours + endo | lag(z5, 1:30) 
-gmm3d = price ~ lag(price) + flight_hours + endo | lag(z5, 1:50) 
-gmm3e = price ~ lag(price) + flight_hours + endo | lag(z5, 1:99)
+gmm3a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:10) + lag(price, 2:10) + m150RouteHHI 
+gmm3b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:20) + lag(price, 2:20) + m150RouteHHI 
+gmm3c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:30) + lag(price, 2:30) + m150RouteHHI 
+gmm3d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:40) + lag(price, 2:40) + m150RouteHHI  
+gmm3e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:50) + lag(price, 2:50) + m150RouteHHI
 
 # executing all regression
 resgmm3a = reggmm(gmm3a)
@@ -318,32 +380,168 @@ saveRDS(resgmm3d, "resgmm3d.rds")
 resgmm3e = reggmm(gmm3e)
 saveRDS(resgmm3e, "resgmm3e.rds")
 
+```
+
+```{r gmm_1c, include=FALSE, error=TRUE}
+
+# adjusting database
+dLBASE1 = dLBASE1c
+
+# setting directory 
+setwd("C:/TESE/GITHUB/thesis_essay_ii/results/base1")
 
 # defining types of gmm's equation
-gmm4a = price ~ lag(price) + flight_hours + endo | lag(z1, 1:10) + lag(z5, 1:10)
-gmm4b = price ~ lag(price) + flight_hours + endo | lag(z1, 1:20) + lag(z5, 1:20)
-gmm4c = price ~ lag(price) + flight_hours + endo | lag(z1, 1:30) + lag(z5, 1:30)
-gmm4d = price ~ lag(price) + flight_hours + endo | lag(z1, 1:50) + lag(z5, 1:50)
-gmm4e = price ~ lag(price) + flight_hours + endo | lag(z1, 1:99) + lag(z5, 1:99)
+gmm1a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
+gmm1b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:20) + lag(price, 2:20) + m150RouteShare 
+gmm1c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:30) + lag(price, 2:30) + m150RouteShare 
+gmm1d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:40) + lag(price, 2:40) + m150RouteShare  
+gmm1e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:50) + lag(price, 2:50) + m150RouteShare
 
 # executing all regression
-resgmm4a = reggmm(gmm4a)
-saveRDS(resgmm4a, "resgmm4a.rds")
+resgmm1a = reggmm(gmm1a)
+saveRDS(resgmm1a, "resgmm1a.rds")
 
-resgmm4b = reggmm(gmm4b)
-saveRDS(resgmm4b, "resgmm4b.rds")
+resgmm1b = reggmm(gmm1b)
+saveRDS(resgmm1b, "resgmm1b.rds")
 
-resgmm4c = reggmm(gmm4c)
-saveRDS(resgmm4c, "resgmm4c.rds")
+resgmm1c = reggmm(gmm1c)
+saveRDS(resgmm1c, "resgmm1c.rds")
 
-resgmm4d = reggmm(gmm4d)
-saveRDS(resgmm4d, "resgmm4d.rds")
+resgmm1d = reggmm(gmm1d)
+saveRDS(resgmm1d, "resgmm1d.rds")
 
-resgmm4e = reggmm(gmm4e)
-saveRDS(resgmm4e, "resgmm4e.rds")
+resgmm1e = reggmm(gmm1e)
+saveRDS(resgmm1e, "resgmm1e.rds")
+
+# defining types of gmm's equation
+gmm2a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:10) + lag(price, 2:10) + m150seat_dem 
+gmm2b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:20) + lag(price, 2:20) + m150seat_dem 
+gmm2c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:30) + lag(price, 2:30) + m150seat_dem 
+gmm2d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:40) + lag(price, 2:40) + m150seat_dem  
+gmm2e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + seat_dem | lag(seat_dem, 1:50) + lag(price, 2:50) + m150seat_dem
+
+# executing all regression
+resgmm2a = reggmm(gmm2a)
+saveRDS(resgmm2a, "resgmm2a.rds")
+
+resgmm2b = reggmm(gmm2b)
+saveRDS(resgmm2b, "resgmm2b.rds")
+
+resgmm2c = reggmm(gmm2c)
+saveRDS(resgmm2c, "resgmm2c.rds")
+
+resgmm2d = reggmm(gmm2d)
+saveRDS(resgmm2d, "resgmm2d.rds")
+
+resgmm2e = reggmm(gmm2e)
+saveRDS(resgmm2e, "resgmm2e.rds")
+
+
+# defining types of gmm's equation
+gmm3a = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:10) + lag(price, 2:10) + m150RouteHHI 
+gmm3b = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:20) + lag(price, 2:20) + m150RouteHHI 
+gmm3c = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:30) + lag(price, 2:30) + m150RouteHHI 
+gmm3d = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:40) + lag(price, 2:40) + m150RouteHHI  
+gmm3e = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteHHI | lag(RouteHHI, 1:50) + lag(price, 2:50) + m150RouteHHI
+
+# executing all regression
+resgmm3a = reggmm(gmm3a)
+saveRDS(resgmm3a, "resgmm3a.rds")
+
+resgmm3b = reggmm(gmm3b)
+saveRDS(resgmm3b, "resgmm3b.rds")
+
+resgmm3c = reggmm(gmm3c)
+saveRDS(resgmm3c, "resgmm3c.rds")
+
+resgmm3d = reggmm(gmm3d)
+saveRDS(resgmm3d, "resgmm3d.rds")
+
+resgmm3e = reggmm(gmm3e)
+saveRDS(resgmm3e, "resgmm3e.rds")
 
 ```
 
+
+
+```{r 2SLS, include=FALSE}
+
+# 2SLS
+
+ols = plm(OLS, data = dLBASE1, effect = "time")
+fe =  update(ols, effect = "twoways")
+ivfe = update(fe, . ~ . | . -endo + z5)
+
+# joining regression results
+screenreg(list(ols   = ols,  fe   = fe, ivfe  = ivfe),
+               digits = 3, omit.coef = "(Intercept)")
+
+# tests 
+
+## instrument relevance
+
+# first stage: regress endogenous variable with all exogenous variables
+fs = plm(FS, data = dLBASE1, effect = "twoways")
+
+# second stage: regress first stage equation without z's variables
+instrFtest = waldtest(fs, . ~ . -z5 )
+print(instrFtest) # H0: instruments are irrelevants -> needs p_valor < 0,10 
+
+
+## exogeneity test
+
+# first stage: idem fs estimation
+
+# second stage: regress normal equation with fs$residuals as independent variable
+Hausman_reg = plm(HR, data = dLBASE1, effect = "twoways")
+print(summary(Hausman_reg))
+
+# third stage: execute Wu-Hausman exogeneity test
+HausWutest = waldtest(Hausman_reg,.~.-fs$residuals)
+print(HausWutest) # H0: residuals are irrelevants -> needs p_valor > 0.10
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# ec2sls
+
+w1 = plm(W1, data = dLBASE1, model = "within")
+r1 = update(w1, model = "random", random.method = "nerlove",
+            random.dfcor = c(3, 3), inst.method = "baltagi")
+
+# Hausman test
+phtest(w1, r1) # H1: one model is inconsistent - p_valor < 0,10 : within
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# ht2sls
+
+# ec
+ht1r = plm(W1, data = dLBASE1, model = "random", 
+           inst.method = "baltagi", random.method = "ht")
+
+# w
+ht1w = plm(W1, data = dLBASE1, model = "within", 
+           inst.method = "baltagi", random.method = "ht")
+
+# Hausman test
+phtest(ht1w, ht1r)
+
+```
 
 
 
