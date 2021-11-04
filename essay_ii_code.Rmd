@@ -688,6 +688,109 @@ saveRDS(resgmm3e, "resgmm3e.rds")
 
 ```
 
+```{r base1, include = FALSE}
+
+# dummies | Tourist | N | market | covid | covid_wave | quarter | airline
+# arrival dummies | ArrHUB | market_arr | region_arr | capital_arr 
+# departure dummies | DepHUB | market_dep | capital_dep | region_dep
+
+# defining equations
+OLS = price ~  hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N) + factor(market) + 
+  factor(covid) + factor(covid_wave) + factor(quarter) + factor(ArrHUB) + factor(market_arr) +
+  factor(capital_arr)
+
+IV = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N) + factor(market) + 
+  factor(covid) + factor(covid_wave) + factor(quarter) + factor(ArrHUB) + factor(market_arr) +
+  factor(capital_arr) | . -RouteShare + m150RouteShare
+
+GMM = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
+
+# regression
+ols = plm(OLS, data = dLBASE1, model = "pooling")
+fe =  plm(OLS, data = dLBASE1, effect = "individual")
+ivfe = update(fe, IV)
+
+# ec2sls
+ecw1 = plm(IV, data = dLBASE1, model = "within")
+ecr1 = update(ecw1, model = "random", random.method = "nerlove", inst.method = "baltagi")
+
+# Hausman test
+phtest(ecw1, ecr1) # H1: one model is inconsistent - p_valor < 0,10 : within
+
+# ht2sls
+
+# ec
+ht1r = plm(IV, data = dLBASE1, model = "random", 
+           inst.method = "baltagi", random.method = "ht")
+# w
+ht1w = plm(IV, data = dLBASE1, model = "within", 
+           inst.method = "baltagi", random.method = "ht")
+
+# Hausman test
+phtest(ht1w, ht1r)
+
+# gmm  
+gmm = pgmm(GMM, dLBASE1, model = "onestep", effect="individual")
+
+# joining regression results
+screenreg(list(ols = ols, fe = fe, ivfe = ivfe, ecw1 = ecw1, ht1r = ht1r, gmm = gmm),
+               digits = 3, omit.coef = "(Intercept)")
+
+```
+
+```{r base1c, include = FALSE}
+
+# dummies | Tourist | N | market | covid | covid_wave | quarter | airline
+# arrival dummies | ArrHUB | market_arr | region_arr | capital_arr 
+# departure dummies | DepHUB | market_dep | capital_dep | region_dep
+
+# defining equations
+OLS = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  X6.11 + X12.17 + X18.23 + RouteShare + factor(covid_wave) + 
+  factor(quarter) + factor(capital_arr)
+
+IV = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  X6.11 + X12.17 + X18.23 + RouteShare + factor(covid_wave) + 
+  factor(quarter) + factor(capital_arr) | . -RouteShare + m150RouteShare
+
+GMM = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+  X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
+
+# regression
+ols = plm(OLS, data = dLBASE1c, model = "pooling")
+fe =  plm(OLS, data = dLBASE1c, effect = "individual")
+ivfe = update(fe, IV)
+
+# ec2sls
+ecw1 = plm(IV, data = dLBASE1c, model = "within")
+ecr1 = update(ecw1, model = "random", random.method = "nerlove", inst.method = "baltagi")
+
+# Hausman test
+phtest(ecw1, ecr1) # H1: one model is inconsistent - p_valor < 0,10 : within
+
+# ht2sls
+
+# ec
+ht1r = plm(IV, data = dLBASE1c, model = "random", 
+           inst.method = "baltagi", random.method = "ht")
+# w
+ht1w = plm(IV, data = dLBASE1c, model = "within", 
+           inst.method = "baltagi", random.method = "ht")
+
+# Hausman test
+phtest(ht1w, ht1r)
+
+# gmm  
+gmm = pgmm(GMM, dLBASE1c, model = "onestep", effect="individual")
+
+# joining regression results
+screenreg(list(ols = ols, fe = fe, ivfe = ivfe, ecw1 = ecw1, ht1r = ht1r, gmm = gmm),
+               digits = 3, omit.coef = "(Intercept)")
+
+```
 
 
 ```{r 2SLS, include=FALSE}
