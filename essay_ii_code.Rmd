@@ -690,22 +690,24 @@ saveRDS(resgmm3e, "resgmm3e.rds")
 
 ```{r base1, include = FALSE}
 
+
+
 # dummies | Tourist | N | market | covid | covid_wave | quarter | airline
 # arrival dummies | ArrHUB | market_arr | region_arr | capital_arr 
 # departure dummies | DepHUB | market_dep | capital_dep | region_dep
 
 # defining equations
-OLS = price ~  hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
-  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N) + factor(market) + 
+OLS = price ~  hubling + aircraft + flight_hours +  
+  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N)  + 
   factor(covid) + factor(covid_wave) + factor(quarter) + factor(ArrHUB) + factor(market_arr) +
   factor(capital_arr)
 
-IV = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
-  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N) + factor(market) + 
+IV = price ~ hubling + aircraft + flight_hours +  
+  connection + X6.11 + X12.17 + X18.23 + RouteShare + factor(Tourist) + factor(N) +  
   factor(covid) + factor(covid_wave) + factor(quarter) + factor(ArrHUB) + factor(market_arr) +
   factor(capital_arr) | . -RouteShare + m150RouteShare
 
-GMM = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+GMM = price ~ lag(price) + hubling + aircraft + flight_hours +  
   connection + X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
 
 # regression
@@ -748,15 +750,15 @@ screenreg(list(ols = ols, fe = fe, ivfe = ivfe, ecw1 = ecw1, ht1r = ht1r, gmm = 
 # departure dummies | DepHUB | market_dep | capital_dep | region_dep
 
 # defining equations
-OLS = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+OLS = price ~ hubling + aircraft + flight_hours + 
   X6.11 + X12.17 + X18.23 + RouteShare + factor(covid_wave) + 
   factor(quarter) + factor(capital_arr)
 
-IV = price ~ hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+IV = price ~ hubling + aircraft + flight_hours + 
   X6.11 + X12.17 + X18.23 + RouteShare + factor(covid_wave) + 
   factor(quarter) + factor(capital_arr) | . -RouteShare + m150RouteShare
 
-GMM = price ~ lag(price) + hubling + aircraft + flight_hours + paid_luggage + free_luggage + 
+GMM = price ~ lag(price) + hubling + aircraft + flight_hours +  
   X6.11 + X12.17 + X18.23 + RouteShare | lag(RouteShare, 1:10) + lag(price, 2:10) + m150RouteShare 
 
 # regression
@@ -791,71 +793,4 @@ screenreg(list(ols = ols, fe = fe, ivfe = ivfe, ecw1 = ecw1, ht1r = ht1r, gmm = 
                digits = 3, omit.coef = "(Intercept)")
 
 ```
-
-
-```{r 2SLS, include=FALSE}
-
-# 2SLS
-
-ols = plm(OLS, data = dLBASE1, effect = "time")
-fe =  update(ols, effect = "twoways")
-ivfe = update(fe, . ~ . | . -endo + z5)
-
-# joining regression results
-screenreg(list(ols   = ols,  fe   = fe, ivfe  = ivfe),
-               digits = 3, omit.coef = "(Intercept)")
-
-# tests 
-
-## instrument relevance
-
-# first stage: regress endogenous variable with all exogenous variables
-fs = plm(FS, data = dLBASE1, effect = "twoways")
-
-# second stage: regress first stage equation without z's variables
-instrFtest = waldtest(fs, . ~ . -z5 )
-print(instrFtest) # H0: instruments are irrelevants -> needs p_valor < 0,10 
-
-
-## exogeneity test
-
-# first stage: idem fs estimation
-
-# second stage: regress normal equation with fs$residuals as independent variable
-Hausman_reg = plm(HR, data = dLBASE1, effect = "twoways")
-print(summary(Hausman_reg))
-
-# third stage: execute Wu-Hausman exogeneity test
-HausWutest = waldtest(Hausman_reg,.~.-fs$residuals)
-print(HausWutest) # H0: residuals are irrelevants -> needs p_valor > 0.10
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# ec2sls
-
-w1 = plm(W1, data = dLBASE1, model = "within")
-r1 = update(w1, model = "random", random.method = "nerlove",
-            random.dfcor = c(3, 3), inst.method = "baltagi")
-
-# Hausman test
-phtest(w1, r1) # H1: one model is inconsistent - p_valor < 0,10 : within
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# ht2sls
-
-# ec
-ht1r = plm(W1, data = dLBASE1, model = "random", 
-           inst.method = "baltagi", random.method = "ht")
-
-# w
-ht1w = plm(W1, data = dLBASE1, model = "within", 
-           inst.method = "baltagi", random.method = "ht")
-
-# Hausman test
-phtest(ht1w, ht1r)
-
-```
-
-
 
